@@ -1,0 +1,1814 @@
+Command line: [exonerate --model protein2genome --percent 80 sample-proteins.fa genomes/T_thermophila_June2014_assembly.fasta]
+Hostname: [Ruth-laptop]
+
+C4 Alignment:
+------------
+         Query: p01
+        Target: scf_8253855 [revcomp]
+         Model: protein2genome:local
+     Raw score: 4950
+   Query range: 0 -> 1105
+  Target range: 42789 -> 38897
+
+     1 : MetAspLeuValGluProTyrIleLysPheIleThrValCysAspThrHisMetHisArg :    20
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         MetAspLeuValGluProTyrIleLysPheIleThrValCysAspThrHisMetHisArg
+ 42789 : ATGGATTTGGTTGAGCCTTATATCAAGTTTATTACGGTCTGTGACACGCACATGCATCGA : 42732
+
+    21 : HisGluTyrLysGluAlaPheLeuValLeuSerGlnValLysTyrLeuIleGluLysVal :    40
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         HisGluTyrLysGluAlaPheLeuValLeuSerGlnValLysTyrLeuIleGluLysVal
+ 42731 : CATGAGTATAAAGAAGCGTTTTTGGTCTTAAGCCAAGTCAAGTATTTGATAGAAAAAGTA : 42672
+
+    41 : AsnAspLeuLeuPheAspAsnAspPheAsnSerArgAlaAlaLeuCysAlaLeuLeuTyr :    60
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         AsnAspLeuLeuPheAspAsnAspPheAsnSerArgAlaAlaLeuCysAlaLeuLeuTyr
+ 42671 : AATGATCTGCTTTTCGATAATGATTTTAATTCAAGAGCTGCCCTCTGTGCTCTTCTCTAC : 42612
+
+    61 : GlyGlnProGluGluAlaLeuArgLeuThrGluMetValAsnLeuAsnThrProGlyTyr :    80
+         ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         Gly***ProGluGluAlaLeuArgLeuThrGluMetValAsnLeuAsnThrProGlyTyr
+ 42611 : GGCTAGCCAGAAGAAGCTCTCAGATTAACTGAAATGGTCAATTTGAATACTCCTGGTTAT : 42552
+
+    81 : LeuLeuValGlnAlaLeuArgGlyTrpAlaLeuLysGluIleGlyTyrGlnLysArgAla :   100
+         ||||||||| !!||||||||||||||||||||||||||||||||||||||||||||||||
+         LeuLeuVal***AlaLeuArgGlyTrpAlaLeuLysGluIleGlyTyrGlnLysArgAla
+ 42551 : TTGCTTGTTTAGGCATTAAGAGGCTGGGCTCTTAAAGAAATCGGATACCAAAAGAGGGCT : 42492
+
+   101 : AsnValLeuPheAsnTyrValLeuAsnSerValProAspThrAspSerValMetAspCys :   120
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         AsnValLeuPheAsnTyrValLeuAsnSerValProAspThrAspSerValMetAspCys
+ 42491 : AATGTTTTATTCAATTATGTGTTGAATTCAGTGCCTGATACAGATTCTGTGATGGATTGT : 42432
+
+   121 : LeuGlyAlaAlaIleSerSerLysLeuLeuGlySerAspLeuSerLysPhePhePheGlu :   140
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         LeuGlyAlaAlaIleSerSerLysLeuLeuGlySerAspLeuSerLysPhePhePheGlu
+ 42431 : TTAGGAGCAGCTATCAGCAGCAAATTATTAGGAAGCGACTTAAGTAAGTTTTTCTTTGAA : 42372
+
+   141 : PheAlaIleGluLysPheGluThrLeuThrGlyAsnAspArgLysLeuAsnLeuLeuTrp :   160
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         PheAlaIleGluLysPheGluThrLeuThrGlyAsnAspArgLysLeuAsnLeuLeuTrp
+ 42371 : TTTGCTATTGAGAAATTCGAGACACTAACAGGAAATGATAGAAAATTGAATCTCCTTTGG : 42312
+
+   161 : GlyValPheAlaHisLeuLysLysSerGluLeuGluThr  >>>> Target Intron  :   174
+         |||||||||||||||||||||||||||||||||||||||            577 bp   
+         GlyValPheAlaHisLeuLysLysSerGluLeuGluThr++                   
+ 42311 : GGTGTCTTTGCCCATTTAAAAAAGTCAGAGCTAGAAACAgt................... : 42268
+
+   175 : 1 >>>>  IleSerSerAspArgGlnLysThrLeuLeuLysSerLeuGluLeuThrLysG :   191
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||
+               ++IleSerSerAspArgGlnLysThrLeuLeuLysSerLeuGluLeuThrLysG
+ 42267 : ......agATTTCGTCAGATAGGCAAAAGACTTTATTGAAGAGCTTAGAGCTTACAAAAG : 41642
+
+   192 : luSerAlaGluValTyrAspTyrLeuGlyGlnThrTyrTyrAlaGlnLysGlnTyrAspL :   211
+         ||||||||||||||||||||||||||||| !!|||||||||||| !!|||||||||||||
+         luSerAlaGluValTyrAspTyrLeuGly***ThrTyrTyrAla***LysGlnTyrAspL
+ 41641 : AAAGTGCTGAAGTTTATGATTACTTAGGCTAAACTTATTATGCTTAAAAGCAATACGATT : 41582
+
+   212 : euAlaLeuLysCysTyrLeuLysSerIleGluIleSerProAsnCysAsnPheTyrArgH :   231
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         euAlaLeuLysCysTyrLeuLysSerIleGluIleSerProAsnCysAsnPheTyrArgH
+ 41581 : TAGCTCTTAAATGCTATTTAAAATCAATAGAAATTAGTCCTAATTGTAATTTTTATAGAC : 41522
+
+   232 : isIleLysValSerPheIleTyrPheTyrThrGlyArgGluGluGlnAlaLysThrPheV :   251
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         isIleLysValSerPheIleTyrPheTyrThrGlyArgGluGluGlnAlaLysThrPheV
+ 41521 : ATATCAAAGTGAGCTTCATTTATTTCTATACTGGCAGAGAGGAACAAGCTAAAACTTTTG : 41462
+
+   252 : alLeuArgPheLeuGluGlnSerArgAspLeuTyrIlePheTyrTrpIleLeuCysProS :   271
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         alLeuArgPheLeuGluGlnSerArgAspLeuTyrIlePheTyrTrpIleLeuCysProS
+ 41461 : TCTTACGCTTTTTGGAGCAATCAAGAGATCTTTATATATTTTATTGGATTTTATGTCCTT : 41402
+
+   272 : erIleGlnLeuMetLysSerAsnGluHisSerGluPheGluLysTyrTyrArgIleGlyL :   291
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         erIleGlnLeuMetLysSerAsnGluHisSerGluPheGluLysTyrTyrArgIleGlyL
+ 41401 : CTATCCAACTCATGAAGTCAAATGAGCACAGTGAATTTGAAAAATATTACAGAATAGGTT : 41342
+
+   292 : euLeuLeuTyrTyrSerGlnValTyrTyrSerSerTyrIleMetLeuGlnLysAlaLysG :   311
+         ||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||||
+         euLeuLeuTyrTyrSerGlnValTyrTyrSerSerTyrIleMetLeu***LysAlaLysG
+ 41341 : TGCTACTTTATTATTCTCAAGTTTACTACTCAAGCTACATTATGCTTTAGAAGGCTAAAG : 41282
+
+   312 : luTyrAspProTyrAsnTyrLysLeuCysIlePheMetCysIleValGlnArgTyrLeuG :   331
+         ||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||||
+         luTyrAspProTyrAsnTyrLysLeuCysIlePheMetCysIleVal***ArgTyrLeuG
+ 41281 : AATATGATCCTTATAATTATAAATTGTGCATTTTCATGTGTATAGTCTAAAGATACCTTG : 41222
+
+   332 : lyLeuLeuAspGluAlaIleGlnAsnLeuGluGluLeuLysAsnSerLysTyrGlnAsnA :   351
+         |||||||||||||||||||| !!|||||||||||||||||||||||||||||| !!||||
+         lyLeuLeuAspGluAlaIle***AsnLeuGluGluLeuLysAsnSerLysTyr***AsnA
+ 41221 : GTCTGTTGGATGAGGCTATTTAAAATTTGGAAGAATTAAAAAATAGCAAATATTAAAACG : 41162
+
+   352 : spIleProLeuAsnIleIleLeuAlaGluLeuTyrThrValSerGlnAspTyrGluLysA :   371
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         spIleProLeuAsnIleIleLeuAlaGluLeuTyrThrValSerGlnAspTyrGluLysA
+ 41161 : ATATCCCTTTAAATATTATTTTAGCAGAACTGTACACTGTTTCTCAGGATTATGAGAAAG : 41102
+
+   372 : laGluGluMetTyrGlnLysIleIleGluLeuThrProAsnLysSerPheSerIleTyrI :   391
+         |||||||||||||| !!|||||||||||||||||||||||||||||||||||||||||||
+         laGluGluMetTyr***LysIleIleGluLeuThrProAsnLysSerPheSerIleTyrI
+ 41101 : CGGAGGAGATGTATTAAAAAATAATAGAGTTAACTCCAAATAAATCATTTTCTATCTATA : 41042
+
+   392 : leTyrValLysPheLeuAsnLysMetAsnArgLeuAspAspSerLeuValGlnIleLysL :   411
+         |||||||||||||||||||||||||||||||||||||||||||||||||| !!|||||||
+         leTyrValLysPheLeuAsnLysMetAsnArgLeuAspAspSerLeuVal***IleLysL
+ 41041 : TATATGTAAAATTTTTGAACAAAATGAATCGCCTAGATGATTCTCTAGTCTAAATTAAGA : 40982
+
+   412 : ysAlaIleGluLeuGluProArgLysValLysLeuLeuIleMetGlnAlaLeuIleTyrS :   431
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         ysAlaIleGluLeuGluProArgLysValLysLeuLeuIleMetGlnAlaLeuIleTyrS
+ 40981 : AAGCAATAGAATTAGAGCCAAGAAAAGTGAAGTTATTGATTATGCAGGCATTAATTTATT : 40922
+
+   432 : erSerLeuLysGlnLeuAspLysAlaTyrGluThrTyrGluGluValLeuLysIleAsnP :   451
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         erSerLeuLysGlnLeuAspLysAlaTyrGluThrTyrGluGluValLeuLysIleAsnP
+ 40921 : CTTCTTTGAAACAACTAGACAAAGCGTATGAAACATATGAGGAAGTCCTTAAAATAAATC : 40862
+
+   452 : roAsnLeuGlnSerThrLysTyrGlnLeuSerGlnIleAsnPheValLeuAsnAsnTyrG :   471
+         |||||||| !!|||||||||||||||||||||||||||||||||||||||||||||||| 
+         roAsnLeu***SerThrLysTyrGlnLeuSerGlnIleAsnPheValLeuAsnAsnTyr*
+ 40861 : CAAATTTGTAAAGCACGAAATATCAGCTTTCTCAAATAAATTTTGTCTTAAATAATTACT : 40802
+
+   472 : lnLysSerPheAspGlnMetIleGlnIleLysGluGlyGluValGlyTyrGluLysCysI :   491
+         !!|||||||||||| !!|||||||||||||||||||||||||||||||||||||||||||
+         **LysSerPheAsp***MetIleGlnIleLysGluGlyGluValGlyTyrGluLysCysI
+ 40801 : AAAAGTCTTTTGATTAAATGATTCAAATAAAAGAAGGAGAAGTTGGCTATGAAAAATGTA : 40742
+
+   492 : leSerLeuLeuValLysLeuPheIleSerTyrProHisGluLeuThrLysGluGlnLeuG :   511
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         leSerLeuLeuValLysLeuPheIleSerTyrProHisGluLeuThrLysGluGlnLeuG
+ 40741 : TTAGTTTATTAGTGAAGCTTTTTATTAGCTATCCTCACGAATTAACTAAAGAGCAATTAG : 40682
+
+   512 : luTyrAlaAsnThrHisLeuArgAspArgIleThrHisHisLeuLysThrLeuGlyGluS :   531
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         luTyrAlaAsnThrHisLeuArgAspArgIleThrHisHisLeuLysThrLeuGlyGluS
+ 40681 : AATATGCAAACACTCACCTCAGGGATAGAATTACACATCATTTAAAAACTCTGGGAGAAA : 40622
+
+   532 : erLysLysGlnLysLysLysAlaThrGlnLysGlnSerLysLysGlyGlnAspLeuGluS :   551
+         |||||||||||||||||||||||||| !!||| !!|||||||||||| !!||||||||||
+         erLysLysGlnLysLysLysAlaThr***Lys***SerLysLysGly***AspLeuGluS
+ 40621 : GTAAAAAGCAAAAGAAAAAGGCGACTTAAAAATAAAGTAAAAAAGGTTAGGATTTAGAAA : 40562
+
+   552 : erLysGlyAsnAsnGlnAlaAsnGluLysGluAlaAsnPheAsnLeuGlnGlnGlnGluA :   571
+         |||||||||||||| !!|||||||||||||||||||||||||||||| !! !!|||||||
+         erLysGlyAsnAsn***AlaAsnGluLysGluAlaAsnPheAsnLeu******GlnGluA
+ 40561 : GCAAAGGTAATAACTAAGCAAACGAAAAAGAAGCAAACTTCAATTTATAATAACAAGAAA : 40502
+
+   572 : snAlaAsnSerGlnAsnAsnGlnAspAsnIleAspGluAsnGlnAspLysSerLysAsnG :   591
+         ||||||||||| !!|||||| !!|||||||||||||||||| !!||||||||||||||| 
+         snAlaAsnSer***AsnAsn***AspAsnIleAspGluAsn***AspLysSerLysAsn*
+ 40501 : ATGCTAACAGTTAAAATAACTAAGATAATATTGATGAAAACTAAGATAAATCAAAGAATT : 40442
+
+   592 : lnLysGlyLysLysAsnAsnSerLysLysThrLysLysGlyLysLysLysGlyThrLysL :   611
+         !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         **LysGlyLysLysAsnAsnSerLysLysThrLysLysGlyLysLysLysGlyThrLysL
+ 40441 : AAAAAGGGAAAAAAAATAATTCTAAGAAAACCAAAAAAGGTAAAAAGAAAGGTACAAAGA : 40382
+
+   612 : ysValValGluGluGlnGluGluIleGlnGluGluGluAsnIleLysTyrGlyGlnGluG :   631
+         |||||||||||||| !!||||||||| !!|||||||||||||||||||||||| !!||||
+         ysValValGluGlu***GluGluIle***GluGluGluAsnIleLysTyrGly***GluG
+ 40381 : AAGTTGTAGAAGAGTAGGAAGAAATTTAAGAGGAGGAAAACATAAAATATGGCTAAGAAG : 40322
+
+   632 : luGluGluLysGlnAsnAsnGlnLysAspGlnIleGluAspGluGluIleLysLeuGluL :   651
+         |||||||||||||||||||| !!|||||| !!||||||||||||||||||||||||||||
+         luGluGluLysGlnAsnAsn***LysAsp***IleGluAspGluGluIleLysLeuGluL
+ 40321 : AAGAGGAAAAGCAAAATAATTAAAAAGATTAAATTGAAGACGAAGAAATAAAATTAGAAA : 40262
+
+   652 : ysGluGlnLysAsnGluLysAlaAspGluGlnGlnGlyAlaGluGlyGluAsnGluAspG :   671
+         ||||| !!|||||||||||||||||||||||| !!|||||||||||||||||||||||| 
+         ysGlu***LysAsnGluLysAlaAspGluGln***GlyAlaGluGlyGluAsnGluAsp*
+ 40261 : AAGAGTAAAAAAATGAAAAAGCTGATGAGCAATAAGGAGCTGAGGGTGAAAACGAAGATT : 40202
+
+   672 : lnGlyIleAspGluGluArgGluIleGlnArgLeuLeuGluGlyGlnSerAspSerLeuS :   691
+         !!|||||||||||||||||||||||| !!||||||||||||||| !!|||||||||||||
+         **GlyIleAspGluGluArgGluIle***ArgLeuLeuGluGly***SerAspSerLeuS
+ 40201 : AAGGTATTGATGAAGAAAGAGAGATTTAAAGGCTATTAGAAGGATAAAGTGATAGCTTAA : 40142
+
+   692 : erGluLeuAspGluIleAspLeuGluIleAsnGluSerLeuThrSerProGlySerSerS :   711
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         erGluLeuAspGluIleAspLeuGluIleAsnGluSerLeuThrSerProGlySerSerS
+ 40141 : GTGAACTGGACGAAATAGATTTAGAGATTAATGAGTCATTAACTTCTCCTGGCTCTTCTT : 40082
+
+   712 : erGluSerThrGluAspCysTyrArgGluTyrLeuGlnLysIleLysGluGluAsnIleL :   731
+         ||||||||||||||||||||||||||||||||||| !!||||||||||||||||||||||
+         erGluSerThrGluAspCysTyrArgGluTyrLeu***LysIleLysGluGluAsnIleL
+ 40081 : CTGAAAGCACTGAAGATTGCTACAGAGAATATTTATAAAAAATAAAAGAAGAAAATATTA : 40022
+
+   732 : ysAspLysGlnGluIleTyrGluAspTyrSerAsnTyrPheHisLysAsnGlnHisSerT :   751
+         |||||||||||||||||||||||||||||||||||||||||||||||||| !!|||||||
+         ysAspLysGlnGluIleTyrGluAspTyrSerAsnTyrPheHisLysAsn***HisSerT
+ 40021 : AAGATAAGCAGGAAATATATGAAGATTATTCTAATTATTTTCACAAAAACTAGCATTCTT : 39962
+
+   752 : yrThrLysLeuLeuAsnGlnAlaArgLysIleLysIleGlnAsnLeuPheGluGlyAsnA :   771
+         ||||||||||||||||| !!||||||||||||||||||||||||||||||||||||||||
+         yrThrLysLeuLeuAsn***AlaArgLysIleLysIleGlnAsnLeuPheGluGlyAsnA
+ 39961 : ATACAAAGTTACTAAATTAAGCTAGGAAGATTAAAATACAAAATTTATTTGAGGGAAATG : 39902
+
+   772 : spIleAspGlnIleLeuAlaAspGluLeuAspLysLeuLysIleGlnAsnAsnAsnGluG :   791
+         |||||||| !!||||||||||||||||||||||||||||||||| !!|||||||||||||
+         spIleAsp***IleLeuAlaAspGluLeuAspLysLeuLysIle***AsnAsnAsnGluG
+ 39901 : ATATTGATTAAATTTTGGCAGATGAATTGGATAAATTAAAAATATAAAACAATAATGAAG : 39842
+
+   792 : luAsnAspGlnIleLeuIleGluGluAsnAsnGlnAsnAlaAspAspGluIleProValG :   811
+         |||||||| !!||||||||||||||||||||| !!|||||||||||||||||||||||||
+         luAsnAsp***IleLeuIleGluGluAsnAsn***AsnAlaAspAspGluIleProValG
+ 39841 : AAAATGATTAAATTCTAATTGAAGAAAATAATTAAAATGCAGACGATGAAATTCCTGTTC : 39782
+
+   812 : lnAspAsnAsnGluAsnLeuAsnAsnAsnLeuGluGlnGluAsnGluGluGlnLysThrG :   831
+         |||||||||||||||||||||||||||||||||||||||||||||||||| !!|||||||
+         lnAspAsnAsnGluAsnLeuAsnAsnAsnLeuGluGlnGluAsnGluGlu***LysThrG
+ 39781 : AAGATAATAATGAAAATTTGAATAATAACTTAGAGCAAGAGAATGAAGAATAAAAAACAG : 39722
+
+   832 : luGluAsnAlaGlnGluGlyGlnSerGlnAsnAsnGlnIleGluAspGluGluValLysA :   851
+         ||||||||||| !!|||||| !!||| !!|||||| !!||||||||||||||||||||||
+         luGluAsnAla***GluGly***Ser***AsnAsn***IleGluAspGluGluValLysA
+ 39721 : AGGAAAATGCCTAAGAAGGATAAAGTTAAAATAACTAAATTGAAGATGAAGAAGTTAAAA : 39662
+
+   852 : snSerIleLysLysLysLysIleLysAsnLysIleValSerAsnLysAsnLysSerLysL :   871
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         snSerIleLysLysLysLysIleLysAsnLysIleValSerAsnLysAsnLysSerLysL
+ 39661 : ATTCTATTAAAAAGAAAAAAATTAAAAATAAAATTGTTTCAAATAAAAATAAAAGTAAAA : 39602
+
+   872 : ysIleLeuGlnLysLysSerLysLeuLysIleLysAsnSerSerLysThrLysGlnSerG :   891
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||| !!||| 
+         ysIleLeuGlnLysLysSerLysLeuLysIleLysAsnSerSerLysThrLys***Ser*
+ 39601 : AAATACTTCAAAAAAAGTCTAAATTGAAAATAAAAAATAGCTCAAAAACTAAATAATCTT : 39542
+
+   892 : lnGlnAsnAspValLysValAlaLysLysValLysLysValIleThrLysThrLysThrG :   911
+         !! !!|||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+         *****AsnAspValLysValAlaLysLysValLysLysValIleThrLysThrLysThr*
+ 39541 : AATAAAATGATGTCAAAGTAGCTAAAAAGGTGAAAAAAGTAATAACAAAAACCAAAACAT : 39482
+
+   912 : lnAsnGlnAsnGluAsnLeuLysLysGlnLysLysGlnLysAsnValLysIleLeuGluL :   931
+         !!||| !!|||||||||||||||||| !!|||||| !!||||||||||||||||||||||
+         **Asn***AsnGluAsnLeuLysLys***LysLys***LysAsnValLysIleLeuGluL
+ 39481 : AAAATTAAAATGAAAATTTAAAAAAGTAGAAGAAATAAAAAAATGTAAAAATATTGGAAA : 39422
+
+   932 : ysLysGluLysLysGluLysAlaAspGluLysValIleLysLysGlnGlnAsnAspAsnG :   951
+         |||||||||||||||||||||||||||||||||||||||||||| !! !!||||||||| 
+         ysLysGluLysLysGluLysAlaAspGluLysValIleLysLys******AsnAspAsn*
+ 39421 : AAAAAGAGAAGAAGGAAAAAGCAGATGAAAAAGTGATTAAAAAATAGTAAAATGATAACT : 39362
+
+   952 : lnAsnSerIleLysLysGlnAsnIleGlnLysGlnLysProGlnLeuAsnIleLysSerG :   971
+         !!||||||||||||||| !!|||||| !!|||||||||||| !!||||||||||||||| 
+         **AsnSerIleLysLys***AsnIle***LysGlnLysPro***LeuAsnIleLysSer*
+ 39361 : AAAATAGTATAAAAAAATAAAATATTTAAAAACAAAAGCCTTAGTTAAATATAAAGAGTT : 39302
+
+   972 : lnIleGluGlnLysLeuLysGluSerLysLysAsnGlnAsnLysValAspThrSerLysL :   991
+         !!|||||| !!|||||||||||||||||||||||| !!||||||||||||||||||||||
+         **IleGlu***LysLeuLysGluSerLysLysAsn***AsnLysValAspThrSerLysL
+ 39301 : AAATTGAGTAAAAATTAAAAGAATCAAAGAAAAATTAAAATAAGGTAGATACTAGCAAAC : 39242
+
+   992 : euLysValGlnLysGluValIlePheArgLysThrArgSerGlnAlaSerThrLysAspP :  1011
+         |||||||| !!|||||||||||||||||||||||||||||| !!||||||||||||||||
+         euLysVal***LysGluValIlePheArgLysThrArgSer***AlaSerThrLysAspP
+ 39241 : TAAAAGTGTAAAAAGAAGTTATATTTAGAAAAACTAGAAGTTAGGCGTCTACCAAAGATC : 39182
+
+  1012 : roLeuThrAsnLysLysValLysSerSerThrLeuGluThrThrLysGlnAlaLysGlnA :  1031
+         |||||||||||||||||||||||||||||||||||||||||||||||||||||||| !!|
+         roLeuThrAsnLysLysValLysSerSerThrLeuGluThrThrLysGlnAlaLys***A
+ 39181 : CCTTAACTAATAAAAAGGTTAAATCTTCTACACTAGAAACAACGAAGCAAGCTAAATAAA : 39122
+
+  1032 : snGluLysGlnSerIleSerLysGluGlnLysThrSerSerLysValLysValSerIleL :  1051
+         |||||||| !!||||||||||||||| !!|||||||||||||||||||||||||||||||
+         snGluLys***SerIleSerLysGlu***LysThrSerSerLysValLysValSerIleL
+ 39121 : ATGAGAAGTAATCTATTAGTAAAGAGTAAAAAACTTCATCTAAAGTTAAAGTTTCAATTT : 39062
+
+  1052 : euLysThrLysThrLysThrValLysLysGlnThrLysValValLeuLysGlnIleLysG :  1071
+         ||||||||||||||||||||||||||||| !!|||||||||||||||||| !!|||||||
+         euLysThrLysThrLysThrValLysLys***ThrLysValValLeuLys***IleLysG
+ 39061 : TAAAGACTAAAACAAAAACAGTTAAAAAATAAACTAAAGTTGTCTTAAAATAAATTAAAC : 39002
+
+  1072 : lnLysLysLysIleValLysLysThrGluIleIleLysLysAlaIleLysLysAspMetT :  1091
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         lnLysLysLysIleValLysLysThrGluIleIleLysLysAlaIleLysLysAspMetT
+ 39001 : AGAAGAAGAAAATAGTTAAAAAAACAGAAATAATTAAGAAGGCAATTAAAAAAGATATGA : 38942
+
+  1092 : hrLysArgIleLeuArgSerSerThrLysLysAspGlnLysSer :  1105
+         ||||||||||||||||||||||||||||||||||| !!||||||
+         hrLysArgIleLeuArgSerSerThrLysLysAsp***LysSer
+ 38941 : CAAAAAGAATTTTAAGATCATCAACAAAAAAAGATTAAAAAAGC : 38898
+
+vulgar: p01 0 1105 . scf_8253855 42789 38897 - 4950 M 173 519 5 0 2 I 0 573 3 0 2 M 932 2796
+
+C4 Alignment:
+------------
+         Query: p02
+        Target: scf_8253855 [revcomp]
+         Model: protein2genome:local
+     Raw score: 1025
+   Query range: 0 -> 207
+  Target range: 80415 -> 79794
+
+     1 : MetGluGlnLysLysLysGlnAsnTrpGlnGluTyrLeuTrpLeuAsnAsnIleTyrIle :    20
+         ||||||||||||||||||||||||||| !!||||||||||||||||||||||||||||||
+         MetGluGlnLysLysLysGlnAsnTrp***GluTyrLeuTrpLeuAsnAsnIleTyrIle
+ 80415 : ATGGAACAGAAAAAGAAACAGAATTGGTAAGAATATCTTTGGTTGAATAATATTTACATT : 80358
+
+    21 : TyrSerLeuThrPheIlePheLysIleIleGlnSerGlnGlnPheLysAsnGlnLeuLeu :    40
+         |||||||||||||||||||||||||||||| !!|||||| !!||||||||| !!||||||
+         TyrSerLeuThrPheIlePheLysIleIle***SerGln***PheLysAsn***LeuLeu
+ 80357 : TATTCACTAACTTTCATATTTAAAATAATATAATCACAGTAGTTTAAAAACTAACTCCTA : 80298
+
+    41 : PhePheTyrSerIleIleAsnSerAsnLysAsnGlnLysIleGluLysAsnGlnLysThr :    60
+         ||||||||||||||||||||||||||||||||| !!||||||||||||||||||||||||
+         PhePheTyrSerIleIleAsnSerAsnLysAsn***LysIleGluLysAsnGlnLysThr
+ 80297 : TTTTTTTATAGTATAATTAATTCAAATAAAAACTAAAAAATAGAAAAAAACCAAAAAACT : 80238
+
+    61 : LeuCysGlnLysMetArgLysIleIleIleIleAlaAlaLeuIleCysLeuThrPheAla :    80
+         |||||| !!|||||||||||||||||||||||||||||||||||||||||||||||||||
+         LeuCys***LysMetArgLysIleIleIleIleAlaAlaLeuIleCysLeuThrPheAla
+ 80237 : CTTTGTTAAAAAATGAGAAAAATAATCATTATTGCTGCCTTGATCTGCTTAACTTTTGCT : 80178
+
+    81 : GlnAsnValGlnGluCysProThrAspGlyArgGlnLeuLysCysThrIleGlnGlnSer :   100
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         GlnAsnValGlnGluCysProThrAspGlyArgGlnLeuLysCysThrIleGlnGlnSer
+ 80177 : CAAAACGTTCAAGAATGCCCTACTGATGGTAGACAATTGAAATGCACAATTCAACAATCT : 80118
+
+   101 : ProValCysGlyIleArgGlyLeuSerAsnGlyLysGlnIleLysGluAsnPheAspAsn :   120
+         |||||||||||||||||||||||||||||||||||| !!|||||||||||||||||||||
+         ProValCysGlyIleArgGlyLeuSerAsnGlyLys***IleLysGluAsnPheAspAsn
+ 80117 : CCAGTCTGTGGTATTAGAGGTTTATCTAATGGAAAGTAGATTAAGGAGAACTTTGATAAC : 80058
+
+   121 : TyrCysIleAlaCysSerIleGlyLysValGluTyrThrValGluGlyLysCysGluAsp :   140
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         TyrCysIleAlaCysSerIleGlyLysValGluTyrThrValGluGlyLysCysGluAsp
+ 80057 : TACTGCATCGCCTGCTCAATTGGAAAAGTAGAATACACTGTTGAGGGAAAGTGCGAAGAT : 79998
+
+   141 : TyrProAlaGlnAlaLysPheCysSerProAlaGlnSerLysAlaGlnIleCysThrMet :   160
+         ||||||||| !!||||||||||||||||||||| !!||||||||| !!||||||||||||
+         TyrProAla***AlaLysPheCysSerProAla***SerLysAla***IleCysThrMet
+ 79997 : TACCCTGCTTAAGCTAAGTTCTGCTCTCCTGCTTAATCTAAGGCTTAAATCTGCACCATG : 79938
+
+   161 : GluTyrAlaProGlnCysGlyPhePheAsnLysSerValAsnCysIleAlaAlaProCys :   180
+         |||||||||||| !!|||||||||||||||||||||||||||||||||||||||||||||
+         GluTyrAlaPro***CysGlyPhePheAsnLysSerValAsnCysIleAlaAlaProCys
+ 79937 : GAATATGCTCCTTAATGTGGATTCTTTAATAAATCTGTTAACTGCATCGCCGCACCATGT : 79878
+
+   181 : AlaIleAspGluTyrAsnArgCysLysAlaCysSerThrGluAsnValLeuTyrThrIle :   200
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         AlaIleAspGluTyrAsnArgCysLysAlaCysSerThrGluAsnValLeuTyrThrIle
+ 79877 : GCTATTGATGAATACAACAGATGCAAGGCTTGCTCTACAGAAAATGTTCTTTATACCATT : 79818
+
+   201 : LysGlyLysCysHisHisGlu :   207
+         |||||||||||||||||||||
+         LysGlyLysCysHisHisGlu
+ 79817 : AAGGGTAAATGTCATCACGAA : 79795
+
+vulgar: p02 0 207 . scf_8253855 80415 79794 - 1025 M 207 621
+
+C4 Alignment:
+------------
+         Query: p03
+        Target: scf_8254002
+         Model: protein2genome:local
+     Raw score: 5710
+   Query range: 0 -> 1258
+  Target range: 81936 -> 85884
+
+     1 : MetGlnAsnIleValArgSerArgSerGluSerGluSerGlnLysGluAspGluArgPhe :    20
+         ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         Met***AsnIleValArgSerArgSerGluSerGluSerGlnLysGluAspGluArgPhe
+ 81937 : ATGTAGAATATAGTTCGAAGCAGAAGCGAAAGTGAATCTCAAAAAGAAGATGAGAGATTT : 81994
+
+    21 : ThrValThrProMetLeuAspSerAsnLysIleGlyGlyValHisAsnSerAsnIleAsp :    40
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         ThrValThrProMetLeuAspSerAsnLysIleGlyGlyValHisAsnSerAsnIleAsp
+ 81995 : ACTGTAACTCCGATGTTAGACTCTAATAAGATAGGAGGAGTTCATAATAGCAATATAGAT : 82054
+
+    41 : LeuValAsnLysLysLeuLeuAspMetAsnGlnGluGluAlaLeuValLeuAspGlnVal :    60
+         |||||||||||||||||||||||||||||| !!||||||||||||||||||||| !!|||
+         LeuValAsnLysLysLeuLeuAspMetAsn***GluGluAlaLeuValLeuAsp***Val
+ 82055 : TTAGTAAATAAAAAGCTATTAGATATGAATTAAGAAGAAGCTTTAGTGTTAGACTAAGTA : 82114
+
+    61 : LysGluGluGlnGluValValAsnThrSerAsnSerIleProSerThrSerProSerAsn :    80
+         ||||||||| !!||||||||||||||||||||||||||||||||||||||||||||||||
+         LysGluGlu***GluValValAsnThrSerAsnSerIleProSerThrSerProSerAsn
+ 82115 : AAAGAAGAATAAGAAGTAGTTAACACTTCGAACTCCATTCCTAGTACATCACCATCAAAT : 82174
+
+    81 : SerIleLeuIleArgAspLeuLysPheLeuGlnLysMetAlaTyrTyrPheLysPhePhe :   100
+         |||||||||||||||||||||||||||||| !!|||||||||||||||||||||||||||
+         SerIleLeuIleArgAspLeuLysPheLeu***LysMetAlaTyrTyrPheLysPhePhe
+ 82175 : TCTATTTTGATTCGAGACTTGAAGTTTCTTTAAAAGATGGCATACTATTTTAAGTTTTTC : 82234
+
+   101 : SerGluPheIleLeuArgAspPheLysIleLysProLeuAsnAsnLeuIleSerValSer :   120
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         SerGluPheIleLeuArgAspPheLysIleLysProLeuAsnAsnLeuIleSerValSer
+ 82235 : AGTGAATTCATATTGAGAGACTTTAAGATAAAGCCATTAAATAATTTGATAAGTGTTAGT : 82294
+
+   121 : ThrIleValLeuLeuIleValPheLeuGlyLeuIleAsnIleMetMetSerLeuSerPro :   140
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         ThrIleValLeuLeuIleValPheLeuGlyLeuIleAsnIleMetMetSerLeuSerPro
+ 82295 : ACTATTGTTTTGTTAATTGTCTTTCTTGGATTAATTAACATAATGATGAGTTTATCTCCT : 82354
+
+   141 : MetIleTyrLeuMetMetSerGluGlnGluValGlyGluSerAspIleLeuIleValAsn :   160
+         |||||||||||||||||||||||| !!|||||||||||||||||||||||||||||||||
+         MetIleTyrLeuMetMetSerGlu***GluValGlyGluSerAspIleLeuIleValAsn
+ 82355 : ATGATTTACCTTATGATGAGCGAATAAGAAGTAGGTGAAAGCGATATTTTAATAGTCAAT : 82414
+
+   161 : ProGluIleSerGlnSerAsnMetGlyAsnGlnSerLeuAspAsnPheMetIleAsnTyr :   180
+         |||||||||||||||||||||||||||||| !!|||||||||||||||||||||||||||
+         ProGluIleSerGlnSerAsnMetGlyAsn***SerLeuAspAsnPheMetIleAsnTyr
+ 82415 : CCAGAAATTTCGCAGTCAAATATGGGAAACTAAAGTTTGGACAATTTTATGATCAATTAC : 82474
+
+   181 : LysLeuValAsnAspGlnTyrCysSerGlnTyrLeuLysGlyCysSerSerArgTyrTyr :   200
+         ||||||||||||||||||||||||||| !!||||||||||||||||||||||||||||||
+         LysLeuValAsnAspGlnTyrCysSer***TyrLeuLysGlyCysSerSerArgTyrTyr
+ 82475 : AAGCTTGTGAATGATCAGTACTGCTCTTAATATCTTAAAGGATGCTCTTCAAGATATTAT : 82534
+
+   201 : LeuLysGlyMetGlnThrIleAsnSerGlnAspIlePheSerAspValLeuLeuIleAsp :   220
+         |||||||||||| !!|||||||||||| !!||||||||||||||||||||||||||||||
+         LeuLysGlyMet***ThrIleAsnSer***AspIlePheSerAspValLeuLeuIleAsp
+ 82535 : TTAAAAGGAATGTAGACAATAAATAGCTAAGATATTTTTAGTGATGTTTTACTTATCGAT : 82594
+
+   221 : IleLeuLysGluGluGlnIleGlyLeuGlyArgArgIleAsnLeuThrThrLeuLysGlu :   240
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         IleLeuLysGluGluGlnIleGlyLeuGlyArgArgIleAsnLeuThrThrLeuLysGlu
+ 82595 : ATTCTGAAAGAAGAGCAAATAGGATTAGGTCGCCGCATTAACCTGACTACACTAAAAGAA : 82654
+
+   241 : AsnGluCysTyrIleSerArgAsnLeuAsnSerIleLeuLysLysGluValLysLysSer :   260
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         AsnGluCysTyrIleSerArgAsnLeuAsnSerIleLeuLysLysGluValLysLysSer
+ 82655 : AATGAATGCTACATCAGCAGAAATCTCAATTCTATTTTAAAGAAAGAAGTAAAAAAATCA : 82714
+
+   261 : SerLysAspLysGlnLysIleValLeuAspPheAsnLeuGlyLeuIleLeuSerSerLeu :   280
+         |||||||||||| !!|||||||||||||||||||||||||||||||||||||||||||||
+         SerLysAspLys***LysIleValLeuAspPheAsnLeuGlyLeuIleLeuSerSerLeu
+ 82715 : TCAAAAGATAAATAAAAAATTGTTCTTGACTTTAATCTTGGATTGATTCTTAGCTCTCTA : 82774
+
+   281 : ProSerPheGlnAsnGluAspLeuAsnGlnAlaTyrPheGlnLysValGlnPheIleThr :   300
+         ||||||||||||||||||||||||||| !!||||||||| !!|||||| !!|||||||||
+         ProSerPheGlnAsnGluAspLeuAsn***AlaTyrPhe***LysVal***PheIleThr
+ 82775 : CCAAGTTTCCAAAATGAAGATCTAAATTAAGCATATTTTTAAAAGGTATAATTCATCACA : 82834
+
+   301 : GlnSerLeuValLysLysPheGlnMetAspGlyValThrTyrAsnThrTyrGlnAspIle :   320
+          !!|||||||||||||||||| !!||||||||||||||||||||||||||| !!||||||
+         ***SerLeuValLysLysPhe***MetAspGlyValThrTyrAsnThrTyr***AspIle
+ 82835 : TAATCATTGGTAAAAAAGTTTTAAATGGATGGAGTGACTTATAATACATATTAGGATATT : 82894
+
+   321 : LeuPheHisTyrIleProSerGlnAsnLeuAspGlnGluIleArgAspSerIleAsnSer :   340
+         ||||||||||||||||||||| !!||||||||| !!||||||||||||||||||||||||
+         LeuPheHisTyrIleProSer***AsnLeuAsp***GluIleArgAspSerIleAsnSer
+ 82895 : CTATTTCATTACATTCCTTCTTAAAACCTAGATTAAGAAATAAGGGACAGTATCAATAGT : 82954
+
+   341 : PheAsnIleGluGlyPheLeuGlyAspLysAsnSerGluProValAsnLeuAsnHisSer :   360
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         PheAsnIleGluGlyPheLeuGlyAspLysAsnSerGluProValAsnLeuAsnHisSer
+ 82955 : TTTAACATTGAAGGATTTCTAGGTGATAAAAATAGCGAACCTGTTAATTTAAATCACAGT : 83014
+
+   361 : LysGlnTyrAlaLeuCysGlnLysLeuAlaMetPheIleMetAspMetLysPheSerLeu :   380
+         ||| !!|||||||||||| !!|||||||||||||||||||||||||||||||||||||||
+         Lys***TyrAlaLeuCys***LysLeuAlaMetPheIleMetAspMetLysPheSerLeu
+ 83015 : AAATAATATGCATTATGCTAAAAATTAGCCATGTTTATTATGGATATGAAGTTTTCTCTC : 83074
+
+   381 : AsnLeuGluValLysAspValIleGluAsnSerValGlyLysPheGluAspLysIleSer :   400
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         AsnLeuGluValLysAspValIleGluAsnSerValGlyLysPheGluAspLysIleSer
+ 83075 : AATCTAGAAGTTAAAGATGTCATTGAAAATTCTGTAGGAAAGTTTGAAGATAAAATTTCG : 83134
+
+   401 : AsnPheValIleLeuAspTyrThrAsnGlnTyrAspTyrIleLeuGlnGlnAlaCysSer :   420
+         ||||||||||||||||||||||||||| !!||||||||||||||| !! !!|||||||||
+         AsnPheValIleLeuAspTyrThrAsn***TyrAspTyrIleLeu******AlaCysSer
+ 83135 : AATTTCGTCATCTTAGACTACACAAACTAATATGACTACATATTATAATAAGCATGCTCA : 83194
+
+   421 : SerPheIleLysGlnLeuThrGluArgMetAlaTyrHisSerValThrTyrPheAlaTyr :   440
+         |||||||||||| !!|||||||||||||||||||||||||||||||||||||||||||||
+         SerPheIleLys***LeuThrGluArgMetAlaTyrHisSerValThrTyrPheAlaTyr
+ 83195 : AGTTTTATTAAGTAATTAACTGAAAGAATGGCTTATCACTCAGTGACATACTTCGCATAT : 83254
+
+   441 : LeuAsnIleLysTyrGlnTyrLeuTyrGluLysLeuTyrThrLeuValLysGlnAsnAla :   460
+         ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||
+         LeuAsnIleLysTyrGlnTyrLeuTyrGluLysLeuTyrThrLeuValLys***AsnAla
+ 83255 : CTGAATATCAAATATCAATACCTATATGAAAAACTTTACACTTTAGTTAAGTAAAATGCT : 83314
+
+   461 : AspProAspPhePheAsnLysHisAlaIleThrLeuTyrGlyIleTyrLysAspLysGln :   480
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         AspProAspPhePheAsnLysHisAlaIleThrLeuTyrGlyIleTyrLysAspLysGln
+ 83315 : GACCCTGATTTCTTTAATAAACATGCGATAACTTTATATGGAATTTACAAAGATAAGCAA : 83374
+
+   481 : AsnIleTyrLeuGluGluLysThrIleLysSerGlnIleGlnLysGlnSerAsnLysPhe :   500
+         ||||||||||||||||||||||||||||||||| !!||||||||| !!||||||||||||
+         AsnIleTyrLeuGluGluLysThrIleLysSer***IleGlnLys***SerAsnLysPhe
+ 83375 : AACATTTACCTTGAAGAAAAAACTATAAAAAGTTAAATACAAAAATAAAGTAATAAATTC : 83434
+
+   501 : SerGluValPheGlyMetAsnTyrProIleLysThrPheTyrProLeuSerIleThrGln :   520
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| !!
+         SerGluValPheGlyMetAsnTyrProIleLysThrPheTyrProLeuSerIleThr***
+ 83435 : TCTGAAGTTTTTGGAATGAATTATCCAATTAAAACCTTTTATCCTTTGTCCATAACTTAG : 83494
+
+   521 : IleLysAsnLeuGlnGlnLysGlnIleLeuAspAsnSerTyrAsnCysGlyValIleLeu :   540
+         |||||||||||| !! !!||| !!||||||||||||||||||||||||||||||||||||
+         IleLysAsnLeu******Lys***IleLeuAspAsnSerTyrAsnCysGlyValIleLeu
+ 83495 : ATAAAAAATCTCTAATAAAAATAGATATTAGATAACTCATATAATTGCGGTGTTATCCTG : 83554
+
+   541 : LeuIleAlaLeuSerSerValIleIleTyrSerValSerGlnSerSerIleGlnGlnLys :   560
+         |||||||||||||||||||||||||||||||||||||||||||||||||||||| !!|||
+         LeuIleAlaLeuSerSerValIleIleTyrSerValSerGlnSerSerIleGln***Lys
+ 83555 : CTAATAGCTTTAAGTTCTGTAATTATCTATTCAGTTTCGCAATCTAGTATTCAATAAAAA : 83614
+
+   561 : ValGlnGluTyrGlyIleValArgIleIleGlyTyrSerThrGlnSerLeuIleIlePhe :   580
+         ||| !!|||||||||||||||||||||||||||||||||||| !!|||||||||||||||
+         Val***GluTyrGlyIleValArgIleIleGlyTyrSerThr***SerLeuIleIlePhe
+ 83615 : GTGTAAGAGTATGGTATTGTTAGAATTATAGGCTATTCTACCTAATCATTGATCATATTT : 83674
+
+   581 : SerLeuLeuLysAlaIleIlePheTyrMetIleProAlaLeuIleIleAlaGluLeuLeu :   600
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         SerLeuLeuLysAlaIleIlePheTyrMetIleProAlaLeuIleIleAlaGluLeuLeu
+ 83675 : TCTCTTTTAAAGGCGATTATATTTTATATGATTCCAGCACTGATAATTGCTGAGCTCTTA : 83734
+
+   601 : AsnLeuValValSerLysPheIleLysAspTyrPheTyrGlyLeuLeuGlnPheSerThr :   620
+         |||||||||||||||||||||||||||||||||||||||||||||||| !!|||||||||
+         AsnLeuValValSerLysPheIleLysAspTyrPheTyrGlyLeuLeu***PheSerThr
+ 83735 : AATTTAGTAGTATCAAAATTCATAAAAGATTATTTTTATGGCTTACTGTAATTTTCCACA : 83794
+
+   621 : AspIleSerGlnAspTyrSerAsnSerTyrTyrAlaThrThrValLeuLeuGlyIleGly :   640
+         ||||||||| !!||||||||||||||||||||||||||||||||||||||||||||||||
+         AspIleSer***AspTyrSerAsnSerTyrTyrAlaThrThrValLeuLeuGlyIleGly
+ 83795 : GATATCAGCTAAGATTATAGTAATAGTTATTATGCGACAACAGTTTTACTTGGTATAGGA : 83854
+
+   641 : LeuProLeuPheCysAsnLeuTyrProPheLysGlnPhePheAspArgGlnValLeuSer :   660
+         ||||||||||||||||||||||||||||||||| !!|||||||||||| !!|||||||||
+         LeuProLeuPheCysAsnLeuTyrProPheLys***PhePheAspArg***ValLeuSer
+ 83855 : TTGCCACTTTTTTGCAATCTTTATCCTTTTAAATAGTTTTTTGATAGGTAAGTACTGAGT : 83914
+
+   661 : GlnAlaIleAsnSerHisGlnArgValIleGlnGlnThrLysValIleIleGlnLysLeu :   680
+         |||||||||||||||||| !!|||||||||||| !!||||||||||||||| !!||||||
+         GlnAlaIleAsnSerHis***ArgValIleGln***ThrLysValIleIle***LysLeu
+ 83915 : CAAGCTATTAATTCTCACTAAAGAGTGATACAGTAAACCAAAGTTATCATATAAAAACTT : 83974
+
+   681 : GluLysTyrGlyValSerLeuTyrAlaThrIleAsnSerValIleLeuIleIleValGly :   700
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         GluLysTyrGlyValSerLeuTyrAlaThrIleAsnSerValIleLeuIleIleValGly
+ 83975 : GAAAAATATGGAGTTTCATTATATGCTACTATAAACTCTGTAATCCTAATAATTGTTGGT : 84034
+
+   701 : IleLeuAlaTyrTyrPheAlaProTyrAlaPheValSerLysLysVal{G}  >>>> Ta :   717
+         ||||||||||||||||||||||||||||||||||||||||||||||||{|}         
+         IleLeuAlaTyrTyrPheAlaProTyrAlaPheValSerLysLysVal{G}++       
+ 84035 : ATTTTGGCATATTATTTTGCACCTTATGCTTTTGTTTCTAAAAAAGTA{G}gt....... : 84088
+
+   718 : rget Intron 1 >>>>  {ly}LeuPheLeuLeuIleValAsnLeuThrPheLeuMet :   729
+            62 bp            {||}||||||||||||||||||||||||||||||||||||
+                           ++{ly}LeuPheLeuLeuIleValAsnLeuThrPheLeuMet
+ 84089 : ..................ag{GA}TTATTTTTACTGATTGTTAACTTAACATTCTTGATG : 84183
+
+   730 : ValAsnIleGlyIleSerPheLeuLeuAsnIleValGlnArgArgLeuGluLeuGlyTrp :   749
+         |||||||||||||||||||||||||||||||||||| !!|||||||||||||||||||||
+         ValAsnIleGlyIleSerPheLeuLeuAsnIleVal***ArgArgLeuGluLeuGlyTrp
+ 84184 : GTGAATATAGGAATTAGCTTTTTGCTAAATATAGTTTAAAGAAGGCTAGAACTTGGATGG : 84243
+
+   750 : IleArgValIleLeuAsnCysPheCysArgLysAspLysAsnLeuGlnThrSerIleGlu :   769
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         IleArgValIleLeuAsnCysPheCysArgLysAspLysAsnLeuGlnThrSerIleGlu
+ 84244 : ATCAGAGTGATTTTGAATTGTTTTTGTAGAAAGGATAAAAATTTGCAAACCTCAATTGAA : 84303
+
+   770 : AsnAsnPheLysAsnAsnAspAsnArgMetGlnLysLeuGlyMetIleIleMetMetIle :   789
+         |||||||||||||||||||||||||||||| !!|||||||||||||||||||||||||||
+         AsnAsnPheLysAsnAsnAspAsnArgMet***LysLeuGlyMetIleIleMetMetIle
+ 84304 : AATAACTTTAAAAACAATGATAACAGAATGTAAAAGCTAGGTATGATTATAATGATGATC : 84363
+
+   790 : PheSerPheTyrIleSerIleGlySerSerValAsnSerGlnIleMetMetValGlnAsn :   809
+         ||||||||||||||||||||||||||||||||||||||| !!|||||||||||| !!|||
+         PheSerPheTyrIleSerIleGlySerSerValAsnSer***IleMetMetVal***Asn
+ 84364 : TTTTCATTTTACATTAGCATAGGCAGTAGCGTAAACAGCTAAATAATGATGGTTTAAAAT : 84423
+
+   810 : MetValLysLeuAsnIleGlySerAspTyrMetLeuGluValGlnLysAsnGluIleSer :   829
+         |||||||||||||||||||||||||||||||||||||||||| !!|||||||||||||||
+         MetValLysLeuAsnIleGlySerAspTyrMetLeuGluVal***LysAsnGluIleSer
+ 84424 : ATGGTTAAACTAAATATTGGAAGCGATTACATGCTTGAGGTTTAAAAGAATGAGATTTCT : 84483
+
+   830 : LeuAspGluTyrIleLeuThrGlnAsnIleGluGlnPheLysSerLeuPheProAsnThr :   849
+         ||||||||||||||||||||| !!||||||||||||||||||||||||||||||||||||
+         LeuAspGluTyrIleLeuThr***AsnIleGluGlnPheLysSerLeuPheProAsnThr
+ 84484 : CTTGATGAATATATTTTAACTTAAAACATTGAACAATTCAAATCATTATTTCCTAATACA : 84543
+
+   850 : IleLysSerTyrSerPheValSerLysGlyIleLysThrIleGluGlyPheGlnArgAla :   869
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         IleLysSerTyrSerPheValSerLysGlyIleLysThrIleGluGlyPheGlnArgAla
+ 84544 : ATTAAATCTTATAGTTTTGTATCTAAGGGTATTAAAACCATTGAAGGATTCCAAAGAGCT : 84603
+
+   870 : ThrLysLeuArgAsnAsnIleGlyValSerIleLysPheAspPheLysAlaIleGlyPro :   889
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         ThrLysLeuArgAsnAsnIleGlyValSerIleLysPheAspPheLysAlaIleGlyPro
+ 84604 : ACTAAATTAAGAAACAATATTGGTGTGAGCATTAAATTTGATTTCAAAGCAATAGGCCCT : 84663
+
+   890 : GlnPheTyrAspSerIleTyrAsnGluLeuLeuIleAlaAspSerProLeuPheGluGly :   909
+          !!|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         ***PheTyrAspSerIleTyrAsnGluLeuLeuIleAlaAspSerProLeuPheGluGly
+ 84664 : TAATTCTATGACTCAATTTATAATGAATTATTGATCGCTGATTCTCCACTTTTCGAAGGA : 84723
+
+   910 : GlnAsnProSerAsnSerLeuTyrPheSerAsnGlyThrSerIle{Gl}  >>>> Targ :   925
+          !!||||||||||||||||||||||||||||||||||||||||||{||}           
+         ***AsnProSerAsnSerLeuTyrPheSerAsnGlyThrSerIle{Gl}++         
+ 84724 : TAAAACCCCTCAAACTCTCTATACTTTAGTAATGGAACATCAATA{GG}gt......... : 84775
+
+   926 : et Intron 2 >>>>  {y}ArgValValGluAspGluMetMetLysSerLysAspHis :   938
+          55 bp            {|}|||||||||||||||||||||||||||||||||||||||
+                         ++{y}ArgValValGluAspGluMetMetLysSerLysAspHis
+ 84776 : ................ag{G}AGAGTCGTTGAAGATGAGATGATGAAATCAAAAGATCAT : 84865
+
+   939 : TyrGlnIleIleSerLysIleTyrAsnAspAsnPheLysAsnLeuAsnSerMetIleGlu :   958
+         ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         Tyr***IleIleSerLysIleTyrAsnAspAsnPheLysAsnLeuAsnSerMetIleGlu
+ 84866 : TATTAGATTATTTCCAAAATTTATAACGATAATTTCAAGAATTTAAATTCAATGATAGAA : 84925
+
+   959 : HisAlaGlnGluGlnTyrIleLeuTyrTyrLeuSerSerLysAspLysLysAlaLeuSer :   978
+         |||||| !!||| !!|||||||||||||||||||||||||||||||||||||||||||||
+         HisAla***Glu***TyrIleLeuTyrTyrLeuSerSerLysAspLysLysAlaLeuSer
+ 84926 : CATGCATAAGAGTAATATATTCTCTATTATTTAAGTTCAAAAGATAAAAAAGCATTATCA : 84985
+
+   979 : ValGluGlnAsnCysHisMetAspPheIleLeuGlyAlaThrArgTyrLysGlyLysPro :   998
+         |||||| !!|||||||||||||||||||||||||||||||||||||||||||||||||||
+         ValGlu***AsnCysHisMetAspPheIleLeuGlyAlaThrArgTyrLysGlyLysPro
+ 84986 : GTTGAATAAAACTGCCATATGGATTTTATCCTTGGAGCTACAAGATATAAAGGAAAACCT : 85045
+
+   999 : AlaGlyPheAlaLysLysIleProGlyPheLysThrPheThrGluAsnSerValPheSer :  1018
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         AlaGlyPheAlaLysLysIleProGlyPheLysThrPheThrGluAsnSerValPheSer
+ 85046 : GCAGGTTTTGCAAAAAAGATACCTGGCTTCAAAACTTTTACTGAAAATTCTGTATTTTCT : 85105
+
+  1019 : MetPheGlnAspSerGluAlaLeuIleSerTyrGluGlnPheHisHisIleLeuArgVal :  1038
+         |||||| !!||||||||||||||||||||||||||| !!|||||||||||||||||||||
+         MetPhe***AspSerGluAlaLeuIleSerTyrGlu***PheHisHisIleLeuArgVal
+ 85106 : ATGTTTTAGGATTCCGAAGCTCTTATATCTTATGAATAATTTCATCATATATTGAGAGTT : 85165
+
+  1039 : SerTrpGluIleGluGlyTyrSerGluGluSerIleAsnLeuMetLeuAsnSerPhePro :  1058
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         SerTrpGluIleGluGlyTyrSerGluGluSerIleAsnLeuMetLeuAsnSerPhePro
+ 85166 : TCTTGGGAAATCGAAGGGTATTCTGAAGAGAGTATTAATTTAATGCTTAACAGTTTCCCT : 85225
+
+  1059 : LysAsnSerThrPheAsnIleProLysGlyGlnLeuPheIleArgLeuHisAspLysVal :  1078
+         |||||||||||||||||||||||||||||| !!|||||||||||||||||||||||||||
+         LysAsnSerThrPheAsnIleProLysGly***LeuPheIleArgLeuHisAspLysVal
+ 85226 : AAAAATTCAACCTTCAATATTCCTAAAGGATAGCTCTTTATTAGGCTACATGACAAGGTC : 85285
+
+  1079 : GluLeuThrGlnGlnGlnLysAsnMetLeuLysSerIleLeuThrGluAsnLysGlnGlu :  1098
+         |||||||||||| !! !!|||||||||||||||||||||||||||||||||||| !!|||
+         GluLeuThrGln******LysAsnMetLeuLysSerIleLeuThrGluAsnLys***Glu
+ 85286 : GAATTAACTCAATAATAAAAAAATATGCTTAAAAGTATTTTAACTGAGAATAAATAAGAA : 85345
+
+  1099 : SerSerValHisSerAspSerGlnAsnValSerPheTyrAspThrHisSerIleLeuVal :  1118
+         ||||||||||||||||||||| !!||||||||||||||||||||||||||||||||||||
+         SerSerValHisSerAspSer***AsnValSerPheTyrAspThrHisSerIleLeuVal
+ 85346 : TCATCAGTTCATTCTGATTCTTAGAATGTATCATTCTATGACACTCATTCTATCCTTGTC : 85405
+
+  1119 : SerLeuAsnTyrLeuValGluPheTrpSerLeuLeuPheAsnLeuValSerValPheIle :  1138
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         SerLeuAsnTyrLeuValGluPheTrpSerLeuLeuPheAsnLeuValSerValPheIle
+ 85406 : TCTCTCAATTATTTAGTTGAATTTTGGAGCTTACTTTTTAATTTAGTATCTGTATTCATT : 85465
+
+  1139 : PheIleLeuThrTyrTyrLeuLeuThrIleThrPheLysGlnAsnValGlnGluAsnLeu :  1158
+         ||||||||||||||||||||||||||||||||||||||| !!||||||||||||||||||
+         PheIleLeuThrTyrTyrLeuLeuThrIleThrPheLys***AsnValGlnGluAsnLeu
+ 85466 : TTTATACTTACATACTATCTCCTCACTATTACTTTCAAGTAAAATGTGCAAGAAAATCTC : 85525
+
+  1159 : HisAsnIleLysIlePheLysSerIleGlyLeuAsnHisAsnGlnValGlnLys{Il}   :  1177
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||{||}  
+         HisAsnIleLysIlePheLysSerIleGlyLeuAsnHisAsnGlnValGlnLys{Il}++
+ 85526 : CATAATATAAAAATTTTTAAATCTATTGGACTGAATCATAATCAAGTGCAGAAG{AT}gt : 85584
+
+  1178 : >>>> Target Intron 3 >>>>  {e}PheIleTyrGluGlyIleSerValMetIle :  1187
+                   57 bp            {|}||||||||||||||||||||||||||||||
+                                  ++{e}PheIleTyrGluGlyIleSerValMetIle
+ 85585 : .........................ag{A}TTCATTTATGAAGGTATCTCAGTTATGATA : 85669
+
+  1188 : IleAsnGlyIleValGlyLeuGlyIleGlyMetLeuLeuSerIleMetIleGlnGlnGln :  1207
+         ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||
+         IleAsnGlyIleValGlyLeuGlyIleGlyMetLeuLeuSerIleMetIle***GlnGln
+ 85670 : ATAAACGGTATTGTTGGTTTGGGAATAGGAATGCTATTATCTATAATGATTTAGCAACAA : 85729
+
+  1208 : LeuIleValPheLeuGluMetProPheAspPheGlnGlnIleProTyrLysValThrSer :  1227
+         ||||||||||||||||||||||||||||||||| !! !!|||||||||||||||||||||
+         LeuIleValPheLeuGluMetProPheAspPhe******IleProTyrLysValThrSer
+ 85730 : CTGATCGTGTTCTTAGAAATGCCCTTCGACTTTTAATAAATTCCATACAAAGTTACATCT : 85789
+
+  1228 : LeuLeuLeuPheMetCysIleAlaLeuSerValTyrThrSerLysSerGluIleAspGln :  1247
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         LeuLeuLeuPheMetCysIleAlaLeuSerValTyrThrSerLysSerGluIleAspGln
+ 85790 : CTACTTTTATTTATGTGCATAGCTCTTTCAGTTTACACCTCTAAGTCAGAAATAGATCAA : 85849
+
+  1248 : ValLysAsnLysGlnIleAlaHisIleAspLys :  1258
+         |||||||||||||||||||||||||||||||||
+         ValLysAsnLysGlnIleAlaHisIleAspLys
+ 85850 : GTAAAAAATAAGCAAATAGCACATATAGATAAA : 85884
+
+vulgar: p03 0 1258 . scf_8254002 81936 85884 + 5710 M 716 2148 S 0 1 5 0 2 I 0 58 3 0 2 S 1 2 M 207 621 S 0 2 5 0 2 I 0 51 3 0 2 S 1 1 M 251 753 S 0 2 5 0 2 I 0 53 3 0 2 S 1 1 M 81 243
+
+C4 Alignment:
+------------
+         Query: p04
+        Target: scf_8254433 [revcomp]
+         Model: protein2genome:local
+     Raw score: 12635
+   Query range: 0 -> 2900
+  Target range: 110392 -> 101168
+
+      1 : MetGluValCysThrLeuCysMetAspGlyPheThrLeuGlnGlnAsnAlaCysIleV :     20
+          |||||||||||||||||||||||||||||||||||||||||| !!|||||||||||||
+          MetGluValCysThrLeuCysMetAspGlyPheThrLeuGln***AsnAlaCysIleV
+ 110392 : ATGGAAGTCTGCACTTTATGTATGGACGGCTTTACATTGCAATAAAATGCGTGCATAG : 110335
+
+     21 : alAsnValCysGluAsnTyrGlnPheTyrAspAlaSerGlnSerAsnSerCysValSe :     39
+          |||||||||||||||||||| !!||||||||||||||| !!|||||||||||||||||
+          alAsnValCysGluAsnTyr***PheTyrAspAlaSer***SerAsnSerCysValSe
+ 110334 : TTAATGTTTGTGAAAACTACTAGTTTTATGATGCCTCATAATCTAATTCATGTGTTTC : 110278
+
+     40 : rLeuCysAsnGlnAsnThrIleGlyValTyrGlyGlnAsnThrCysGlnGlnSerSer :     58
+          |||||||||||||||||||||||||||||||||| !!||||||||| !!|||||||||
+          rLeuCysAsnGlnAsnThrIleGlyValTyrGly***AsnThrCys***GlnSerSer
+ 110277 : TCTTTGCAATCAAAACACAATTGGTGTTTATGGATAAAATACTTGCTAGCAATCAAGT : 110221
+
+     59 : SerCysSerLysArgPheIleGlnSerSerGlnIleSerSerGlnGlnSerIleGlnG :     78
+          ||||||||||||||||||||| !!|||||| !!||||||||| !! !!|||||| !! 
+          SerCysSerLysArgPheIle***SerSer***IleSerSer******SerIle****
+ 110220 : AGTTGTTCTAAAAGATTCATTTAATCATCTTAGATTTCTTCATAGTAATCTATTTAGT : 110161
+
+     79 : lnValGlnTyrTyrIleGlnAsnThrIleIleThrIlePheThrAsnPhePheAsnIl :     97
+          !!||| !!||||||||| !!||||||||||||||||||||||||||||||||||||||
+          **Val***TyrTyrIle***AsnThrIleIleThrIlePheThrAsnPhePheAsnIl
+ 110160 : AAGTCTAGTATTATATTTAGAATACAATCATTACAATATTTACTAACTTTTTCAATAT : 110104
+
+     98 : eIleAspAlaLysThrGlyAlaPheLeuArgAlaGlnThrPheAsnGlnAsnIleIle :    116
+          |||||||||||||||||||||||||||||||||| !!||||||||| !!|||||||||
+          eIleAspAlaLysThrGlyAlaPheLeuArgAla***ThrPheAsn***AsnIleIle
+ 110103 : AATTGATGCAAAGACAGGAGCATTTTTAAGAGCATAAACATTTAACTAGAATATAATT : 110047
+
+    117 : LeuIleLysSerPheAsnAsnThrValTyrMetPheSerAsnLysAsnGlnIlePheG :    136
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+          LeuIleLysSerPheAsnAsnThrValTyrMetPheSerAsnLysAsnGlnIlePhe*
+ 110046 : CTAATAAAATCTTTTAATAATACTGTCTACATGTTTAGCAATAAAAACCAAATTTTTT : 109987
+
+    137 : lnTrpIleSerThrGlnAsnGlnMetAlaLeuIleThrThrAlaGlnGlnGlyIleIl :    155
+          !!|||||||||||||||||| !!||||||||||||||||||||| !! !!||||||||
+          **TrpIleSerThrGlnAsn***MetAlaLeuIleThrThrAla******GlyIleIl
+ 109986 : AGTGGATTAGCACTCAAAACTAAATGGCGTTAATTACAACTGCGTAGTAAGGTATCAT : 109930
+
+    156 : eAsnSerGlnSerAsnIleIleGlnValAsnAsnAsnGlnSerArgLeuPhePheSer :    174
+          ||||||||||||||||||||||||||||||||||||| !!||||||||||||||||||
+          eAsnSerGlnSerAsnIleIleGlnValAsnAsnAsn***SerArgLeuPhePheSer
+ 109929 : AAATAGCCAAAGTAATATTATACAAGTTAATAACAACTAGAGCAGATTATTTTTTAGC : 109873
+
+    175 : SerPheAspAsnGlnGlyGlnGlnIleIlePheSerGluIleAsnGlnAsnGlyPheA :    194
+          ||||||||||||||||||||| !!||||||||||||||||||||| !!||||||||||
+          SerPheAspAsnGlnGlyGln***IleIlePheSerGluIleAsn***AsnGlyPheA
+ 109872 : TCATTTGATAACCAAGGCCAGTAGATAATATTTAGTGAAATAAACTAGAATGGTTTCA : 109813
+
+    195 : snSerIleSerLeuLysTyrAspLeuLeuValThrIleIleLysGlyIleIleValLe :    213
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          snSerIleSerLeuLysTyrAspLeuLeuValThrIleIleLysGlyIleIleValLe
+ 109812 : ATTCTATTTCATTAAAGTATGATCTCTTAGTAACAATAATAAAAGGAATTATTGTACT : 109756
+
+    214 : uGlnAsnAsnGlnTyrGlnValMetLeuIleAsnLeuValGluGlnThrAsnAsnIle :    232
+          | !!|||||| !!|||||||||||||||||||||||||||||| !!||||||||||||
+          u***AsnAsn***TyrGlnValMetLeuIleAsnLeuValGlu***ThrAsnAsnIle
+ 109755 : TTAAAATAATTAATATCAAGTTATGTTAATTAATTTGGTTGAGTAAACTAACAATATT : 109699
+
+    233 : IleGlyPheAsnAsnIleThrThrSerTyrLysCysAsnSerIleGlnGlyGlyValT :    252
+          ||||||||||||||||||||||||||||||||||||||||||||| !!||||||||||
+          IleGlyPheAsnAsnIleThrThrSerTyrLysCysAsnSerIle***GlyGlyValT
+ 109698 : ATTGGTTTTAATAATATAACTACTTCCTATAAGTGTAATAGTATTTAAGGAGGTGTGA : 109639
+
+    253 : hrGlnLeuGluIleSerValThrThrGlnThrTyrPheLeuLeuPheGlnAsnThrAs :    271
+          |||||||||||||||||||||||||| !!|||||||||||||||||| !!||||||||
+          hrGlnLeuGluIleSerValThrThr***ThrTyrPheLeuLeuPhe***AsnThrAs
+ 109638 : CGCAACTTGAAATAAGTGTCACCACTTAGACATACTTCCTGCTATTCTAAAATACTAA : 109582
+
+    272 : nAlaIleValTyrPheSerGlnGlnAsnGlnGlnCysSerAsnSerLeuGluAsnSer :    290
+          ||||||||||||||||||| !! !!||| !! !!||||||||||||||||||||||||
+          nAlaIleValTyrPheSer******Asn******CysSerAsnSerLeuGluAsnSer
+ 109581 : CGCAATAGTATACTTTTCCTAATAAAATTAGTAGTGTTCAAATTCTTTAGAAAATTCA : 109525
+
+    291 : MetProLeuLysIleGlnLeuIleGlnIleAsnSerSerLeuSerSerSerGlyPheA :    310
+          ||||||||||||||| !!||||||||||||||||||||||||||||||||||||||||
+          MetProLeuLysIle***LeuIleGlnIleAsnSerSerLeuSerSerSerGlyPheA
+ 109524 : ATGCCTTTAAAAATATAGCTTATTCAAATAAATTCCTCTCTTTCAAGTAGTGGATTTA : 109465
+
+    311 : snGlnLeuLeuLeuAlaSerPheAlaSerAsnGlnPheLysIleTyrAsnProGlnAs :    329
+          || !!||||||||||||||||||||||||||| !!|||||||||||||||||||||||
+          sn***LeuLeuLeuAlaSerPheAlaSerAsn***PheLysIleTyrAsnProGlnAs
+ 109464 : ATTAATTATTGCTAGCTTCTTTTGCTTCTAATTAATTTAAAATTTATAATCCCCAAAA : 109408
+
+    330 : nGlnValSerLeuPheGluIleLysIleAspAsnGlnIleIleAspPheAsnSerLeu :    348
+          | !!||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          n***ValSerLeuPheGluIleLysIleAspAsnGlnIleIleAspPheAsnSerLeu
+ 109407 : TTAAGTTTCTCTATTTGAAATTAAAATTGATAACCAAATTATTGATTTTAATAGTCTT : 109351
+
+    349 : LeuGluSerAsnAsnSerAsnLysIleTyrPheLeuLysGlnAsnLysIleIleAspV :    368
+          ||||||||||||||||||||||||||||||||||||||| !!||||||||||||||||
+          LeuGluSerAsnAsnSerAsnLysIleTyrPheLeuLys***AsnLysIleIleAspV
+ 109350 : TTAGAAAGTAATAATTCGAATAAAATTTACTTTTTAAAATAAAACAAAATCATTGACG : 109291
+
+    369 : alTyrValIleLeuPheAspGlnSerThrAsnSerIleThrLeuAsnLysIleAsnSe :    387
+          |||||||||||||||||||| !!|||||||||||||||||||||||||||||||||||
+          alTyrValIleLeuPheAsp***SerThrAsnSerIleThrLeuAsnLysIleAsnSe
+ 109290 : TATATGTAATTCTTTTTGATTAATCAACTAACAGTATTACGCTCAATAAAATTAACAG : 109234
+
+    388 : rLeuGlnSerLeuIleSerAsnProMetGlnLeuIleThrIleGlnGlnAlaIleSer :    406
+          |||| !!||||||||||||||||||||||||||||||||||||||| !!|||||||||
+          rLeu***SerLeuIleSerAsnProMetGlnLeuIleThrIleGln***AlaIleSer
+ 109233 : CTTATAATCTCTAATATCAAATCCAATGCAACTAATTACTATACAGTAAGCTATTTCC : 109177
+
+    407 : SerGlnGlnProIleGlnIleGlyValIleGlyGlnAspIleGlnLeuIleAspIleS :    426
+          ||| !! !!|||||| !!||||||||||||||| !!||||||||||||||||||||||
+          Ser******ProIle***IleGlyValIleGly***AspIleGlnLeuIleAspIleS
+ 109176 : TCTTAATAGCCTATATAAATTGGTGTGATAGGATAAGATATTCAATTAATTGACATTT : 109117
+
+    427 : erGlnAspAsnThrGlnGlyIleThrValAsnTyrGlnGluValAlaAsnTyrAsnGl :    445
+          || !!||||||||| !!|||||||||||||||||| !!||||||||||||||||||||
+          er***AspAsnThr***GlyIleThrValAsnTyr***GluValAlaAsnTyrAsnGl
+ 109116 : CATAAGACAATACATAAGGCATTACTGTTAATTATTAAGAGGTAGCAAACTATAATCA : 109060
+
+    446 : nGlyGlnIleAsnLysLeuTyrTyrAlaGluGluIleAsnLeuSerIleSerCysSer :    464
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          nGlyGlnIleAsnLysLeuTyrTyrAlaGluGluIleAsnLeuSerIleSerCysSer
+ 109059 : AGGACAAATCAACAAACTCTACTATGCAGAGGAAATAAATCTATCTATAAGTTGTTCA : 109003
+
+    465 : GlnAspGlyLysLeuValValTrpLysGlnValAspProLeuAsnProGlnPheTyrT :    484
+           !!|||||||||||||||||||||||| !!|||||||||||||||||| !!|||||||
+          ***AspGlyLysLeuValValTrpLys***ValAspProLeuAsnPro***PheTyrT
+ 109002 : TAAGATGGCAAATTGGTTGTATGGAAGTAAGTTGACCCTCTAAACCCTTAATTTTACT : 108943
+
+    485 : yrGlnValGlnPheProAsnGlnSerCysIleAspAlaIleIlePheGlnSerArgLe :    503
+          |||||||| !!||||||||| !!|||||||||||||||||||||||| !!||||||||
+          yrGlnVal***PheProAsn***SerCysIleAspAlaIleIlePhe***SerArgLe
+ 108942 : ATCAAGTTTAATTTCCTAACTAATCTTGTATTGACGCAATCATATTTTAATCTAGGCT : 108886
+
+    504 : uValValSerLeuPheSerAsnGlnIleTyrIlePheAsnIlePheAsnGlnTyrIle :    522
+          |||||||||||||||||||||| !!|||||||||||||||||||||||| !!||||||
+          uValValSerLeuPheSerAsn***IleTyrIlePheAsnIlePheAsn***TyrIle
+ 108885 : GGTTGTATCCCTTTTCTCTAATTAAATTTACATCTTTAATATATTTAATTAGTATATC : 108829
+
+    523 : AsnGlnSerIleProIleAsnAsnGlnGlnGlnSerGlyIleAsnIleCysAsnAsnA :    542
+          ||| !!||||||||||||||||||||| !! !!|||||||||||||||||||||||||
+          Asn***SerIleProIleAsnAsnGln******SerGlyIleAsnIleCysAsnAsnA
+ 108828 : AACTAAAGCATACCAATTAATAACCAGTAATAATCAGGAATTAATATATGTAATAATA : 108769
+
+    543 : snIlePheLeuPhePheAsnGlnGlnIleGlnValMetThrAspIleAsnGlnValPh :    561
+          |||||||||||||||||||| !! !!||| !!||||||||||||||||||||||||||
+          snIlePheLeuPhePheAsn******Ile***ValMetThrAspIleAsnGlnValPh
+ 108768 : ACATATTCCTTTTTTTTAATTAATAAATTTAAGTAATGACAGACATTAATCAAGTTTT : 108712
+
+    562 : eTyrThrPheGlnIleProLysGlnAlaGlnAsnValPheTyrSerAlaSerAsnAsp :    580
+          |||||||||| !!||||||||| !!||| !!|||||||||||||||||||||||||||
+          eTyrThrPhe***IleProLys***Ala***AsnValPheTyrSerAlaSerAsnAsp
+ 108711 : TTATACATTTTAAATTCCCAAATAAGCATAAAACGTTTTTTATTCCGCTTCAAACGAC : 108655
+
+    581 : IleTyrIleLeuAspLysThrAsnThrIleThrAlaTyrSerPheSerAsnGlySerI :    600
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          IleTyrIleLeuAspLysThrAsnThrIleThrAlaTyrSerPheSerAsnGlySerI
+ 108654 : ATATACATATTGGACAAAACTAACACTATAACAGCTTACTCATTTAGTAATGGCTCTA : 108595
+
+    601 : leGlnIleLysThrThrValThrProTyrGlnPheGlnValProLeuValLysSerTy :    619
+          || !!|||||||||||||||||||||||||||||| !!||||||||||||||||||||
+          le***IleLysThrThrValThrProTyrGlnPhe***ValProLeuValLysSerTy
+ 108594 : TTTAAATAAAAACTACAGTCACGCCATACCAGTTCTAAGTACCTTTGGTTAAATCTTA : 108538
+
+    620 : rLeuPheAspLeuAspAsnGly{A}  >>>> Target Intron 1 >>>>  {sp} :    627
+          ||||||||||||||||||||||{|}            280 bp           {||}
+          rLeuPheAspLeuAspAsnGly{A}++                         ++{sp}
+ 108537 : TCTTTTTGATCTAGATAATGGA{G}gt.........................ag{AT} : 108233
+
+    628 : ValArgLeuMetValAlaAspThrAsnAsnGlnIleThrIleLeuAsnSerGlnLeuA :    647
+          |||||||||||||||||||||||||||||| !!|||||||||||||||||| !!||||
+          ValArgLeuMetValAlaAspThrAsnAsn***IleThrIleLeuAsnSer***LeuA
+ 108232 : GTTCGCTTGATGGTAGCTGATACTAACAACTAAATAACAATCTTAAATAGTTAGCTAA : 108174
+
+    648 : snLeuSerPheProLeuIleLysLeuAspGlyValAsnArgGlnIleTyrGlnTyrAs :    666
+          ||||||||||||||||||||||||||||||||||||||||| !!|||||| !!|||||
+          snLeuSerPheProLeuIleLysLeuAspGlyValAsnArg***IleTyr***TyrAs
+ 108173 : ATCTTTCTTTTCCCCTAATAAAATTGGATGGAGTAAATAGATAAATTTACTAATATAA : 108117
+
+    667 : nSerThrLeuTyrPheValLeuLeuPheAlaProAsnLysAsnLysSerTyrProPhe :    685
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          nSerThrLeuTyrPheValLeuLeuPheAlaProAsnLysAsnLysSerTyrProPhe
+ 108116 : TTCTACACTTTATTTTGTGCTACTCTTTGCTCCAAACAAAAACAAAAGTTACCCTTTC : 108060
+
+    686 : AlaPheGluCysIleAspLeuSerThrThrThrProSerValLeuAsnValHisGlnV :    705
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          AlaPheGluCysIleAspLeuSerThrThrThrProSerValLeuAsnValHisGlnV
+ 108059 : GCTTTTGAATGCATAGATCTTTCGACAACAACTCCTTCTGTTTTAAATGTTCACCAAG : 108000
+
+    706 : alLeuAsnCysValGlnIleValTyrValLysLysGlnMetAsnAsnProProGluLe :    724
+          ||||||||||||||||||||||||||||||||||| !!||||||||||||||||||||
+          alLeuAsnCysValGlnIleValTyrValLysLys***MetAsnAsnProProGluLe
+ 107999 : TTTTGAATTGCGTTCAGATAGTTTATGTTAAAAAGTAAATGAATAATCCTCCTGAATT : 107943
+
+    725 : uAspTyrTyrPheTyrLeuThrAlaIleValProMetGlyTyrThrSerIleMetIle :    743
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          uAspTyrTyrPheTyrLeuThrAlaIleValProMetGlyTyrThrSerIleMetIle
+ 107942 : AGACTATTACTTTTATTTAACTGCAATAGTTCCTATGGGCTATACAAGTATTATGATT : 107886
+
+    744 : GluValThrTrpAsnLysLysLeuGlnAsnAsnValLeuGluLysPheIleTyrTyrP :    763
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          GluValThrTrpAsnLysLysLeuGlnAsnAsnValLeuGluLysPheIleTyrTyrP
+ 107885 : GAAGTAACTTGGAATAAAAAATTACAAAACAATGTATTAGAAAAATTTATTTACTATC : 107826
+
+    764 : roAsnGlnSerIleAsnIleAlaTyrProSerLysGlyAsnThrLeuIleMetSerGl :    782
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          roAsnGlnSerIleAsnIleAlaTyrProSerLysGlyAsnThrLeuIleMetSerGl
+ 107825 : CTAATCAGTCAATAAATATTGCATATCCAAGTAAAGGAAATACCTTAATTATGAGCGG : 107769
+
+    783 : yThrLeuThrGlyTyrValGlyValValProTyrAsnLysGlnGlySerMetGlnAsn :    801
+          |||||||||||||||||||||||||||||||||||||||| !!|||||||||||||||
+          yThrLeuThrGlyTyrValGlyValValProTyrAsnLys***GlySerMetGlnAsn
+ 107768 : AACTTTAACTGGTTATGTTGGTGTAGTTCCCTACAACAAGTAAGGTTCTATGCAAAAC : 107712
+
+    802 : IlePheSerLeuProThrLeuSerAsnGlyAspGlnIleLysGlnValTyrTyrSerP :    821
+          ||||||||||||||||||||||||||||||||| !!|||||| !!|||||||||||||
+          IlePheSerLeuProThrLeuSerAsnGlyAsp***IleLys***ValTyrTyrSerP
+ 107711 : ATATTTTCTCTACCAACTTTATCTAATGGAGATTAGATTAAATAAGTTTATTACAGCT : 107652
+
+    822 : heLysLeuGlyLeuIlePheIleGlnAlaGlnAsnAspValTyrLeuGlnSerIlePh :    840
+          ||||||||||||||||||||||| !!||| !!||||||||||||||| !!||||||||
+          heLysLeuGlyLeuIlePheIle***Ala***AsnAspValTyrLeu***SerIlePh
+ 107651 : TTAAGTTAGGTTTGATTTTCATTTAAGCTTAAAATGATGTTTATTTATAAAGTATATT : 107595
+
+    841 : eThrLeuGlnGlnThrGlyLysLeuSerLeuAlaAsnValAsnGlyAspSerTyrIle :    859
+          ||||||| !!||||||||||||||||||||||||||||||||||||||||||||||||
+          eThrLeu***GlnThrGlyLysLeuSerLeuAlaAsnValAsnGlyAspSerTyrIle
+ 107594 : TACTTTATAACAAACTGGAAAACTTTCTCTAGCAAATGTTAATGGAGACTCATATATT : 107538
+
+    860 : AsnGlyLeuGlnPheSerAspIleSerLysIlePheValPheTyr{T}  >>>> Tar :    875
+          ||||||||| !!|||||||||||||||||||||||||||||||||{|}          
+          AsnGlyLeu***PheSerAspIleSerLysIlePheValPheTyr{T}++        
+ 107537 : AATGGGCTCTAATTTTCAGATATTTCAAAAATATTTGTTTTCTAC{A}gt........ : 107487
+
+    876 : get Intron 2 >>>>  {hr}CysPheIleAspAspLysSerGlnGlnIleIleVa :    887
+            93 bp            {||}||||||||||||||||||||| !! !!||||||||
+                           ++{hr}CysPheIleAspAspLysSer******IleIleVa
+ 107486 : .................ag{CA}TGCTTTATAGATGATAAAAGCTAATAAATAATTGT : 107361
+
+    888 : lTyrGlyAspSerLeuValGlnTyrAspPheThrLeuSerAsnGlnLysValIleSer :    906
+          ||||||||||||||||||| !!||||||||||||||||||||| !!||||||||||||
+          lTyrGlyAspSerLeuVal***TyrAspPheThrLeuSerAsn***LysValIleSer
+ 107360 : CTATGGAGATTCATTGGTCTAATATGATTTCACTTTATCAAACTAAAAAGTTATTTCT : 107304
+
+    907 : ThrProPheGlnGlnAsnTyrThrGlnCysIlePheLeuProAsnAsnValMetCysI :    926
+          ||||||||| !!|||||||||||| !!|||||||||||||||||||||||||||||||
+          ThrProPhe***GlnAsnTyrThr***CysIlePheLeuProAsnAsnValMetCysI
+ 107303 : ACACCTTTCTAGCAAAACTATACTTAGTGCATATTTTTACCAAATAATGTAATGTGTA : 107244
+
+    927 : leMetAsnAsnAsnTyrIleGlnPhePheAsnArgGlyThrGlnLeuValSerThrMe :    945
+          |||||||||||||||||||| !!|||||||||||||||||| !!||||||||||||||
+          leMetAsnAsnAsnTyrIle***PhePheAsnArgGlyThr***LeuValSerThrMe
+ 107243 : TAATGAATAATAACTACATTTAATTTTTTAATAGAGGTACCTAATTAGTTAGTACAAT : 107187
+
+    946 : tIleLeuLysIleThrSerMetAsnGlnPheSerIleLeuGlyAspAsnAspAsnGln :    964
+          ||||||||||||||||||||||||| !!||||||||||||||||||||||||||| !!
+          tIleLeuLysIleThrSerMetAsn***PheSerIleLeuGlyAspAsnAspAsn***
+ 107186 : GATCCTTAAAATAACCTCTATGAATTAGTTTAGCATACTGGGAGACAATGATAATTAA : 107130
+
+    965 : PheLeuTyrValTyrGlnAsnMetIleGluValTyrThrPheGlnGlyValIleLysG :    984
+          ||||||||||||||| !!|||||||||||||||||||||||| !!|||||||||||| 
+          PheLeuTyrValTyr***AsnMetIleGluValTyrThrPhe***GlyValIleLys*
+ 107129 : TTCTTGTATGTTTATTAAAATATGATTGAAGTATATACTTTTTAAGGTGTAATAAAGT : 107070
+
+    985 : lnThrPheThrGlnMetAsnMetTyrIlePheGlnLeuGlnPheSerGlyLeuTyrIl :   1003
+          !!||||||||| !!|||||||||||||||||| !!|||||||||||||||||||||||
+          **ThrPheThr***MetAsnMetTyrIlePhe***LeuGlnPheSerGlyLeuTyrIl
+ 107069 : AAACTTTTACTTAAATGAATATGTACATATTCTAGCTTCAGTTTTCAGGACTATACAT : 107013
+
+   1004 : eValAlaTyrThrSerSer{T}  >>>> Target Intron 3 >>>>  {hr}Ala :   1011
+          |||||||||||||||||||{|}            87 bp            {||}|||
+          eValAlaTyrThrSerSer{T}++                         ++{hr}Ala
+ 107012 : AGTGGCTTACACCTCATCA{A}gt.........................ag{CT}GCC : 106902
+
+   1012 : TyrIleIleSerArgThrAspLeuSerLeuIleAsnThrPheGlnProSerGlySerS :   1031
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          TyrIleIleSerArgThrAspLeuSerLeuIleAsnThrPheGlnProSerGlySerS
+ 106901 : TATATAATATCAAGAACAGATCTCAGTTTAATAAATACATTCCAACCATCTGGCTCAT : 106842
+
+   1032 : erLeuMetArgGlyPheTyrPheSerGluIleAsnMetIleAlaTyrIleThrAsnGl :   1050
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          erLeuMetArgGlyPheTyrPheSerGluIleAsnMetIleAlaTyrIleThrAsnGl
+ 106841 : CTTTGATGAGAGGCTTTTATTTTAGTGAAATCAATATGATTGCATACATAACCAATGA : 106785
+
+   1051 : uIleArgPheGlyGlnIleLysPheTyrAsnLeuAsnAsnPheGlnAlaLeuGlySer :   1069
+          ||||||||||||| !!||||||||||||||||||||||||||| !!||||||||||||
+          uIleArgPheGly***IleLysPheTyrAsnLeuAsnAsnPhe***AlaLeuGlySer
+ 106784 : AATAAGATTTGGATAAATTAAATTTTATAACTTGAATAATTTTTAGGCACTTGGTAGC : 106728
+
+   1070 : LeuThrAsnGlnPheThrGlnAsnGlnValGlyIleProValGluMetTyrTyrAspA :   1089
+          |||||||||||||||||| !!||| !!|||||||||||||||||||||||||||||||
+          LeuThrAsnGlnPheThr***Asn***ValGlyIleProValGluMetTyrTyrAspA
+ 106727 : TTAACAAATCAATTCACTTAAAATTAGGTTGGAATTCCAGTTGAAATGTACTACGATG : 106668
+
+   1090 : laAspAsnSerMetIleAsnTyrIleAspGlnTyrGlyAsnGlnGlnLeuAlaAsnPh :   1108
+          ||||||||||||||||||||||||||||| !!||||||||| !!||||||||||||||
+          laAspAsnSerMetIleAsnTyrIleAsp***TyrGlyAsn***GlnLeuAlaAsnPh
+ 106667 : CTGATAATTCTATGATTAATTATATTGATTAGTATGGAAATTAGCAATTAGCAAATTT : 106611
+
+   1109 : eGlyAlaGlnIleAsnThrTyrAsnMetIleAlaIleProGlnMetGlnGlnGlnLys :   1127
+          ||||||| !!|||||||||||||||||||||||||||||| !!||| !! !! !!|||
+          eGlyAla***IleAsnThrTyrAsnMetIleAlaIlePro***Met*********Lys
+ 106610 : TGGAGCCTAAATAAATACCTACAATATGATTGCTATACCTTAAATGTAGTAATAAAAA : 106554
+
+   1128 : IleProGlnProThrAspMetIleThrAsnSerAspMetAsnGluAspTyrIleTyrA :   1147
+          |||||| !!|||||||||||||||||||||||||||||||||||||||||||||||||
+          IlePro***ProThrAspMetIleThrAsnSerAspMetAsnGluAspTyrIleTyrA
+ 106553 : ATACCATAACCAACTGATATGATAACAAATTCTGATATGAATGAAGATTATATTTACA : 106494
+
+   1148 : snProGlnGlyValTrpArgValSerAsnSerLeuLeuLeuLysValPheGlnAsnSe :   1166
+          ||||| !!|||||||||||||||||||||||||||||||||||||||||| !!|||||
+          snPro***GlyValTrpArgValSerAsnSerLeuLeuLeuLysValPhe***AsnSe
+ 106493 : ATCCCTAAGGAGTTTGGAGAGTTAGTAATAGCTTGCTATTAAAGGTTTTCTAAAATTC : 106437
+
+   1167 : rPheAsnLysAsnLysGlnLeuTyrIleLeuMetAsnThrGlnTyrAspSerThrGln :   1185
+          |||||||||||||||| !!||||||||||||||||||||| !!|||||||||||| !!
+          rPheAsnLysAsnLys***LeuTyrIleLeuMetAsnThr***TyrAspSerThr***
+ 106436 : ATTTAATAAAAACAAGTAACTCTATATATTAATGAATACTTAATATGATTCTACCTAA : 106380
+
+   1186 : AsnAsnAlaSerMetValPheValAspAsnAsnAsnAsnLeuPheAsnTyrGlnAsnP :   1205
+          ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||
+          AsnAsnAlaSerMetValPheValAspAsnAsnAsnAsnLeuPheAsnTyr***AsnP
+ 106379 : AATAATGCCTCAATGGTTTTTGTTGATAATAATAATAATTTATTCAATTACTAAAATT : 106320
+
+   1206 : heGlnValThrTyrIleThrAlaPheAsnAsnGlnValSerGluMetArgValIleTy :   1224
+          || !!||||||||||||||||||||||||||| !!|||||||||||||||||||||||
+          he***ValThrTyrIleThrAlaPheAsnAsn***ValSerGluMetArgValIleTy
+ 106319 : TCTAGGTCACTTACATAACTGCATTCAATAACTAGGTTTCAGAAATGAGAGTTATATA : 106263
+
+   1225 : rGlnGlnAsnThrArgPheAsnIleLeuValPheSerGlnSerIleIlePhePheVal :   1243
+          | !! !!|||||||||||||||||||||||||||||| !!||||||||||||||||||
+          r******AsnThrArgPheAsnIleLeuValPheSer***SerIleIlePhePheVal
+ 106262 : TTAATAAAATACCAGATTTAATATTTTGGTTTTTTCTTAATCAATTATATTTTTTGTA : 106206
+
+   1244 : GlyGluAsnValGlnPheSerAsnIleSerSerAlaGlnThrIleSerAsnThrAsnL :   1263
+          |||||||||||| !!|||||||||||||||||||||||||||||||||||||||||||
+          GlyGluAsnVal***PheSerAsnIleSerSerAlaGlnThrIleSerAsnThrAsnL
+ 106205 : GGTGAGAACGTTTAGTTTTCTAATATATCATCAGCTCAAACTATTTCAAATACTAACT : 106146
+
+   1264 : euArgLysPheLeuTyrSerAspAsnGlyTyrAlaIlePheGlnThrTyrGlnAsnGl :   1282
+          ||||||||||||||||||||||||||||||||||||||||| !!|||||| !!|||||
+          euArgLysPheLeuTyrSerAspAsnGlyTyrAlaIlePhe***ThrTyr***AsnGl
+ 106145 : TAAGAAAATTCCTTTATTCAGATAACGGATACGCTATATTTTAAACATATTAAAATGA : 106089
+
+   1283 : uIleValAspTyrAsnPheSerLysSerGlnLysLeuTyrSerPheThrPheAspGln :   1301
+          |||||||||||||||||||||||||||| !!|||||||||||||||||||||||| !!
+          uIleValAspTyrAsnPheSerLysSer***LysLeuTyrSerPheThrPheAsp***
+ 106088 : AATAGTAGATTATAATTTCAGTAAAAGCTAAAAACTCTACTCTTTTACTTTTGATTAA : 106032
+
+   1302 : AsnSerMetIleGlnAspValPheValTyrIleAsnProLeuAspLeuLysThrGlnP :   1321
+          |||||||||||| !!||||||||||||||||||||||||||||||||||||||| !!|
+          AsnSerMetIle***AspValPheValTyrIleAsnProLeuAspLeuLysThr***P
+ 106031 : AATAGCATGATTTAAGATGTATTCGTTTACATTAATCCTCTTGACCTGAAAACATAAT : 105972
+
+   1322 : heLeuTyrPheSerThrSerThrGlyMetIleTyrAlaTyrAspMetValAsnLysLy :   1340
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          heLeuTyrPheSerThrSerThrGlyMetIleTyrAlaTyrAspMetValAsnLysLy
+ 105971 : TTCTCTATTTTTCAACCAGTACAGGGATGATATATGCTTATGATATGGTCAATAAAAA : 105915
+
+   1341 : sPheAlaSerTyrSerLeuPheSerAsnGlnAspValValMetLysPheValLeuLeu :   1359
+          |||||||||||||||||||||||||||| !!|||||||||||||||||||||||||||
+          sPheAlaSerTyrSerLeuPheSerAsn***AspValValMetLysPheValLeuLeu
+ 105914 : ATTTGCATCTTACTCACTCTTTAGTAATTAAGACGTTGTTATGAAATTTGTTTTGCTA : 105858
+
+   1360 : AsnTyrProAsnIleSerLeuLeuMetLysSerGlyAsnIleValGluValAspCysT :   1379
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          AsnTyrProAsnIleSerLeuLeuMetLysSerGlyAsnIleValGluValAspCysT
+ 105857 : AATTACCCTAACATATCTTTATTAATGAAATCTGGCAATATCGTTGAAGTAGATTGCA : 105798
+
+   1380 : hrSerPheThrLeuGlnSerThrGlnAsnLeuAsnAsnIleAlaLysAsnPheGlnLe :   1398
+          |||||||||||||| !!|||||||||||||||||||||||||||||||||||| !!||
+          hrSerPheThrLeu***SerThrGlnAsnLeuAsnAsnIleAlaLysAsnPhe***Le
+ 105797 : CTAGTTTCACACTCTAGAGTACTCAAAACTTAAATAATATTGCAAAGAATTTTTAGTT : 105741
+
+   1399 : uProIleSerGluValLysThrGlnAsnIleProMetLeuTyrTyrAspAsnLysSer :   1417
+          |||||||||||||||||||||| !!|||||||||||||||||||||||||||||||||
+          uProIleSerGluValLysThr***AsnIleProMetLeuTyrTyrAspAsnLysSer
+ 105740 : ACCTATTTCTGAAGTCAAAACATAAAATATTCCTATGTTATATTATGACAATAAAAGT : 105684
+
+   1418 : AsnTyrPheTyrLeuSerIleAlaGluGluLysGlnLeuGlyValPheArgIleSerA :   1437
+          ||||||||||||||||||||||||||||||||| !!||||||||||||||||||||||
+          AsnTyrPheTyrLeuSerIleAlaGluGluLys***LeuGlyValPheArgIleSerA
+ 105683 : AATTACTTTTATTTAAGTATAGCTGAAGAAAAATAGCTTGGAGTTTTTAGGATTAGTG : 105624
+
+   1438 : spAsnGlnLeuValAlaThrLeuGlyPheProGlnSerTyrLysLysSerPheAsnIl :   1456
+          ||||| !!|||||||||||||||||||||||| !!|||||||||||||||||||||||
+          spAsn***LeuValAlaThrLeuGlyPhePro***SerTyrLysLysSerPheAsnIl
+ 105623 : ATAACTAGCTAGTGGCTACTCTTGGTTTCCCTTAGTCATACAAAAAAAGCTTTAATAT : 105567
+
+   1457 : eThrAsnLysTyrIleIleLeuGlyCysProTyrGlnLeuAsnPheTyrAspArgGln :   1475
+          |||||||||||||||||||||||||||||||||| !!|||||||||||||||||||||
+          eThrAsnLysTyrIleIleLeuGlyCysProTyr***LeuAsnPheTyrAspArgGln
+ 105566 : AACAAATAAATATATCATTTTGGGTTGTCCATATTAATTAAATTTTTACGACAGACAG : 105510
+
+   1476 : PheAsnSerIleGlyArgPheArgArgSerIleGlnLysSerIleAsnGlnIleIleG :   1495
+          ||||||||||||||||||||||||||||||||| !!|||||||||||| !!|||||| 
+          PheAsnSerIleGlyArgPheArgArgSerIle***LysSerIleAsn***IleIle*
+ 105509 : TTTAACTCTATCGGAAGATTTAGAAGGTCTATCTAAAAATCTATTAATTAGATTATAT : 105450
+
+   1496 : lnIlePheAspAspTyrPhePheIleValGlnSerValAlaIleGluThrIlePheIl :   1514
+          !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          **IlePheAspAspTyrPhePheIleValGlnSerValAlaIleGluThrIlePheIl
+ 105449 : AAATATTTGATGACTACTTTTTCATTGTACAGTCAGTAGCAATAGAAACCATCTTTAT : 105393
+
+   1515 : eAsnGlnSerThrSerThrIleGlnLeuIleAspSerIleLeuLeuGlnAsnProPhe :   1533
+          |||| !!||||||||||||||| !!|||||||||||||||||||||||||||||||||
+          eAsn***SerThrSerThrIle***LeuIleAspSerIleLeuLeuGlnAsnProPhe
+ 105392 : AAATTAATCTACCTCTACTATTTAACTAATTGATAGCATCTTGTTGCAAAATCCTTTT : 105336
+
+   1534 : IleTyrTyrTyrGlnLeuIleAspAsnGlnSerSerIleLysIleIleGlyIleSerG :   1553
+          |||||||||||| !!|||||||||||| !!||||||||||||||||||||||||||||
+          IleTyrTyrTyr***LeuIleAspAsn***SerSerIleLysIleIleGlyIleSerG
+ 105335 : ATATATTACTACTAATTAATTGATAACTAAAGCTCAATCAAAATAATCGGAATTTCTC : 105276
+
+   1554 : lnLeuGlyValPheGluGluArgLeuSerValGlyValPheGlnLysGlnAlaGlnSe :   1572
+          ||||||||||||||||||||||||||||||||||||||||| !!||||||||||||||
+          lnLeuGlyValPheGluGluArgLeuSerValGlyValPhe***LysGlnAlaGlnSe
+ 105275 : AATTAGGAGTTTTCGAAGAGCGACTAAGTGTAGGAGTATTTTAAAAGCAGGCACAATC : 105219
+
+   1573 : rLeuThrSerGlnIleLeuSerCysSerAlaGlnLeuSerTyrGlnAsnIleValGln :   1591
+          |||||||||| !!|||||||||||||||||| !!||||||||| !!||||||||| !!
+          rLeuThrSer***IleLeuSerCysSerAla***LeuSerTyr***AsnIleVal***
+ 105218 : TTTAACAAGCTAAATACTTTCTTGTTCAGCCTAGCTTTCATATTAAAATATTGTATAA : 105162
+
+   1592 : ValGlnAsnAspPheTyrSerIleTyrThrProGlnAspLysMetAsnLysAsnPheT :   1611
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          ValGlnAsnAspPheTyrSerIleTyrThrProGlnAspLysMetAsnLysAsnPheT
+ 105161 : GTTCAGAATGATTTTTACAGTATTTACACACCACAAGATAAAATGAATAAGAATTTTT : 105102
+
+   1612 : yrLeuSerValMetIleAsnAsnGluIleGlnGlnLeuAsnPheLeuAsnGlnGlnGl :   1630
+          |||||||||||||||||||||||||||||||| !!||||||||||||||| !! !!||
+          yrLeuSerValMetIleAsnAsnGluIleGln***LeuAsnPheLeuAsn******Gl
+ 105101 : ATTTATCTGTGATGATAAATAATGAAATTCAATAGTTGAATTTTTTGAATTAGTAGGG : 105045
+
+   1631 : yIleGlnPheIleLeuArgProGlnAspMetAsnAsnAsnSerLeuAsnIleArgPro :   1649
+          |||||||||||||||||||||| !!|||||||||||||||||||||||||||||||||
+          yIleGlnPheIleLeuArgPro***AspMetAsnAsnAsnSerLeuAsnIleArgPro
+ 105044 : TATACAATTTATTTTGAGACCTTAAGACATGAACAATAACTCATTAAACATAAGACCC : 104988
+
+   1650 : SerSerPheSerSerIleThrSerAsnLeuTyrMetSerGlnPheAsnLeuLysPheV :   1669
+          ||||||||||||||||||||||||||||||||||||||| !!||||||||||||||||
+          SerSerPheSerSerIleThrSerAsnLeuTyrMetSer***PheAsnLeuLysPheV
+ 104987 : AGCTCATTTTCAAGTATTACTTCCAACTTGTATATGAGTTAATTTAATTTGAAATTTG : 104928
+
+   1670 : alGluGlnGlyGlnSerIleAsnPheSerProAsnSerArgAsnIleThrLeuGlnAs :   1688
+          ||||| !!||| !!||||||||||||||||||||||||||||||||||||||||||||
+          alGlu***Gly***SerIleAsnPheSerProAsnSerArgAsnIleThrLeuGlnAs
+ 104927 : TAGAATAAGGCTAATCTATAAATTTCTCTCCTAATTCACGAAACATAACATTACAAAA : 104871
+
+   1689 : nLeuThrIleGlnAspGlnAsnIleMetLeuGlyThrSerIleAsnPheGlnAsnAsn :   1707
+          |||||||||| !!||| !!|||||||||||||||||||||||||||||| !!||||||
+          nLeuThrIle***Asp***AsnIleMetLeuGlyThrSerIleAsnPhe***AsnAsn
+ 104870 : TTTAACAATCTAAGATTAAAATATTATGCTTGGAACCTCCATAAACTTTTAAAATAAT : 104814
+
+   1708 : GlnLeuIleGlnIleIleAsnMetAsnIleGluAsnValAsnPheGlnSerSerSerT :   1727
+          ||||||||| !!||||||||||||||||||||||||||||||||| !!||||||||||
+          GlnLeuIle***IleIleAsnMetAsnIleGluAsnValAsnPhe***SerSerSerT
+ 104813 : CAATTAATTTAAATAATAAACATGAATATAGAAAATGTAAATTTCTAATCTTCGTCAA : 104754
+
+   1728 : hrAsnSerGlyAsnAsnGlnThrAsnAsnSerLeuPheGlnPheAsnGlyIleAspTy :   1746
+          |||||||||||||||||||||||||||||||||||||| !!|||||||||||||||||
+          hrAsnSerGlyAsnAsnGlnThrAsnAsnSerLeuPhe***PheAsnGlyIleAspTy
+ 104753 : CAAATAGTGGAAACAATCAAACAAACAATTCTCTATTTTAGTTTAATGGAATTGATTA : 104697
+
+   1747 : rIleLeuIleGluGluMetThrIleGlnAsnLeuAsnGlnAlaGluGlyAsnLeuGln :   1765
+          ||||||||||||||||||||||||| !!||||||||| !!||||||||||||||||||
+          rIleLeuIleGluGluMetThrIle***AsnLeuAsn***AlaGluGlyAsnLeuGln
+ 104696 : TATATTAATAGAAGAAATGACCATTTAGAATTTGAATTAAGCAGAAGGTAATCTGCAG : 104640
+
+   1766 : PheIleAsnAlaGlnAsnValLysGlnPheIleIleArgLysLeuValIleMetAsnS :   1785
+          |||||||||||| !!||||||||| !!|||||||||||||||||||||||||||||||
+          PheIleAsnAla***AsnValLys***PheIleIleArgLysLeuValIleMetAsnS
+ 104639 : TTCATAAATGCATAAAATGTCAAATAATTTATAATTAGAAAGCTTGTTATAATGAATA : 104580
+
+   1786 : erThrPheAlaAsnAsnPheIleGlnLeuAsnTrpLeuValLysLeuArgIleMetAs :   1804
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          erThrPheAlaAsnAsnPheIleGlnLeuAsnTrpLeuValLysLeuArgIleMetAs
+ 104579 : GTACATTTGCAAATAATTTTATTCAACTTAATTGGCTAGTTAAGCTTAGAATAATGGA : 104523
+
+   1805 : pLeuGlnIleIleAspCysHisArgThrGlnGlnSerGlnArgLeuLeuGlnAlaSer :   1823
+          ||||||||||||||||||||||||||||||| !!||| !!||||||||| !!||||||
+          pLeuGlnIleIleAspCysHisArgThrGln***Ser***ArgLeuLeu***AlaSer
+ 104522 : TTTGCAAATTATTGATTGCCATAGAACTCAATAATCATAGAGGTTGTTGTAGGCTAGC : 104466
+
+   1824 : AsnThrIleLeuProIleTyrValMetGlnPheAsnGlyIleGlnAsnIleGlnIleP :   1843
+          |||||||||||||||||||||||||||||||||||||||||| !!|||||||||||||
+          AsnThrIleLeuProIleTyrValMetGlnPheAsnGlyIle***AsnIleGlnIleP
+ 104465 : AATACAATTTTACCTATTTATGTCATGCAGTTTAACGGAATTTAGAATATTCAAATTT : 104406
+
+   1844 : heAsnMetThrLeuGlnAsnAsnLysGluIleGlnPheIleGluThrSerAsnAlaTy :   1862
+          |||||||||||||| !!||||||||||||||| !!|||||||||||||||||||||||
+          heAsnMetThrLeu***AsnAsnLysGluIle***PheIleGluThrSerAsnAlaTy
+ 104405 : TTAACATGACCCTTTAAAATAATAAAGAAATCTAATTTATTGAAACAAGTAATGCCTA : 104349
+
+   1863 : rSerLeuAsnAsnLeuThrTyrIleLeuAsnAsnAspThrPhePheIleGlnAsnSer :   1881
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          rSerLeuAsnAsnLeuThrTyrIleLeuAsnAsnAspThrPhePheIleGlnAsnSer
+ 104348 : CTCATTAAATAACCTCACTTATATTCTGAATAATGATACTTTTTTCATACAAAATTCT : 104292
+
+   1882 : AsnPheAlaAsnAsnSerPheProAsnGlnPheAsnTyrAspAsnGlnIleAsnLeuV :   1901
+          ||||||||||||||||||||||||||| !!||||||||||||||| !!||||||||||
+          AsnPheAlaAsnAsnSerPheProAsn***PheAsnTyrAspAsn***IleAsnLeuV
+ 104291 : AATTTCGCAAACAACTCTTTTCCAAATTAATTTAATTATGATAATTAAATTAATTTAG : 104232
+
+   1902 : alTyrLeuGlnThrSerPheIleGlnIleGlnArgValValTyrGlnLeuAsnGlnGl :   1920
+          ||||||||||||||||||||||| !!||||||||||||||||||||||||||| !!||
+          alTyrLeuGlnThrSerPheIle***IleGlnArgValValTyrGlnLeuAsn***Gl
+ 104231 : TTTATCTACAAACATCATTTATATAAATACAAAGAGTTGTTTATCAATTAAACTAAGG : 104175
+
+   1921 : yAsnIlePheIleSerAspAlaGlnGlnValSerIleAspSerSerSerPheGlnGln :   1939
+          |||||||||||||||||||||| !! !!|||||||||||||||||||||||| !! !!
+          yAsnIlePheIleSerAspAla******ValSerIleAspSerSerSerPhe******
+ 104174 : AAATATATTTATTAGTGATGCTTAATAAGTAAGTATTGACTCCTCTAGTTTTTAATAG : 104118
+
+   1940 : AsnLysGlyValLeuGlyAlaSerValGlnPheGlnAsnIleLysGlnMetValThrI :   1959
+          ||||||||||||||||||||||||||||||||| !!||||||||| !!||||||||||
+          AsnLysGlyValLeuGlyAlaSerValGlnPhe***AsnIleLys***MetValThrI
+ 104117 : AATAAAGGGGTATTGGGAGCCTCTGTTCAATTTTAAAATATTAAATAAATGGTAACAA : 104058
+
+   1960 : leThrAsnSerIlePheAsnAsnAsnThrValValAlaSerGlyGlyAlaLeuTyrPh :   1978
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          leThrAsnSerIlePheAsnAsnAsnThrValValAlaSerGlyGlyAlaLeuTyrPh
+ 104057 : TTACAAACTCAATCTTTAATAATAATACAGTTGTAGCTAGTGGTGGAGCTCTCTACTT : 104001
+
+   1979 : eGluAsnIleAsnSerLeuThrIleAspLysAsnSerSerPheIleAsnAsnLeuAla :   1997
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          eGluAsnIleAsnSerLeuThrIleAspLysAsnSerSerPheIleAsnAsnLeuAla
+ 104000 : CGAAAATATAAACTCTCTTACAATCGATAAGAATAGTAGCTTCATTAATAACTTAGCA : 103944
+
+   1998 : LeuIleGlyGlyAlaIleArgIleValIleAsnAspGlnGlnTyrGluLysLeuIleP :   2017
+          |||||||||||||||||||||||||||||||||||| !! !!||||||||||||||||
+          LeuIleGlyGlyAlaIleArgIleValIleAsnAsp******TyrGluLysLeuIleP
+ 103943 : TTAATTGGTGGAGCAATCAGAATTGTTATTAATGACTAATAATATGAAAAACTCATTT : 103884
+
+   2018 : heAsnAsnGlnTyrIleAsnPheIleLysCysSerPheSerGlyAsnSerAlaThrIl :   2036
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          heAsnAsnGlnTyrIleAsnPheIleLysCysSerPheSerGlyAsnSerAlaThrIl
+ 103883 : TTAATAATCAATATATTAATTTCATAAAATGTAGCTTTTCAGGAAATTCAGCAACTAT : 103827
+
+   2037 : ePheGlyGlnAspIleAlaSerTyrProSerSerPheLeuValSerGlnSerAsnAsn :   2055
+          ||||||| !!|||||||||||||||||||||||||||||||||||| !!|||||||||
+          ePheGly***AspIleAlaSerTyrProSerSerPheLeuValSer***SerAsnAsn
+ 103826 : ATTTGGATAAGATATAGCAAGCTATCCTTCTTCCTTTTTAGTCAGCTAATCTAATAAT : 103770
+
+   2056 : AsnGlnGlnAspGlnGlnLysValLeuTyrGlnGlyLysPheGlnAspThrIleLysA :   2075
+          ||| !!|||||| !!||||||||||||||| !!||||||||| !!|||||||||||||
+          Asn***GlnAsp***GlnLysValLeuTyr***GlyLysPhe***AspThrIleLysA
+ 103769 : AACTAACAAGACTAACAAAAAGTTTTATATTAGGGTAAATTTTAAGATACCATAAAGG : 103710
+
+   2076 : spThrIleIleIleLysAsnLeuGlnSerGlyGlyAsnValTyrLeuAsnValGlnMe :   2094
+          ||||||||||||||||||||||| !!||||||||||||||||||||||||||| !!||
+          spThrIleIleIleLysAsnLeu***SerGlyGlyAsnValTyrLeuAsnVal***Me
+ 103709 : ATACAATAATAATTAAAAATCTTTAGAGTGGAGGTAATGTTTATCTAAATGTATAGAT : 103653
+
+   2095 : tLeuAspGluGlnGlySerIleIleLysLeuGluSerAspLysIleGlnSerLysSer :   2113
+          |||||||||| !!|||||||||||||||||||||||||||||||||||||||||||||
+          tLeuAspGlu***GlySerIleIleLysLeuGluSerAspLysIleGlnSerLysSer
+ 103652 : GTTAGATGAATAAGGTAGTATAATTAAGCTAGAATCTGATAAGATACAAAGTAAATCA : 103596
+
+   2114 : TyrProLeuSerIleArgAsnGluLeuGlnTyrTyrGlnIleGlnIleTyrGlyAsnP :   2133
+          ||||||||||||||||||||||||||| !!|||||| !!||| !!|||||||||||||
+          TyrProLeuSerIleArgAsnGluLeu***TyrTyr***Ile***IleTyrGlyAsnP
+ 103595 : TATCCTTTATCAATTAGAAATGAGCTTTAATATTATTAAATATAAATTTATGGTAATC : 103536
+
+   2134 : roSerAspAsnArgLeuGluIleLysGlyGluSerLeuIleSerThrLysGlnPheAs :   2152
+          |||||||||||||||||||||||||||||||||||||||||||||||||| !!|||||
+          roSerAspAsnArgLeuGluIleLysGlyGluSerLeuIleSerThrLys***PheAs
+ 103535 : CTTCTGATAATAGATTAGAAATCAAGGGAGAAAGTTTGATAAGTACCAAATAGTTTAA : 103479
+
+   2153 : nSerGluIleMetAlaPheGlnPheAsnAsnIleValPheSerAlaAsnProThrSer :   2171
+          ||||||||||||||||||| !!||||||||||||||||||||||||||||||||||||
+          nSerGluIleMetAlaPhe***PheAsnAsnIleValPheSerAlaAsnProThrSer
+ 103478 : TTCAGAAATAATGGCATTTTAATTTAACAATATAGTTTTTTCTGCAAACCCTACTTCT : 103422
+
+   2172 : ValIleGlnAsnSerAlaGlnLeuLeuMetGlnIleAsnSerTrpHisIleAsnTyrG :   2191
+          |||||| !!||||||||| !!||||||||| !!|||||||||||||||||||||||||
+          ValIle***AsnSerAla***LeuLeuMet***IleAsnSerTrpHisIleAsnTyrG
+ 103421 : GTCATTTAAAATTCAGCTTAGCTCTTGATGTAAATTAATAGCTGGCATATTAACTATG : 103362
+
+   2192 : luIleAsnPheGlnPheGluPheArgGluCysIleLysGlyGluIleProValMetTh :   2210
+          ||||||||||| !!||||||||||||||||||||||||||||||||||||||||||||
+          luIleAsnPhe***PheGluPheArgGluCysIleLysGlyGluIleProValMetTh
+ 103361 : AAATTAACTTTTAATTCGAATTTAGAGAATGCATAAAAGGCGAAATACCTGTTATGAC : 103305
+
+   2211 : rSerLysThrIleThrPheCysLeuGluCysSerGluGlyThrTyrSerLeuAspLeu :   2229
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          rSerLysThrIleThrPheCysLeuGluCysSerGluGlyThrTyrSerLeuAspLeu
+ 103304 : ATCAAAGACTATAACTTTCTGTTTGGAATGCTCAGAAGGTACTTACTCATTAGATTTA : 103248
+
+   2230 : IleSerAsnLeuSerHisSerAspAsnGlnGlnIleSerCysLysLysCysProThrG :   2249
+          ||||||||||||||||||||||||||| !! !!|||||||||||||||||||||||||
+          IleSerAsnLeuSerHisSerAspAsn******IleSerCysLysLysCysProThrG
+ 103247 : ATAAGTAACTTATCTCATTCGGATAATTAGTAAATAAGCTGTAAGAAATGCCCAACAG : 103188
+
+   2250 : lyAlaSerAspCysSerGlySerGlnIleIleLeuLysGlnGlyTyrTrpArgLeuAs :   2268
+          ||||||||||||||||||||||| !!|||||||||||| !!|||||||||||||||||
+          lyAlaSerAspCysSerGlySer***IleIleLeuLys***GlyTyrTrpArgLeuAs
+ 103187 : GTGCTTCTGATTGCTCGGGTAGTTAAATTATTTTAAAATAAGGATACTGGAGATTAAA : 103131
+
+   2269 : nGluAsnThrAspThrIleValGlnCysAsnGlnLeuLysProGluIleCysAspPhe :   2287
+          |||||||||||||||||||||| !!|||||| !!||||||||||||||||||||||||
+          nGluAsnThrAspThrIleVal***CysAsn***LeuLysProGluIleCysAspPhe
+ 103130 : TGAAAATACAGATACAATAGTTTAATGTAATTAATTAAAGCCTGAAATTTGTGATTTT : 103074
+
+   2288 : AsnSerThrSerSerLeuGlnGlyCysIleGluGlyHisIleGlyProLeuCysGluT :   2307
+          |||||||||||||||||| !!|||||||||||||||||||||||||||||||||||||
+          AsnSerThrSerSerLeu***GlyCysIleGluGlyHisIleGlyProLeuCysGluT
+ 103073 : AACTCTACCTCGAGCTTATAAGGATGCATTGAAGGGCATATTGGTCCTTTATGTGAAA : 103014
+
+   2308 : hrCysAspAsnPheGlyAspLeuTrpLysGlyLysThrTyrSerLeuSerPheSerAs :   2326
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          hrCysAspAsnPheGlyAspLeuTrpLysGlyLysThrTyrSerLeuSerPheSerAs
+ 103013 : CATGTGATAATTTTGGAGATCTTTGGAAAGGGAAAACTTATTCTCTGTCATTTTCTGA : 102957
+
+   2327 : pTyrThrCysSerGluCysSerAspGlnSerLeuGlnIleValTyrIleValLeuLeu :   2345
+          ||||||||||||||||||||||||| !!|||||| !!|||||||||||||||||||||
+          pTyrThrCysSerGluCysSerAsp***SerLeu***IleValTyrIleValLeuLeu
+ 102956 : TTATACGTGCAGTGAATGTAGTGATTAAAGTCTTTAGATTGTTTATATCGTCTTGCTA : 102900
+
+   2346 : PheLeuCysValPheAlaTyrIleTyrPheSerIlePheIlePheLeuAsnAsnTyrI :   2365
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          PheLeuCysValPheAlaTyrIleTyrPheSerIlePheIlePheLeuAsnAsnTyrI
+ 102899 : TTCCTTTGTGTCTTTGCTTACATTTATTTTAGTATTTTCATTTTCTTAAATAATTATA : 102840
+
+   2366 : leTyrAsnSerThrCysSerTyrIleArgTyrMetAsnIleLeuProPheSerLysSe :   2384
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          leTyrAsnSerThrCysSerTyrIleArgTyrMetAsnIleLeuProPheSerLysSe
+ 102839 : TTTATAATTCTACATGCTCATATATTCGATATATGAATATCCTTCCCTTTTCTAAGAG : 102783
+
+   2385 : rSerIleGlnAspGluSerThrPheValIleLysGlnLeuIleAsnPheLeuGlnIle :   2403
+          ||||||| !!|||||||||||||||||||||||| !!|||||||||||||||||||||
+          rSerIle***AspGluSerThrPheValIleLys***LeuIleAsnPheLeuGlnIle
+ 102782 : CAGCATTTAAGACGAATCAACTTTTGTGATTAAATAACTTATAAACTTTTTACAAATA : 102726
+
+   2404 : SerGlnValIleTyrGlnIleAsnLeuAsnPheIleProGlnAlaPheSerPheLeuP :   2423
+          ||| !!||||||||||||||||||||||||||||||||| !!||||||||||||||||
+          Ser***ValIleTyrGlnIleAsnLeuAsnPheIlePro***AlaPheSerPheLeuP
+ 102725 : TCATAAGTTATTTATCAAATAAATTTAAATTTTATTCCTTAAGCTTTTTCTTTTCTTC : 102666
+
+   2424 : roAlaValAlaGlyGlnProMetGlyLysIleIleValSerSerGlnCysLeuTyrTh :   2442
+          |||||||||||||| !!||||||||||||||||||||||||||| !!|||||||||||
+          roAlaValAlaGly***ProMetGlyLysIleIleValSerSer***CysLeuTyrTh
+ 102665 : CTGCTGTTGCTGGATAGCCTATGGGTAAAATTATTGTTAGTAGTTAATGTCTATACAC : 102609
+
+   2443 : rSerIleArgGlyLeuPheGlyLeuAsnGluGluIleLysIleArgSerLeuIleTyr :   2461
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          rSerIleArgGlyLeuPheGlyLeuAsnGluGluIleLysIleArgSerLeuIleTyr
+ 102608 : TAGTATTAGAGGGTTATTTGGTTTGAATGAAGAAATAAAAATAAGATCACTAATCTAT : 102552
+
+   2462 : IleLeuValProPhePhePheLeuIleValThrAlaLeuValLeuGlnValGlnIleI :   2481
+          ||||||||||||||||||||||||||||||||||||||||||||| !!||||||||||
+          IleLeuValProPhePhePheLeuIleValThrAlaLeuValLeu***ValGlnIleI
+ 102551 : ATATTAGTTCCCTTCTTCTTCCTGATAGTAACTGCGTTAGTATTATAGGTGCAAATAA : 102492
+
+   2482 : lePheLysLeuPheLysIleAsnLysTyrHisLeuTyrValLeuLeuThrIleLeuPh :   2500
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          lePheLysLeuPheLysIleAsnLysTyrHisLeuTyrValLeuLeuThrIleLeuPh
+ 102491 : TTTTTAAACTATTTAAAATTAACAAATATCACTTATATGTGCTTTTAACTATTTTGTT : 102435
+
+   2501 : ePhePhePheGlnProAsnSerIleGlnPheLeuThrSerThrMetThrCysArgGln :   2519
+          |||||||||| !!|||||||||||||||||||||||||||||||||||||||||||||
+          ePhePhePhe***ProAsnSerIleGlnPheLeuThrSerThrMetThrCysArgGln
+ 102434 : CTTTTTTTTCTAGCCGAATTCAATACAATTTTTAACATCTACAATGACTTGCAGACAA : 102378
+
+   2520 : ValGlyAspGlnLysTyrValArgThrSerLeuIleLeuSerCysAspAspGluSerT :   2539
+          ||||||||| !!||||||||||||||||||||||||||||||||||||||||||||||
+          ValGlyAsp***LysTyrValArgThrSerLeuIleLeuSerCysAspAspGluSerT
+ 102377 : GTTGGTGATTAAAAATATGTAAGAACAAGTCTTATTCTCAGCTGTGATGATGAGAGCT : 102318
+
+   2540 : yrGlnTyrPheGlnTyrTyrAlaValLeuProThrLeuIlePheTrpValLeuCysPr :   2558
+          || !!|||||| !!||||||||||||||||||||||||||||||||||||||||||||
+          yr***TyrPhe***TyrTyrAlaValLeuProThrLeuIlePheTrpValLeuCysPr
+ 102317 : ACTAATACTTTTAATACTATGCAGTATTGCCAACCTTAATATTTTGGGTATTGTGTCC : 102261
+
+   2559 : oLeuValIleLeuTyrIlePheLeuLysAspThrAsnLysSerLysAsnIleAspTyr :   2577
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          oLeuValIleLeuTyrIlePheLeuLysAspThrAsnLysSerLysAsnIleAspTyr
+ 102260 : TCTAGTGATTTTATATATTTTCTTAAAAGATACAAATAAATCTAAGAATATTGATTAT : 102204
+
+   2578 : CysIleAsnLysTyrLysTyrGlyTyrTyrTyrLeuGluTyrLysArgMetTyrTyrT :   2597
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          CysIleAsnLysTyrLysTyrGlyTyrTyrTyrLeuGluTyrLysArgMetTyrTyrT
+ 102203 : TGCATAAATAAGTACAAATACGGATACTATTATCTAGAATATAAGAGAATGTATTATT : 102144
+
+   2598 : yrTrpGluPheIleArgIleTyrTyrArgIleValLeuValLeuValSerThrLeuLe :   2616
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          yrTrpGluPheIleArgIleTyrTyrArgIleValLeuValLeuValSerThrLeuLe
+ 102143 : ATTGGGAATTTATAAGAATATACTATAGAATAGTATTAGTATTAGTATCAACTTTACT : 102087
+
+   2617 : uAspGlnPheAsnTyrIleSerGlnValLeuCysIleIleIleValPheSerTyrIle :   2635
+          |||| !!|||||||||||||||||||||||||||||||||||||||||||||||||||
+          uAsp***PheAsnTyrIleSerGlnValLeuCysIleIleIleValPheSerTyrIle
+ 102086 : AGATTAGTTCAACTATATATCTCAGGTACTATGCATCATTATTGTTTTTTCGTACATA : 102030
+
+   2636 : CysSerLeuLeuTyrTyrLysProPheGlnAspArgHisLeuLysArgIleGluLeuP :   2655
+          ||||||||||||||||||||||||||| !!||||||||||||||||||||||||||||
+          CysSerLeuLeuTyrTyrLysProPhe***AspArgHisLeuLysArgIleGluLeuP
+ 102029 : TGTTCCCTACTTTATTATAAACCCTTTTAGGATCGTCATCTTAAGCGCATAGAATTGT : 101970
+
+   2656 : heGlnAsnSerIleLeuIleIleIleThrPheLeuAsnLeuLeuLeuGlnIleTyrSe :   2674
+          || !!|||||||||||||||||||||||||||||||||||||||||| !!||||||||
+          he***AsnSerIleLeuIleIleIleThrPheLeuAsnLeuLeuLeu***IleTyrSe
+ 101969 : TTTAAAATTCTATTTTGATTATAATTACATTTTTAAATTTGCTACTCTAAATATACAG : 101913
+
+   2675 : rTyrLeuAlaIleGlnValValMetSerIleLeuHisTyrGlyThrIleIleIleMet :   2693
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          rTyrLeuAlaIleGlnValValMetSerIleLeuHisTyrGlyThrIleIleIleMet
+ 101912 : CTATCTCGCTATTCAAGTAGTCATGTCCATTTTGCACTATGGGACTATTATCATAATG : 101856
+
+   2694 : ValGlyValIleIleLysMetLysLeuPheAsnSerGlnPheLeuAsnSerArgIleI :   2713
+          |||||||||||||||||||||||||||||||||||| !!|||||||||||||||||||
+          ValGlyValIleIleLysMetLysLeuPheAsnSer***PheLeuAsnSerArgIleI
+ 101855 : GTAGGTGTTATAATTAAAATGAAATTATTCAATAGCTAATTTCTAAACAGTAGAATTA : 101796
+
+   2714 : leGlnCysLeuIleGlyTyrLeuLeuProAlaLysIleIleLysLysLeuAspAsnSe :   2732
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          leGlnCysLeuIleGlyTyrLeuLeuProAlaLysIleIleLysLysLeuAspAsnSe
+ 101795 : TTCAATGCTTGATTGGGTATTTATTACCAGCTAAAATAATAAAAAAGCTTGATAATTC : 101739
+
+   2733 : rLysIleLeuArgGluArgAlaLeuLysLeuTrpLysLysIleTyrLeuSerLysThr :   2751
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          rLysIleLeuArgGluArgAlaLeuLysLeuTrpLysLysIleTyrLeuSerLysThr
+ 101738 : CAAAATTTTGAGAGAAAGGGCTCTAAAATTGTGGAAAAAAATTTATTTGAGTAAAACA : 101682
+
+   2752 : LeuIleArgGlnGlnArgIleGluGluGlnAlaLysLysIleAsnPheSerIleValA :   2771
+          ||||||||| !! !!|||||||||||||||||||||||||||||||||||||||||||
+          LeuIleArg******ArgIleGluGluGlnAlaLysLysIleAsnPheSerIleValA
+ 101681 : TTAATTAGGTAATAGAGAATTGAAGAACAAGCAAAAAAAATTAATTTTAGCATAGTCA : 101622
+
+   2772 : snLysSerSerGlnLeuGlnAsnTyrSerGluAspGlu{V}  >>>> Target Int :   2784
+          ||||||||||| !!||| !!||||||||||||||||||{|}            64 bp
+          snLysSerSer***Leu***AsnTyrSerGluAspGlu{V}++               
+ 101621 : ATAAATCATCATAGTTATAAAATTACTCTGAAGATGAA{G}gt............... : 101580
+
+   2785 : ron 4 >>>>  {al}LeuGluGlyLysAspPheAsnLysLysGlnMetPheThrLys :   2798
+                      {||}||||||||||||||||||||||||||| !!||||||||||||
+                    ++{al}LeuGluGlyLysAspPheAsnLysLys***MetPheThrLys
+ 101579 : ..........ag{TT}TTAGAGGGTAAAGATTTCAACAAGAAATAAATGTTCACTAAA : 101477
+
+   2799 : SerSerLeuArgAsnSerAsnGlnAspLeuIleGlnMetSerThrGlnAsnGluGlnG :   2818
+          ||||||||||||||||||||||||||||||||||||||||||||| !!|||||| !!|
+          SerSerLeuArgAsnSerAsnGlnAspLeuIleGlnMetSerThr***AsnGlu***G
+ 101476 : AGTTCTTTACGTAACTCAAACCAAGATTTGATTCAGATGTCTACTTAAAACGAATAAG : 101417
+
+   2819 : luSerProLysAsnThrTyrPheGlnSerLysLysLeuSerValAspAsnPheLysLe :   2837
+          ||||||||||||||||||||||| !!||||||||||||||||||||||||||||||||
+          luSerProLysAsnThrTyrPhe***SerLysLysLeuSerValAspAsnPheLysLe
+ 101416 : AAAGTCCAAAAAATACTTATTTTTAATCTAAAAAATTAAGTGTTGATAATTTTAAGCT : 101360
+
+   2838 : uLeuGlyIleGlnThrArgSerProSerArgLysGluSerTyrLysPheLysSerGln :   2856
+          |||||||||| !!|||||||||||||||||||||||||||||||||||||||||||||
+          uLeuGlyIle***ThrArgSerProSerArgLysGluSerTyrLysPheLysSerGln
+ 101359 : CTTAGGAATTTAAACTAGATCTCCAAGTAGGAAAGAAAGTTACAAATTTAAGTCGCAA : 101303
+
+   2857 : GluGluLysGlnLeuSerValIleValSerAlaAsnPheProIleIleGluThrSerA :   2876
+          ||||||||| !!||||||||||||||||||||||||||||||||||||||||||||||
+          GluGluLys***LeuSerValIleValSerAlaAsnPheProIleIleGluThrSerA
+ 101302 : GAAGAAAAATAATTAAGTGTTATTGTTTCAGCCAACTTCCCAATAATAGAGACATCTG : 101243
+
+   2877 : spPheAspGluLeuGlnLysProArgGlnIleTyrAsnAsnLysLysValAsnGluLy :   2895
+          |||||||||||||| !!||||||||| !!|||||||||||||||||||||||||||||
+          spPheAspGluLeu***LysProArg***IleTyrAsnAsnLysLysValAsnGluLy
+ 101242 : ACTTTGATGAATTATAAAAACCAAGATAAATATATAATAATAAAAAAGTTAATGAAAA : 101186
+
+   2896 : sGlnGlnLysLeuAsn :   2900
+          | !! !!|||||||||
+          s******LysLeuAsn
+ 101185 : ATAATAAAAATTGAAC : 101169
+
+vulgar: p04 0 2900 . scf_8254433 110392 101168 - 12635 M 626 1878 S 0 1 5 0 2 I 0 276 3 0 2 S 1 2 M 247 741 S 0 1 5 0 2 I 0 89 3 0 2 S 1 2 M 134 402 S 0 1 5 0 2 I 0 83 3 0 2 S 1 2 M 1773 5319 S 0 1 5 0 2 I 0 60 3 0 2 S 1 2 M 116 348
+
+C4 Alignment:
+------------
+         Query: p05
+        Target: scf_8254592 [revcomp]
+         Model: protein2genome:local
+     Raw score: 5125
+   Query range: 0 -> 1207
+  Target range: 530662 -> 526455
+
+      1 : MetAspLeuAsnLysLeuSerThrIleIleGluAsnAsnThrGluSerGluPheLeuA :     20
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          MetAspLeuAsnLysLeuSerThrIleIleGluAsnAsnThrGluSerGluPheLeuA
+ 530662 : ATGGATCTTAATAAATTAAGTACAATAATTGAAAATAACACTGAATCTGAATTCTTAG : 530605
+
+     21 : laLysLysGluGlnGlnSerAlaAsnIlePheGluArgSerCysGlnLysTrpIleIl :     39
+          |||||||||||||||||||||||||||||||||||||||||||| !!|||||||||||
+          laLysLysGluGlnGlnSerAlaAsnIlePheGluArgSerCys***LysTrpIleIl
+ 530604 : CAAAAAAAGAGCAACAAAGTGCAAATATATTTGAAAGATCTTGCTAAAAATGGATTAT : 530548
+
+     40 : eAspAspArgSerGluGlnIleLysGlnGlyLeuGlnGlyAspSerGlyLeuLysVal :     58
+          |||||||||||||||| !!|||||| !!||||||||||||||||||||||||||||||
+          eAspAspArgSerGlu***IleLys***GlyLeuGlnGlyAspSerGlyLeuLysVal
+ 530547 : AGATGATAGGAGTGAGTAAATCAAGTAGGGATTGCAAGGAGATTCAGGCCTTAAAGTA : 530491
+
+     59 : IleSerSerPheGluAspValIleGlnAsnAlaAsnSerLysIleLysGlnLysValG :     78
+          |||||||||||||||||||||||||||||||||||||||||||||||| !!|||||| 
+          IleSerSerPheGluAspValIleGlnAsnAlaAsnSerLysIleLys***LysVal*
+ 530490 : ATCAGCAGCTTTGAAGATGTTATCCAAAATGCAAACTCAAAAATAAAATAAAAAGTGT : 530431
+
+     79 : lnIleAspAsnAsnAsnIleAsnGluLeuAspLysSerGlnPheTyrGlnPheAsnIl :     97
+          !!|||||||||||||||||||||||||||||||||||| !!|||||||||||||||||
+          **IleAspAsnAsnAsnIleAsnGluLeuAspLysSer***PheTyrGlnPheAsnIl
+ 530430 : AAATAGATAATAACAACATAAATGAGTTAGATAAAAGCTAATTCTATCAATTTAACAT : 530374
+
+     98 : eThrCysSerLysGlnAsnAsnMetSerIlePheAsnIleAsnAspAsn{G}  >>>> :    114
+          ||||||||||||| !!|||||||||||||||||||||||||||||||||{|}      
+          eThrCysSerLys***AsnAsnMetSerIlePheAsnIleAsnAspAsn{G}++    
+ 530373 : TACTTGTAGCAAGTAAAATAATATGTCCATCTTTAATATCAACGATAAC{G}gt.... : 530320
+
+    115 :  Target Intron 1 >>>>  {lu}GluAsnSerSerSerGluAsnGlnGlnLysL :    125
+                80 bp            {||}||||||||||||||||||||| !! !!||||
+                               ++{lu}GluAsnSerSerSerGluAsn******LysL
+ 530319 : .....................ag{AA}GAAAACTCATCTAGTGAAAATTAATAAAAAA : 530210
+
+    126 : ysValGluAspGlnLysGlnGlnValLeuAsnAsnGlnAsnGluIleGlnValAsnIl :    144
+          ||||||||||| !!||| !! !!|||||||||||||||||||||||| !!||||||||
+          ysValGluAsp***Lys******ValLeuAsnAsnGlnAsnGluIle***ValAsnIl
+ 530209 : AAGTAGAAGATTAGAAATAATAAGTATTGAATAATCAAAATGAGATATAAGTTAATAT : 530153
+
+    145 : eCysSerAlaThrArgAsnLysGlnAsnSerLysTyrAspGluHisLeuLysGlnAsn :    163
+          |||||||||||||||||||||| !!||||||||||||||||||||||||||| !!|||
+          eCysSerAlaThrArgAsnLys***AsnSerLysTyrAspGluHisLeuLys***Asn
+ 530152 : CTGCTCAGCAACAAGAAATAAATAAAATTCTAAATATGACGAACATTTAAAATAAAAT : 530096
+
+    164 : ThrArgArgAsnThrGlnValIleGlnThrMetSerArgGlnArgAspLysThrCysS :    183
+          ||||||||||||||| !!|||||| !!|||||||||||| !!||||||||||||||||
+          ThrArgArgAsnThr***ValIle***ThrMetSerArg***ArgAspLysThrCysS
+ 530095 : ACCCGTCGAAATACATAAGTCATTTAAACAATGAGCAGATAGAGAGATAAGACATGCT : 530036
+
+    184 : erLeuTyrIleAsnGlnSerGlnPheAsnGlnGlnLysIleLysLysAlaAsnGlnLe :    202
+          |||||||||||||| !!||| !!|||||| !!||||||||||||||||||||| !!||
+          erLeuTyrIleAsn***Ser***PheAsn***GlnLysIleLysLysAlaAsn***Le
+ 530035 : CTTTATATATCAATTAAAGCTAATTTAACTAACAAAAAATTAAAAAAGCAAACTAATT : 529979
+
+    203 : uTyrThrMetValAsnValLysLeuLysValLeuGluPheValLysLysMetLysLeu :    221
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          uTyrThrMetValAsnValLysLeuLysValLeuGluPheValLysLysMetLysLeu
+ 529978 : ATATACTATGGTAAATGTAAAGCTAAAAGTTTTAGAGTTTGTAAAAAAGATGAAGCTT : 529922
+
+    222 : IleTyrLysAsnArgLysLeuAspAsnLeuSerLysPheGlnIleGluValIleSerA :    241
+          ||||||||||||||||||||||||||||||||||||||| !!||||||||||||||||
+          IleTyrLysAsnArgLysLeuAspAsnLeuSerLysPhe***IleGluValIleSerA
+ 529921 : ATATACAAAAACAGAAAATTAGATAACTTATCTAAATTTTAAATTGAAGTTATTTCAG : 529862
+
+    242 : spSerCysTyrTyrPheGluLysAspLeuSerGlnLysHisSerIlePhePheAsnLe :    260
+          |||||||||||||||||||||||||||||||| !!|||||||||||||||||||||||
+          spSerCysTyrTyrPheGluLysAspLeuSer***LysHisSerIlePhePheAsnLe
+ 529861 : ATAGTTGCTACTATTTTGAAAAAGATTTATCATAGAAACACTCCATTTTTTTTAATTT : 529805
+
+    261 : uPheLysArgThrLysLysLeuIleGlnHisIleProIleLeuIleProThrAsnLys :    279
+          ||||||||||||||||||||||||| !!||||||||||||||||||||||||||||||
+          uPheLysArgThrLysLysLeuIle***HisIleProIleLeuIleProThrAsnLys
+ 529804 : GTTCAAAAGAACTAAGAAATTAATTTAACATATCCCTATTTTGATTCCTACTAACAAG : 529748
+
+    280 : IleIleIleLeuPheAspLeuLeuGlyIleIleTyrPheTyrLeuPhePhePhePheP :    299
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          IleIleIleLeuPheAspLeuLeuGlyIleIleTyrPheTyrLeuPhePhePhePheP
+ 529747 : ATAATAATTCTTTTTGATTTATTAGGCATTATCTATTTCTACTTGTTCTTTTTTTTCT : 529688
+
+    300 : heSerIlePheAlaPhePheAsnGlnAlaGluLeuAsnSerAsnGlnPheAlaPheTh :    318
+          ||||||||||||||||||||||| !!|||||||||||||||||| !!|||||||||||
+          heSerIlePheAlaPhePheAsn***AlaGluLeuAsnSerAsn***PheAlaPheTh
+ 529687 : TTTCAATATTTGCTTTCTTCAACTAAGCTGAATTAAACTCAAACTAATTCGCTTTTAC : 529631
+
+    319 : rCysLeuLeuSerValValLeuMetLeuLeuAspIleLeuGluSerPheAsnMetAla :    337
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          rCysLeuLeuSerValValLeuMetLeuLeuAspIleLeuGluSerPheAsnMetAla
+ 529630 : TTGTCTTTTAAGTGTAGTCCTAATGCTTTTAGATATACTTGAATCTTTCAATATGGCT : 529574
+
+    338 : ValPheArgArgAspIleIleIleLeuGluArgGluPheIleIleLysSerTyrLeuL :    357
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          ValPheArgArgAspIleIleIleLeuGluArgGluPheIleIleLysSerTyrLeuL
+ 529573 : GTATTTAGAAGGGATATCATAATTTTAGAAAGAGAATTCATAATTAAATCATATTTGC : 529514
+
+    358 : euSerPheHisPheLeuThrAspPheValSerLeuIleAlaLeuPheSerGluIleVa :    376
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          euSerPheHisPheLeuThrAspPheValSerLeuIleAlaLeuPheSerGluIleVa
+ 529513 : TAAGTTTTCATTTCTTAACAGATTTTGTTAGTCTTATAGCTCTATTTTCAGAGATAGT : 529457
+
+    377 : lSerAsnProAsnGlnIleThrPheAsnProGluAsnAsnIleTrpLysTyrIleGln :    395
+          ||||||||||||| !!||||||||||||||||||||||||||||||||||||||| !!
+          lSerAsnProAsn***IleThrPheAsnProGluAsnAsnIleTrpLysTyrIle***
+ 529456 : TTCTAACCCTAACTAAATTACTTTCAATCCTGAAAATAATATTTGGAAATATATTTAA : 529400
+
+    396 : IleValIleValPheValLysLeuTyrGlyValLysGlnLysIleGlnArgIleLysA :    415
+          ||||||||||||||||||||||||||||||||||||||||||||| !!||||||||||
+          IleValIleValPheValLysLeuTyrGlyValLysGlnLysIle***ArgIleLysA
+ 529399 : ATTGTTATTGTATTTGTAAAGCTCTATGGTGTGAAGCAAAAAATATAAAGAATTAAAA : 529340
+
+    416 : snValIleThrLeuSerGlnAsnGlnLysHisPheTyrLysLeuValSerGlnIlePh :    434
+          ||||||||||||||||| !!||| !!|||||||||||||||||||||||| !!|||||
+          snValIleThrLeuSer***Asn***LysHisPheTyrLysLeuValSer***IlePh
+ 529339 : ATGTCATTACGCTCAGTTAAAATTAAAAGCATTTCTATAAATTAGTTAGCTAAATTTT : 529283
+
+    435 : eSerValLeuGlnIleAlaHisIle{S}  >>>> Target Intron 2 >>>>  { :    443
+          |||||||||| !!||||||||||||{|}            57 bp            {
+          eSerValLeu***IleAlaHisIle{S}++                         ++{
+ 529282 : TAGTGTCCTTTAAATAGCTCACATA{T}gt.........................ag{ : 529198
+
+    444 : er}CysIleGlyTrpTyrSerLeuThrPheIleGlnGluAsnGluArgAsnTrpLeuG :    462
+          ||}|||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+          er}CysIleGlyTrpTyrSerLeuThrPheIleGlnGluAsnGluArgAsnTrpLeu*
+ 529197 : CA}TGTATAGGGTGGTATTCATTAACATTTATTCAAGAAAATGAAAGAAATTGGCTTT : 529142
+
+    463 : lnLysIleAsnLeuGluAsnSerAlaTyrHisIleLysTyrIleTyrSerPheTyrTr :    481
+          !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          **LysIleAsnLeuGluAsnSerAlaTyrHisIleLysTyrIleTyrSerPheTyrTr
+ 529141 : AAAAAATTAATTTAGAGAACAGCGCTTACCATATAAAGTATATTTACTCATTTTACTG : 529085
+
+    482 : pAlaIleIleThrMetSerThr{V}  >>>> Target Intron 3 >>>>  {al} :    489
+          ||||||||||||||||||||||{|}            101 bp           {||}
+          pAlaIleIleThrMetSerThr{V}++                         ++{al}
+ 529084 : GGCAATTATTACAATGTCAACA{G}gt.........................ag{TT} : 528959
+
+    490 : GlyTyrGlyAspIleValAlaThrAsnTyrSerGluAlaLeuTyrIleSerIleAsnT :    509
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          GlyTyrGlyAspIleValAlaThrAsnTyrSerGluAlaLeuTyrIleSerIleAsnT
+ 528958 : GGCTACGGAGACATTGTTGCAACAAACTATAGTGAAGCCTTATACATATCTATCAACA : 528900
+
+    510 : hrIleIlePheSerCysValPheAlaPheSerIleAsnAsnIleGlyGlnIleLeuHi :    528
+          ||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+          hrIleIlePheSerCysValPheAlaPheSerIleAsnAsnIleGly***IleLeuHi
+ 528899 : CAATCATTTTTAGCTGTGTATTTGCTTTTTCAATTAATAACATAGGATAAATCCTCCA : 528843
+
+    529 : sAspIleGlnMetSerHisGlnAsnIleLysAsnGlnThrGlnValIleGlu{Ly}   :    546
+          ||||||| !!||||||||| !!|||||||||||||||||| !!|||||||||{||}  
+          sAspIle***MetSerHis***AsnIleLysAsnGlnThr***ValIleGlu{Ly}++
+ 528842 : TGATATTTAGATGTCACATTAGAATATTAAAAACCAAACTTAAGTTATTGAA{AA}gt : 528787
+
+    547 : >>>> Target Intron 4 >>>>  {s}TyrLeuLysArgLysAsnValAsnIleG :    556
+                    45 bp            {|}||||||||||||||||||||||||||| 
+                                   ++{s}TyrLeuLysArgLysAsnValAsnIle*
+ 528786 : .........................ag{A}TATCTCAAAAGAAAGAATGTCAACATAT : 528714
+
+    557 : lnLeuLysThrArgValIleGlnTyrLeuPhePheLeuGluGluGluIleAsnSerLy :    575
+          !!|||||||||||||||||| !!|||||||||||||||||||||||||||||||||||
+          **LeuLysThrArgValIle***TyrLeuPhePheLeuGluGluGluIleAsnSerLy
+ 528713 : AACTTAAAACTCGTGTTATTTAATATCTTTTTTTTTTAGAAGAAGAAATAAATAGTAA : 528657
+
+    576 : sLeuLeuLysGluGluGluGlnValLeuSerIleLeuSerLeuLysLeuArgGluGlu :    594
+          ||||||||||||||||||| !!||||||||||||||||||||||||||||||||||||
+          sLeuLeuLysGluGluGlu***ValLeuSerIleLeuSerLeuLysLeuArgGluGlu
+ 528656 : ATTATTAAAAGAAGAAGAATAAGTTCTCTCTATTTTATCTCTTAAACTTAGAGAGGAA : 528600
+
+    595 : IleIleGlnGluAlaAsnSerGlnIleLeuLysLysPheAsnIlePheAsnCysPheS :    614
+          |||||| !!|||||||||||| !!||||||||||||||||||||||||||||||||||
+          IleIle***GluAlaAsnSer***IleLeuLysLysPheAsnIlePheAsnCysPheS
+ 528599 : ATCATTTAGGAAGCAAATTCTTAAATACTTAAAAAATTTAATATTTTTAATTGTTTTT : 528540
+
+    615 : erGlnGlnSerIleAsnLysLeuValPheGlnMetLysGluIleIleValSerProGl :    633
+          ||||||||||||||||||||||||||||| !!||||||||||||||||||||||||||
+          erGlnGlnSerIleAsnLysLeuValPhe***MetLysGluIleIleValSerProGl
+ 528539 : CTCAACAATCAATCAATAAACTAGTTTTCTAAATGAAAGAAATAATAGTTTCTCCTGG : 528483
+
+    634 : yGluValIlePheSerGluGlyAspArgAspAspSerIleTyrLeuIleThrSerGly :    652
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          yGluValIlePheSerGluGlyAspArgAspAspSerIleTyrLeuIleThrSerGly
+ 528482 : AGAAGTCATATTCTCAGAAGGAGATAGAGATGATTCAATTTATTTGATAACTAGCGGA : 528426
+
+    653 : GlnIleGlnIleLeuGlnAsnThrAlaGlnLysSerCysSerIlePheGlnLeuLysT :    672
+           !!||| !!|||||| !!||||||||| !!||||||||||||||||||||||||||||
+          ***Ile***IleLeu***AsnThrAla***LysSerCysSerIlePheGlnLeuLysT
+ 528425 : TAAATTTAGATTTTGTAAAATACTGCATAAAAAAGTTGTTCAATATTCCAACTGAAAA : 528366
+
+    673 : hrLeuSerGluAsnGlnIlePheGlyGluIleAlaPhePheSerGlnMetProArgTh :    691
+          |||||||||||||| !!||||||||||||||||||||||||||| !!|||||||||||
+          hrLeuSerGluAsn***IlePheGlyGluIleAlaPhePheSer***MetProArgTh
+ 528365 : CATTATCAGAAAATTAAATATTTGGTGAGATAGCATTTTTTTCTTAAATGCCAAGAAC : 528309
+
+    692 : rAlaThrAlaLysSerLeuAsnLeuSerThrLeuTyrLysIleGluArgLysAspPhe :    710
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          rAlaThrAlaLysSerLeuAsnLeuSerThrLeuTyrLysIleGluArgLysAspPhe
+ 528308 : AGCAACTGCAAAGAGTTTAAATTTATCCACACTTTACAAAATAGAAAGAAAAGATTTT : 528252
+
+    711 : IleGluIleValGlnGlnAsnGlnMetAspPheGluValPheLysSerIleGlnHisG :    730
+          |||||||||||| !!|||||||||||||||||||||||||||||||||||| !!||| 
+          IleGluIleVal***GlnAsnGlnMetAspPheGluValPheLysSerIle***His*
+ 528251 : ATTGAAATAGTTTAACAAAATCAAATGGATTTTGAAGTTTTTAAATCAATTTAACATT : 528192
+
+    731 : lnIleLeuLeuAsnTyrAspPheLysGlnIleGlnThrLysCysTyrSerCysAsnSe :    749
+          !!|||||||||||||||||||||||| !!||| !!|||||||||||||||||||||||
+          **IleLeuLeuAsnTyrAspPheLys***Ile***ThrLysCysTyrSerCysAsnSe
+ 528191 : AAATTTTACTCAATTATGATTTCAAATAAATATAAACTAAATGCTATTCTTGCAATTC : 528135
+
+    750 : rSerAsnHisIleIleGlnLysCysProIleValHisGlnAlaPheAspCysGlnLeu :    768
+          |||||||||||||||| !!|||||||||||||||||| !!|||||||||||| !!|||
+          rSerAsnHisIleIle***LysCysProIleValHis***AlaPheAspCys***Leu
+ 528134 : TAGCAATCATATAATCTAAAAATGCCCGATTGTCCATTAAGCTTTTGATTGCTAGTTA : 528078
+
+    769 : IleAsnLeuLysAsnAsnTyrHisThrGlnGlnValArgGlnLysPheAsnArgGlnA :    788
+          ||||||||||||||||||||||||||| !! !!|||||||||||||||||||||||||
+          IleAsnLeuLysAsnAsnTyrHisThr******ValArgGlnLysPheAsnArgGlnA
+ 528077 : ATAAACTTAAAAAATAATTATCACACATAATAAGTGAGACAGAAATTCAATAGACAAA : 528018
+
+    789 : snIleArgIleTyrGlnAla{Ly}  >>>> Target Intron 5 >>>>  {s}As :    796
+          |||||||||||||| !!|||{||}            245 bp           {|}||
+          snIleArgIleTyr***Ala{Ly}++                         ++{s}As
+ 528017 : ATATAAGAATATACTAAGCA{AA}gt.........................ag{A}AA : 527749
+
+    797 : nLeuAlaGlyLeuAsnIleGlnIleGlnAsnGlnLeuLysMetAspLeuGluTyrGln :    815
+          ||||||||||||||||||| !!||||||||| !!||||||||||||||||||||| !!
+          nLeuAlaGlyLeuAsnIle***IleGlnAsn***LeuLysMetAspLeuGluTyr***
+ 527748 : TTTAGCAGGTCTAAATATATAAATACAAAATTAGTTAAAAATGGATTTAGAATACTAG : 527692
+
+    816 : AsnPhePheAsnSerGluLeuGluLeuSerGlnGlnPheAlaSerAsnIleGlnMetG :    835
+          |||||||||||||||||||||||||||||| !! !!||||||||||||||| !!||||
+          AsnPhePheAsnSerGluLeuGluLeuSer******PheAlaSerAsnIle***MetG
+ 527691 : AATTTTTTTAATTCTGAACTTGAATTAAGTTAGTAATTTGCATCAAATATTTAAATGG : 527632
+
+    836 : luGluSerLysLeuHisGlyCysIleAsnGluAsnSerGlnLeuTyrPheAsnGlnLe :    854
+          |||||||||||||||||||||||||||||||||||||| !!|||||||||||| !!||
+          luGluSerLysLeuHisGlyCysIleAsnGluAsnSer***LeuTyrPheAsn***Le
+ 527631 : AAGAATCAAAACTACATGGATGTATTAACGAAAATAGTTAGTTATATTTTAATTAACT : 527575
+
+    855 : uAsnAspPheAsnAsnThrLeuAsnAsnCysGluGlnValThrLysSerLysAsnLeu :    873
+          |||||||||||||||||||||||||||||||||| !!|||||||||||||||||||||
+          uAsnAspPheAsnAsnThrLeuAsnAsnCysGlu***ValThrLysSerLysAsnLeu
+ 527574 : AAATGATTTTAATAACACATTAAATAATTGTGAATAAGTTACAAAGAGTAAAAACTTA : 527518
+
+    874 : IleGlnIleAspGlnGlnTyrIleAsnProThrLysAsnGlnSerGlnAsnValAlaA :    893
+          ||| !!|||||| !! !!||||||||||||||||||||||||||||||||||||||||
+          Ile***IleAsp******TyrIleAsnProThrLysAsnGlnSerGlnAsnValAlaA
+ 527517 : ATTTAAATAGATTAATAGTATATTAATCCTACTAAAAATCAATCTCAAAACGTAGCTA : 527458
+
+    894 : snLysValLeuGlyAspLeuSerLeuArgAsnAsnThrIleAsnGluGlyIleGlnPh :    912
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||| !!||
+          snLysValLeuGlyAspLeuSerLeuArgAsnAsnThrIleAsnGluGlyIle***Ph
+ 527457 : ATAAAGTTTTAGGAGATTTAAGTTTAAGAAACAATACCATTAATGAAGGCATTTAATT : 527401
+
+    913 : eGluLysGluGlnAspPheGlnGlnGlyLeuGlyGlnAspGluValSerPheSerHis :    931
+          |||||||||| !!|||||| !! !!||||||||| !!|||||||||||||||||||||
+          eGluLysGlu***AspPhe******GlyLeuGly***AspGluValSerPheSerHis
+ 527400 : TGAAAAAGAGTAAGATTTTTAATAAGGACTTGGATAGGATGAAGTATCATTTAGCCAC : 527344
+
+    932 : PheHisSerLeuGlyAspIle{C}  >>>> Target Intron 6 >>>>  {ys}A :    940
+          |||||||||||||||||||||{|}            58 bp            {||}|
+          PheHisSerLeuGlyAspIle{C}++                         ++{ys}A
+ 527343 : TTTCATTCTTTAGGCGACATT{T}gt.........................ag{GT}A : 527259
+
+    941 : snLysAsnAspGlyIleSerSerAsnSerLysIleSerIleHisLysSerLysLysLy :    959
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          snLysAsnAspGlyIleSerSerAsnSerLysIleSerIleHisLysSerLysLysLy
+ 527258 : ATAAAAATGATGGTATCTCATCTAATTCAAAAATATCTATTCATAAAAGTAAAAAAAA : 527202
+
+    960 : sSerThrIleLeuLysAsnTyrAsnTyrIleAspAsnIleGlnValAspLysIleGln :    978
+          |||||||||||||||||||||||||||||||||||||||| !!|||||||||||||||
+          sSerThrIleLeuLysAsnTyrAsnTyrIleAspAsnIle***ValAspLysIleGln
+ 527201 : ATCGACTATTTTAAAGAATTATAATTACATAGATAACATTTAAGTTGATAAAATTCAA : 527145
+
+    979 : SerCysSerThrAsnGlnPheGluGlnGluSerIleAsnLeuSerAlaAsnLeuIleT :    998
+          ||||||||||||||| !!|||||| !!|||||||||||||||||||||||||||||||
+          SerCysSerThrAsn***PheGlu***GluSerIleAsnLeuSerAlaAsnLeuIleT
+ 527144 : TCTTGTTCTACTAATTAATTTGAATAGGAATCAATCAATTTGTCCGCAAATCTAATTA : 527085
+
+    999 : hrGluSerHisTyrSerGlnAspGlnLysPheHisLysTyrLeuProSerTyrAlaSe :   1017
+          ||||||||||||||||||||||| !!||||||||||||||||||||||||||||||||
+          hrGluSerHisTyrSerGlnAsp***LysPheHisLysTyrLeuProSerTyrAlaSe
+ 527084 : CAGAATCTCATTATTCACAGGATTAAAAGTTTCATAAATATTTACCAAGCTATGCTTC : 527028
+
+   1018 : rLeuGlnLeuTyrProGluAspLysLysAsnLysIleIleSerSerLysThrGlnGlu :   1036
+          |||| !!|||||||||||||||||||||||||||||||||||||||||||||||||||
+          rLeu***LeuTyrProGluAspLysLysAsnLysIleIleSerSerLysThrGlnGlu
+ 527027 : TTTATAACTTTATCCAGAGGATAAAAAAAATAAAATAATCAGCTCCAAAACTCAAGAA : 526971
+
+   1037 : AsnLysIleIleLysLeuCysLysAspGluLeuGlnAsnAspLeuLysAsnGluGlnS :   1056
+          ||||||||||||||||||||||||||||||||| !!|||||||||||||||||| !!|
+          AsnLysIleIleLysLeuCysLysAspGluLeu***AsnAspLeuLysAsnGlu***S
+ 526970 : AATAAGATAATTAAACTATGTAAAGATGAGTTATAAAATGATTTAAAGAATGAATAAT : 526911
+
+   1057 : erGlnGlnSerGlnLeuSerMetMetThrThrSerSerAsnGlyLysArgGluLysTh :   1075
+          || !! !!||||||||||||||||||||||||||||||||||||||||||||||||||
+          er******SerGlnLeuSerMetMetThrThrSerSerAsnGlyLysArgGluLysTh
+ 526910 : CTTAGTAAAGCCAATTATCAATGATGACTACTTCTTCAAATGGTAAAAGAGAAAAAAC : 526854
+
+   1076 : rThrSerLeuGlyArgLysSerGlnLeuGlnLysValLeuLysThrHisAspGlyAsp :   1094
+          |||||||||||||||||||||| !!||| !!|||||||||||||||||||||||||||
+          rThrSerLeuGlyArgLysSer***Leu***LysValLeuLysThrHisAspGlyAsp
+ 526853 : TACATCTTTGGGTAGAAAATCTTAATTATAAAAAGTATTAAAAACGCATGATGGAGAT : 526797
+
+   1095 : GlnGlnGlnThrMetLeuGlyAsnArgGlnSerIleValAlaLeuGlnLysLeuPheG :   1114
+           !! !! !!|||||||||||||||||||||||||||||||||||| !!||||||||| 
+          *********ThrMetLeuGlyAsnArgGlnSerIleValAlaLeu***LysLeuPhe*
+ 526796 : TAATAATAGACAATGTTAGGTAATAGACAATCGATTGTAGCACTATAAAAATTGTTTT : 526737
+
+   1115 : lnTyrAspPheAspLeuAlaLysAsnTyrLysTyrPheLeuProPheAsnAsnTyrAs :   1133
+          !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          **TyrAspPheAspLeuAlaLysAsnTyrLysTyrPheLeuProPheAsnAsnTyrAs
+ 526736 : AATATGATTTTGACTTAGCAAAAAATTACAAATACTTTTTACCATTTAATAATTACAA : 526680
+
+   1134 : nLeuValIleLysGluTyrAsnAlaLeuGlnAsnIleAsnPheLysLeuPhePheSer :   1152
+          |||||||||||||||||||||||||||| !!|||||||||||||||||||||||||||
+          nLeuValIleLysGluTyrAsnAlaLeu***AsnIleAsnPheLysLeuPhePheSer
+ 526679 : CTTAGTTATAAAGGAGTATAACGCACTATAAAATATAAATTTTAAATTATTTTTTTCA : 526623
+
+   1153 : GlyThrGlnThrSerLysGlnGlnAsnAspAsnAspLysLeuLysProArgLeuSerP :   1172
+          |||||| !!||||||||| !! !!||||||||||||||||||||||||||||||||||
+          GlyThr***ThrSerLys******AsnAspAsnAspLysLeuLysProArgLeuSerP
+ 526622 : GGAACATAAACTTCAAAGTAGTAGAACGATAATGATAAGCTAAAACCTAGACTCTCTC : 526563
+
+   1173 : roArgSerArgTyrIlePheMetLysLysGlnGlnLysAsnLysIleCysTyrGlyVa :   1191
+          ||||||||||||||||||||||||||||| !!||||||||||||||||||||||||||
+          roArgSerArgTyrIlePheMetLysLys***GlnLysAsnLysIleCysTyrGlyVa
+ 526562 : CTAGATCAAGATATATATTTATGAAGAAATAACAAAAAAATAAGATTTGCTATGGAGT : 526506
+
+   1192 : lSerThrLysSerCysAsnLysAsnProLysValPheAspLysAsnIle :   1207
+          |||||||||||||||||||||||||||||||||||||||||||||||||
+          lSerThrLysSerCysAsnLysAsnProLysValPheAspLysAsnIle
+ 526505 : ATCAACAAAATCTTGTAACAAGAACCCCAAAGTTTTTGATAAAAATATT : 526456
+
+vulgar: p05 0 1207 . scf_8254592 530662 526455 - 5125 M 113 339 S 0 1 5 0 2 I 0 76 3 0 2 S 1 2 M 328 984 S 0 1 5 0 2 I 0 53 3 0 2 S 1 2 M 45 135 S 0 1 5 0 2 I 0 97 3 0 2 S 1 2 M 56 168 S 0 2 5 0 2 I 0 41 3 0 2 S 1 1 M 248 744 S 0 2 5 0 2 I 0 241 3 0 2 S 1 1 M 143 429 S 0 1 5 0 2 I 0 54 3 0 2 S 1 2 M 268 804
+-- completed exonerate analysis
+
