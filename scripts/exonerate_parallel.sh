@@ -1,9 +1,11 @@
 #!/bin/bash
 
 pids=()
-for i in {1..5}
+echo "Running $1 exonerate instances"
+for i in $(seq 1 1 $1)
 do
-   exonerate --model protein2genome -t ../data/T_thermophila_June2014_assembly.fasta -q ../data/sample-proteins.fa --percent 80 --showtargetgff --showvulgar no --showalignment no --querychunkid $i --querychunktotal 5] > ../data/exout_$i &
+   echo $i
+   exonerate --model protein2genome -t ../data/T_thermophila_June2014_assembly.fasta -q ../data/sample-proteins.fa --percent 80 --showtargetgff --showvulgar no --showalignment no --querychunkid $i --querychunktotal $1] > ../data/exout_$i &
    pids+=($!)
 done
 
