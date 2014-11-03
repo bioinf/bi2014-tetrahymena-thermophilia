@@ -1,0 +1,12 @@
+This script is used to filter exonerate gff output based on the following conditions:
+1) First codon in CDS should be start codon or tripplet before CDS in dna should be start codon (ATG)
+1) Length of coding sequence should be divisable by 3
+2) There should be stop codon after the end of CDS (for Tetrahymena only TGA)
+3) Number of stop codons inside CDS should be zero
+Results of checking these conditions for each entry in gff file are reported to stdout. If all conditions are met, gff entry is copied to <filtered-gff> file
+After all gff entries are analyzed, total number of gff entries and number of included gff entries are reported to stdout
+
+Usage: python filterGff.py <genome> <gff> <filtered-gff>
+Report will be directed to stdout
+
+
