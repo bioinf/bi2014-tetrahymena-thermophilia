@@ -94,7 +94,10 @@ def validateGffEntry(entry, regions, gffout):
 			else:
 				exons.append(reverseComplementary(dna))
 
-	include = validateCds(''.join(exons), tripplet_before_cds, tripplet_after_cds) 
+	cds = ''.join(exons)
+	stop_codon = cds[len(cds)-3:len(cds)]
+
+	include = validateCds(''.join(exons), tripplet_before_cds, stop_codon) 
 	print "Gff entry included: {}".format(include)
 	if include:	
 		gffout.write("\n".join(entry))
