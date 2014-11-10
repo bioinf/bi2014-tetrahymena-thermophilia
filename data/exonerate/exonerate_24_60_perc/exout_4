@@ -1,0 +1,1078 @@
+Command line: [exonerate --model protein2genome -t /Molly/ybaranov/tetrahynema/input/T_thermophila_June2014_assembly.fasta -q /Molly/ybaranov/tetrahynema/output/clean_protein.fasta --percent 60 --showtargetgff --showvulgar no --showalignment no --geneticcode 6 --querychunkid 4 --querychunktotal 24]]
+Hostname: [ant14]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254666	exonerate:protein2genome:local	gene	370156	372068	1986	-	.	gene_id 1 ; sequence EIA_12487.1 ; gene_orientation +
+scf_8254666	exonerate:protein2genome:local	cds	371354	372068	.	-	.	
+scf_8254666	exonerate:protein2genome:local	exon	371354	372068	.	-	.	insertions 0 ; deletions 5
+scf_8254666	exonerate:protein2genome:local	splice5	371352	371353	.	-	.	intron_id 1 ; splice_site "GT"
+scf_8254666	exonerate:protein2genome:local	intron	371076	371353	.	-	.	intron_id 1
+scf_8254666	exonerate:protein2genome:local	splice3	371076	371077	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254666	exonerate:protein2genome:local	cds	370156	371075	.	-	.	
+scf_8254666	exonerate:protein2genome:local	exon	370156	371075	.	-	.	insertions 0 ; deletions 0
+scf_8254666	exonerate:protein2genome:local	similarity	370156	372068	1986	-	.	alignment_id 1 ; Query EIA_12487.1 ; Align 372069 1 228 ; Align 371841 79 27 ; Align 371814 91 459 ; Align 371074 245 918
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254528	exonerate:protein2genome:local	gene	317321	322377	5715	+	.	gene_id 1 ; sequence EIA_06844.1 ; gene_orientation +
+scf_8254528	exonerate:protein2genome:local	cds	317321	317462	.	+	.	
+scf_8254528	exonerate:protein2genome:local	exon	317321	317462	.	+	.	insertions 0 ; deletions 0
+scf_8254528	exonerate:protein2genome:local	splice5	317463	317464	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254528	exonerate:protein2genome:local	intron	317463	317514	.	+	.	intron_id 1
+scf_8254528	exonerate:protein2genome:local	splice3	317513	317514	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254528	exonerate:protein2genome:local	cds	317515	317697	.	+	.	
+scf_8254528	exonerate:protein2genome:local	exon	317515	317697	.	+	.	insertions 0 ; deletions 0
+scf_8254528	exonerate:protein2genome:local	splice5	317698	317699	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8254528	exonerate:protein2genome:local	intron	317698	317749	.	+	.	intron_id 2
+scf_8254528	exonerate:protein2genome:local	splice3	317748	317749	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8254528	exonerate:protein2genome:local	cds	317750	318268	.	+	.	
+scf_8254528	exonerate:protein2genome:local	exon	317750	318268	.	+	.	insertions 0 ; deletions 0
+scf_8254528	exonerate:protein2genome:local	splice5	318269	318270	.	+	.	intron_id 3 ; splice_site "GT"
+scf_8254528	exonerate:protein2genome:local	intron	318269	318333	.	+	.	intron_id 3
+scf_8254528	exonerate:protein2genome:local	splice3	318332	318333	.	+	.	intron_id 2 ; splice_site "AG"
+scf_8254528	exonerate:protein2genome:local	cds	318334	319150	.	+	.	
+scf_8254528	exonerate:protein2genome:local	exon	318334	319150	.	+	.	insertions 0 ; deletions 0
+scf_8254528	exonerate:protein2genome:local	splice5	319151	319152	.	+	.	intron_id 4 ; splice_site "GT"
+scf_8254528	exonerate:protein2genome:local	intron	319151	319211	.	+	.	intron_id 4
+scf_8254528	exonerate:protein2genome:local	splice3	319210	319211	.	+	.	intron_id 3 ; splice_site "AG"
+scf_8254528	exonerate:protein2genome:local	cds	319212	322377	.	+	.	
+scf_8254528	exonerate:protein2genome:local	exon	319212	322377	.	+	.	insertions 24 ; deletions 2
+scf_8254528	exonerate:protein2genome:local	similarity	317321	322377	5715	+	.	alignment_id 1 ; Query EIA_06844.1 ; Align 317321 1 141 ; Align 317517 49 180 ; Align 317752 110 516 ; Align 318336 283 813 ; Align 319213 555 753 ; Align 319972 806 276 ; Align 320251 898 906 ; Align 321157 1201 237 ; Align 321397 1280 63 ; Align 321460 1302 18 ; Align 321484 1308 15 ; Align 321502 1313 348 ; Align 321853 1429 525
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254747	exonerate:protein2genome:local	gene	585272	587189	1657	-	.	gene_id 1 ; sequence EIA_04745.1 ; gene_orientation +
+scf_8254747	exonerate:protein2genome:local	cds	586961	587189	.	-	.	
+scf_8254747	exonerate:protein2genome:local	exon	586961	587189	.	-	.	insertions 0 ; deletions 0
+scf_8254747	exonerate:protein2genome:local	splice5	586959	586960	.	-	.	intron_id 1 ; splice_site "GT"
+scf_8254747	exonerate:protein2genome:local	intron	586726	586960	.	-	.	intron_id 1
+scf_8254747	exonerate:protein2genome:local	splice3	586726	586727	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254747	exonerate:protein2genome:local	cds	586520	586725	.	-	.	
+scf_8254747	exonerate:protein2genome:local	exon	586520	586725	.	-	.	insertions 0 ; deletions 0
+scf_8254747	exonerate:protein2genome:local	splice5	586518	586519	.	-	.	intron_id 2 ; splice_site "GT"
+scf_8254747	exonerate:protein2genome:local	intron	586035	586519	.	-	.	intron_id 2
+scf_8254747	exonerate:protein2genome:local	splice3	586035	586036	.	-	.	intron_id 1 ; splice_site "AG"
+scf_8254747	exonerate:protein2genome:local	cds	585934	586034	.	-	.	
+scf_8254747	exonerate:protein2genome:local	exon	585934	586034	.	-	.	insertions 0 ; deletions 0
+scf_8254747	exonerate:protein2genome:local	splice5	585932	585933	.	-	.	intron_id 3 ; splice_site "GT"
+scf_8254747	exonerate:protein2genome:local	intron	585875	585933	.	-	.	intron_id 3
+scf_8254747	exonerate:protein2genome:local	splice3	585875	585876	.	-	.	intron_id 2 ; splice_site "AG"
+scf_8254747	exonerate:protein2genome:local	cds	585772	585874	.	-	.	
+scf_8254747	exonerate:protein2genome:local	exon	585772	585874	.	-	.	insertions 0 ; deletions 0
+scf_8254747	exonerate:protein2genome:local	splice5	585770	585771	.	-	.	intron_id 4 ; splice_site "GT"
+scf_8254747	exonerate:protein2genome:local	intron	585692	585771	.	-	.	intron_id 4
+scf_8254747	exonerate:protein2genome:local	splice3	585692	585693	.	-	.	intron_id 3 ; splice_site "AG"
+scf_8254747	exonerate:protein2genome:local	cds	585272	585691	.	-	.	
+scf_8254747	exonerate:protein2genome:local	exon	585272	585691	.	-	.	insertions 0 ; deletions 0
+scf_8254747	exonerate:protein2genome:local	similarity	585272	587189	1657	-	.	alignment_id 1 ; Query EIA_04745.1 ; Align 587190 5 228 ; Align 586724 82 204 ; Align 586035 150 99 ; Align 585874 184 102 ; Align 585692 218 420
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8253904	exonerate:protein2genome:local	gene	49919	51400	1892	+	.	gene_id 1 ; sequence EIA_04378.1 ; gene_orientation .
+scf_8253904	exonerate:protein2genome:local	cds	49919	51400	.	+	.	
+scf_8253904	exonerate:protein2genome:local	exon	49919	51400	.	+	.	insertions 0 ; deletions 0
+scf_8253904	exonerate:protein2genome:local	similarity	49919	51400	1892	+	.	alignment_id 1 ; Query EIA_04378.1 ; Align 49919 1 1482
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254551	exonerate:protein2genome:local	gene	538923	542312	3599	-	.	gene_id 1 ; sequence EIA_08448.1 ; gene_orientation +
+scf_8254551	exonerate:protein2genome:local	cds	540336	542312	.	-	.	
+scf_8254551	exonerate:protein2genome:local	exon	540336	542312	.	-	.	insertions 15 ; deletions 1
+scf_8254551	exonerate:protein2genome:local	splice5	540334	540335	.	-	.	intron_id 1 ; splice_site "GT"
+scf_8254551	exonerate:protein2genome:local	intron	540218	540335	.	-	.	intron_id 1
+scf_8254551	exonerate:protein2genome:local	splice3	540218	540219	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254551	exonerate:protein2genome:local	cds	539925	540217	.	-	.	
+scf_8254551	exonerate:protein2genome:local	exon	539925	540217	.	-	.	insertions 0 ; deletions 0
+scf_8254551	exonerate:protein2genome:local	splice5	539923	539924	.	-	.	intron_id 2 ; splice_site "GT"
+scf_8254551	exonerate:protein2genome:local	intron	539872	539924	.	-	.	intron_id 2
+scf_8254551	exonerate:protein2genome:local	splice3	539872	539873	.	-	.	intron_id 1 ; splice_site "AG"
+scf_8254551	exonerate:protein2genome:local	cds	538923	539871	.	-	.	
+scf_8254551	exonerate:protein2genome:local	exon	538923	539871	.	-	.	insertions 3 ; deletions 5
+scf_8254551	exonerate:protein2genome:local	similarity	538923	542312	3599	-	.	alignment_id 1 ; Query EIA_08448.1 ; Align 542313 1 390 ; Align 541917 131 396 ; Align 541521 264 777 ; Align 540735 523 399 ; Align 540218 656 291 ; Align 539871 754 369 ; Align 539502 881 114 ; Align 539385 919 399 ; Align 538986 1053 63
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254379	exonerate:protein2genome:local	gene	747214	750634	4245	-	.	gene_id 1 ; sequence EIA_06965.1 ; gene_orientation +
+scf_8254379	exonerate:protein2genome:local	cds	749807	750634	.	-	.	
+scf_8254379	exonerate:protein2genome:local	exon	749807	750634	.	-	.	insertions 0 ; deletions 0
+scf_8254379	exonerate:protein2genome:local	splice5	749805	749806	.	-	.	intron_id 1 ; splice_site "GT"
+scf_8254379	exonerate:protein2genome:local	intron	749395	749806	.	-	.	intron_id 1
+scf_8254379	exonerate:protein2genome:local	splice3	749395	749396	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254379	exonerate:protein2genome:local	cds	748561	749394	.	-	.	
+scf_8254379	exonerate:protein2genome:local	exon	748561	749394	.	-	.	insertions 0 ; deletions 0
+scf_8254379	exonerate:protein2genome:local	splice5	748559	748560	.	-	.	intron_id 2 ; splice_site "GT"
+scf_8254379	exonerate:protein2genome:local	intron	748490	748560	.	-	.	intron_id 2
+scf_8254379	exonerate:protein2genome:local	splice3	748490	748491	.	-	.	intron_id 1 ; splice_site "AG"
+scf_8254379	exonerate:protein2genome:local	cds	747434	748489	.	-	.	
+scf_8254379	exonerate:protein2genome:local	exon	747434	748489	.	-	.	insertions 6 ; deletions 0
+scf_8254379	exonerate:protein2genome:local	splice5	747432	747433	.	-	.	intron_id 3 ; splice_site "GT"
+scf_8254379	exonerate:protein2genome:local	intron	747382	747433	.	-	.	intron_id 3
+scf_8254379	exonerate:protein2genome:local	splice3	747382	747383	.	-	.	intron_id 2 ; splice_site "AG"
+scf_8254379	exonerate:protein2genome:local	cds	747214	747381	.	-	.	
+scf_8254379	exonerate:protein2genome:local	exon	747214	747381	.	-	.	insertions 0 ; deletions 0
+scf_8254379	exonerate:protein2genome:local	similarity	747214	750634	4245	-	.	alignment_id 1 ; Query EIA_06965.1 ; Align 750635 1 828 ; Align 749395 277 834 ; Align 748490 555 363 ; Align 748121 676 687 ; Align 747382 905 168
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254572	exonerate:protein2genome:local	gene	92333	92734	485	-	.	gene_id 1 ; sequence EIA_20868.1 ; gene_orientation .
+scf_8254572	exonerate:protein2genome:local	cds	92333	92734	.	-	.	
+scf_8254572	exonerate:protein2genome:local	exon	92333	92734	.	-	.	insertions 3 ; deletions 0
+scf_8254572	exonerate:protein2genome:local	similarity	92333	92734	485	-	.	alignment_id 1 ; Query EIA_20868.1 ; Align 92735 1 156 ; Align 92576 53 243
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254617	exonerate:protein2genome:local	gene	220746	221976	747	+	.	gene_id 1 ; sequence EIA_06910.1 ; gene_orientation +
+scf_8254617	exonerate:protein2genome:local	cds	220746	221030	.	+	.	
+scf_8254617	exonerate:protein2genome:local	exon	220746	221030	.	+	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	221031	221032	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	221031	221319	.	+	.	intron_id 1
+scf_8254617	exonerate:protein2genome:local	splice3	221318	221319	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	221320	221458	.	+	.	
+scf_8254617	exonerate:protein2genome:local	exon	221320	221458	.	+	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	221459	221460	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	221459	221833	.	+	.	intron_id 2
+scf_8254617	exonerate:protein2genome:local	splice3	221832	221833	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	221834	221976	.	+	.	
+scf_8254617	exonerate:protein2genome:local	exon	221834	221976	.	+	.	insertions 0 ; deletions 1
+scf_8254617	exonerate:protein2genome:local	similarity	220746	221976	747	+	.	alignment_id 1 ; Query EIA_06910.1 ; Align 220746 1 285 ; Align 221320 96 138 ; Align 221836 143 24 ; Align 221860 152 117
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254617	exonerate:protein2genome:local	gene	710309	713636	3123	-	.	gene_id 1 ; sequence EIA_10190.1 ; gene_orientation +
+scf_8254617	exonerate:protein2genome:local	cds	713499	713636	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	713499	713636	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	713497	713498	.	-	.	intron_id 1 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	713391	713498	.	-	.	intron_id 1
+scf_8254617	exonerate:protein2genome:local	splice3	713391	713392	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	713294	713390	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	713294	713390	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	713292	713293	.	-	.	intron_id 2 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	712968	713293	.	-	.	intron_id 2
+scf_8254617	exonerate:protein2genome:local	splice3	712968	712969	.	-	.	intron_id 1 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	712883	712967	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	712883	712967	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	712881	712882	.	-	.	intron_id 3 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	712811	712882	.	-	.	intron_id 3
+scf_8254617	exonerate:protein2genome:local	splice3	712811	712812	.	-	.	intron_id 2 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	712651	712810	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	712651	712810	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	712649	712650	.	-	.	intron_id 4 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	712588	712650	.	-	.	intron_id 4
+scf_8254617	exonerate:protein2genome:local	splice3	712588	712589	.	-	.	intron_id 3 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	712537	712587	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	712537	712587	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	712535	712536	.	-	.	intron_id 5 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	712484	712536	.	-	.	intron_id 5
+scf_8254617	exonerate:protein2genome:local	splice3	712484	712485	.	-	.	intron_id 4 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	712303	712483	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	712303	712483	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	712301	712302	.	-	.	intron_id 6 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	712212	712302	.	-	.	intron_id 6
+scf_8254617	exonerate:protein2genome:local	splice3	712212	712213	.	-	.	intron_id 5 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	712015	712211	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	712015	712211	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	712013	712014	.	-	.	intron_id 7 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	711953	712014	.	-	.	intron_id 7
+scf_8254617	exonerate:protein2genome:local	splice3	711953	711954	.	-	.	intron_id 6 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	711800	711952	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	711800	711952	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	711798	711799	.	-	.	intron_id 8 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	711700	711799	.	-	.	intron_id 8
+scf_8254617	exonerate:protein2genome:local	splice3	711700	711701	.	-	.	intron_id 7 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	711367	711699	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	711367	711699	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	711365	711366	.	-	.	intron_id 9 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	711312	711366	.	-	.	intron_id 9
+scf_8254617	exonerate:protein2genome:local	splice3	711312	711313	.	-	.	intron_id 8 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	710976	711311	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	710976	711311	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	710974	710975	.	-	.	intron_id 10 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	710920	710975	.	-	.	intron_id 10
+scf_8254617	exonerate:protein2genome:local	splice3	710920	710921	.	-	.	intron_id 9 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	710767	710919	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	710767	710919	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	710765	710766	.	-	.	intron_id 11 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	710711	710766	.	-	.	intron_id 11
+scf_8254617	exonerate:protein2genome:local	splice3	710711	710712	.	-	.	intron_id 10 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	710398	710710	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	710398	710710	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	splice5	710396	710397	.	-	.	intron_id 12 ; splice_site "GT"
+scf_8254617	exonerate:protein2genome:local	intron	710347	710397	.	-	.	intron_id 12
+scf_8254617	exonerate:protein2genome:local	splice3	710347	710348	.	-	.	intron_id 11 ; splice_site "AG"
+scf_8254617	exonerate:protein2genome:local	cds	710309	710346	.	-	.	
+scf_8254617	exonerate:protein2genome:local	exon	710309	710346	.	-	.	insertions 0 ; deletions 0
+scf_8254617	exonerate:protein2genome:local	similarity	710309	713636	3123	-	.	alignment_id 1 ; Query EIA_10190.1 ; Align 713637 1 138 ; Align 713391 47 96 ; Align 712966 80 81 ; Align 712810 108 159 ; Align 712588 161 51 ; Align 712484 178 180 ; Align 712210 239 195 ; Align 711953 304 153 ; Align 711700 355 333 ; Align 711312 466 336 ; Align 710920 578 153 ; Align 710711 629 312 ; Align 710345 734 36
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254512	exonerate:protein2genome:local	gene	45782	46837	1439	+	.	gene_id 1 ; sequence EIA_20888.1 ; gene_orientation +
+scf_8254512	exonerate:protein2genome:local	cds	45782	46214	.	+	.	
+scf_8254512	exonerate:protein2genome:local	exon	45782	46214	.	+	.	insertions 0 ; deletions 0
+scf_8254512	exonerate:protein2genome:local	splice5	46215	46216	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254512	exonerate:protein2genome:local	intron	46215	46296	.	+	.	intron_id 1
+scf_8254512	exonerate:protein2genome:local	splice3	46295	46296	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254512	exonerate:protein2genome:local	cds	46297	46466	.	+	.	
+scf_8254512	exonerate:protein2genome:local	exon	46297	46466	.	+	.	insertions 0 ; deletions 0
+scf_8254512	exonerate:protein2genome:local	splice5	46467	46468	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8254512	exonerate:protein2genome:local	intron	46467	46549	.	+	.	intron_id 2
+scf_8254512	exonerate:protein2genome:local	splice3	46548	46549	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8254512	exonerate:protein2genome:local	cds	46550	46837	.	+	.	
+scf_8254512	exonerate:protein2genome:local	exon	46550	46837	.	+	.	insertions 0 ; deletions 0
+scf_8254512	exonerate:protein2genome:local	similarity	45782	46837	1439	+	.	alignment_id 1 ; Query EIA_20888.1 ; Align 45782 1 432 ; Align 46299 146 168 ; Align 46550 202 288
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254814	exonerate:protein2genome:local	gene	431103	431255	184	-	.	gene_id 1 ; sequence EIA_10281.1 ; gene_orientation .
+scf_8254814	exonerate:protein2genome:local	cds	431103	431255	.	-	.	
+scf_8254814	exonerate:protein2genome:local	exon	431103	431255	.	-	.	insertions 0 ; deletions 0
+scf_8254814	exonerate:protein2genome:local	similarity	431103	431255	184	-	.	alignment_id 1 ; Query EIA_10281.1 ; Align 431256 1 153
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254457	exonerate:protein2genome:local	gene	37079	39494	2436	+	.	gene_id 1 ; sequence EIA_22129.1 ; gene_orientation +
+scf_8254457	exonerate:protein2genome:local	cds	37079	37181	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	37079	37181	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	37182	37183	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	37182	37257	.	+	.	intron_id 1
+scf_8254457	exonerate:protein2genome:local	splice3	37256	37257	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	37258	37369	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	37258	37369	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	37370	37371	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	37370	37444	.	+	.	intron_id 2
+scf_8254457	exonerate:protein2genome:local	splice3	37443	37444	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	37445	37539	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	37445	37539	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	37540	37541	.	+	.	intron_id 3 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	37540	37710	.	+	.	intron_id 3
+scf_8254457	exonerate:protein2genome:local	splice3	37709	37710	.	+	.	intron_id 2 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	37711	37958	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	37711	37958	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	37959	37960	.	+	.	intron_id 4 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	37959	38010	.	+	.	intron_id 4
+scf_8254457	exonerate:protein2genome:local	splice3	38009	38010	.	+	.	intron_id 3 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	38011	38109	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	38011	38109	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	38110	38111	.	+	.	intron_id 5 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	38110	38166	.	+	.	intron_id 5
+scf_8254457	exonerate:protein2genome:local	splice3	38165	38166	.	+	.	intron_id 4 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	38167	38322	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	38167	38322	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	38323	38324	.	+	.	intron_id 6 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	38323	38383	.	+	.	intron_id 6
+scf_8254457	exonerate:protein2genome:local	splice3	38382	38383	.	+	.	intron_id 5 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	38384	38858	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	38384	38858	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	38859	38860	.	+	.	intron_id 7 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	38859	38916	.	+	.	intron_id 7
+scf_8254457	exonerate:protein2genome:local	splice3	38915	38916	.	+	.	intron_id 6 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	38917	39089	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	38917	39089	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	39090	39091	.	+	.	intron_id 8 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	39090	39141	.	+	.	intron_id 8
+scf_8254457	exonerate:protein2genome:local	splice3	39140	39141	.	+	.	intron_id 7 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	39142	39243	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	39142	39243	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	splice5	39244	39245	.	+	.	intron_id 9 ; splice_site "GT"
+scf_8254457	exonerate:protein2genome:local	intron	39244	39299	.	+	.	intron_id 9
+scf_8254457	exonerate:protein2genome:local	splice3	39298	39299	.	+	.	intron_id 8 ; splice_site "AG"
+scf_8254457	exonerate:protein2genome:local	cds	39300	39494	.	+	.	
+scf_8254457	exonerate:protein2genome:local	exon	39300	39494	.	+	.	insertions 0 ; deletions 0
+scf_8254457	exonerate:protein2genome:local	similarity	37079	39494	2436	+	.	alignment_id 1 ; Query EIA_22129.1 ; Align 37079 1 102 ; Align 37260 36 108 ; Align 37446 73 93 ; Align 37713 105 246 ; Align 38011 187 99 ; Align 38167 220 156 ; Align 38384 272 474 ; Align 38919 431 171 ; Align 39142 488 102 ; Align 39300 522 195
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254187	exonerate:protein2genome:local	gene	108114	108320	251	+	.	gene_id 1 ; sequence EIA_21168.1 ; gene_orientation .
+scf_8254187	exonerate:protein2genome:local	cds	108114	108320	.	+	.	
+scf_8254187	exonerate:protein2genome:local	exon	108114	108320	.	+	.	insertions 0 ; deletions 0
+scf_8254187	exonerate:protein2genome:local	similarity	108114	108320	251	+	.	alignment_id 1 ; Query EIA_21168.1 ; Align 108114 1 207
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254187	exonerate:protein2genome:local	gene	112366	112572	244	+	.	gene_id 2 ; sequence EIA_21168.1 ; gene_orientation .
+scf_8254187	exonerate:protein2genome:local	cds	112366	112572	.	+	.	
+scf_8254187	exonerate:protein2genome:local	exon	112366	112572	.	+	.	insertions 0 ; deletions 0
+scf_8254187	exonerate:protein2genome:local	similarity	112366	112572	244	+	.	alignment_id 2 ; Query EIA_21168.1 ; Align 112366 1 207
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254187	exonerate:protein2genome:local	gene	116113	116316	219	+	.	gene_id 3 ; sequence EIA_21168.1 ; gene_orientation .
+scf_8254187	exonerate:protein2genome:local	cds	116113	116316	.	+	.	
+scf_8254187	exonerate:protein2genome:local	exon	116113	116316	.	+	.	insertions 0 ; deletions 0
+scf_8254187	exonerate:protein2genome:local	similarity	116113	116316	219	+	.	alignment_id 3 ; Query EIA_21168.1 ; Align 116113 1 204
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254010	exonerate:protein2genome:local	gene	286466	291907	3828	-	.	gene_id 1 ; sequence EIA_14745.1 ; gene_orientation +
+scf_8254010	exonerate:protein2genome:local	cds	291771	291907	.	-	.	
+scf_8254010	exonerate:protein2genome:local	exon	291771	291907	.	-	.	insertions 0 ; deletions 0
+scf_8254010	exonerate:protein2genome:local	splice5	291769	291770	.	-	.	intron_id 1 ; splice_site "GT"
+scf_8254010	exonerate:protein2genome:local	intron	291718	291770	.	-	.	intron_id 1
+scf_8254010	exonerate:protein2genome:local	splice3	291718	291719	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254010	exonerate:protein2genome:local	cds	291167	291717	.	-	.	
+scf_8254010	exonerate:protein2genome:local	exon	291167	291717	.	-	.	insertions 0 ; deletions 0
+scf_8254010	exonerate:protein2genome:local	splice5	291165	291166	.	-	.	intron_id 2 ; splice_site "GT"
+scf_8254010	exonerate:protein2genome:local	intron	290904	291166	.	-	.	intron_id 2
+scf_8254010	exonerate:protein2genome:local	splice3	290904	290905	.	-	.	intron_id 1 ; splice_site "AG"
+scf_8254010	exonerate:protein2genome:local	cds	290116	290903	.	-	.	
+scf_8254010	exonerate:protein2genome:local	exon	290116	290903	.	-	.	insertions 0 ; deletions 3
+scf_8254010	exonerate:protein2genome:local	splice5	290114	290115	.	-	.	intron_id 3 ; splice_site "GT"
+scf_8254010	exonerate:protein2genome:local	intron	288077	290115	.	-	.	intron_id 3
+scf_8254010	exonerate:protein2genome:local	splice3	288077	288078	.	-	.	intron_id 2 ; splice_site "AG"
+scf_8254010	exonerate:protein2genome:local	cds	286466	288076	.	-	.	
+scf_8254010	exonerate:protein2genome:local	exon	286466	288076	.	-	.	insertions 0 ; deletions 3
+scf_8254010	exonerate:protein2genome:local	similarity	286466	291907	3828	-	.	alignment_id 1 ; Query EIA_14745.1 ; Align 291908 30 135 ; Align 291717 76 549 ; Align 290902 260 210 ; Align 290692 333 576 ; Align 288077 525 762 ; Align 287315 782 849
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254786	exonerate:protein2genome:local	gene	93713	94303	994	+	.	gene_id 1 ; sequence EIA_03243.1 ; gene_orientation .
+scf_8254786	exonerate:protein2genome:local	cds	93713	94303	.	+	.	
+scf_8254786	exonerate:protein2genome:local	exon	93713	94303	.	+	.	insertions 0 ; deletions 0
+scf_8254786	exonerate:protein2genome:local	similarity	93713	94303	994	+	.	alignment_id 1 ; Query EIA_03243.1 ; Align 93713 1 591
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254582	exonerate:protein2genome:local	gene	352091	353343	1592	-	.	gene_id 1 ; sequence EIA_04944.1 ; gene_orientation +
+scf_8254582	exonerate:protein2genome:local	cds	352965	353343	.	-	.	
+scf_8254582	exonerate:protein2genome:local	exon	352965	353343	.	-	.	insertions 0 ; deletions 0
+scf_8254582	exonerate:protein2genome:local	splice5	352963	352964	.	-	.	intron_id 1 ; splice_site "GT"
+scf_8254582	exonerate:protein2genome:local	intron	352906	352964	.	-	.	intron_id 1
+scf_8254582	exonerate:protein2genome:local	splice3	352906	352907	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254582	exonerate:protein2genome:local	cds	352091	352905	.	-	.	
+scf_8254582	exonerate:protein2genome:local	exon	352091	352905	.	-	.	insertions 3 ; deletions 0
+scf_8254582	exonerate:protein2genome:local	similarity	352091	353343	1592	-	.	alignment_id 1 ; Query EIA_04944.1 ; Align 353344 1 378 ; Align 352904 128 282 ; Align 352619 222 528
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254362	exonerate:protein2genome:local	gene	37384	39970	2592	+	.	gene_id 1 ; sequence EIA_13064.1 ; gene_orientation +
+scf_8254362	exonerate:protein2genome:local	cds	37384	37894	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	37384	37894	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	37895	37896	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	37895	37964	.	+	.	intron_id 1
+scf_8254362	exonerate:protein2genome:local	splice3	37963	37964	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	37965	38020	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	37965	38020	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	38021	38022	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	38021	38234	.	+	.	intron_id 2
+scf_8254362	exonerate:protein2genome:local	splice3	38233	38234	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	38235	38582	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	38235	38582	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	38583	38584	.	+	.	intron_id 3 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	38583	38639	.	+	.	intron_id 3
+scf_8254362	exonerate:protein2genome:local	splice3	38638	38639	.	+	.	intron_id 2 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	38640	38825	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	38640	38825	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	38826	38827	.	+	.	intron_id 4 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	38826	38885	.	+	.	intron_id 4
+scf_8254362	exonerate:protein2genome:local	splice3	38884	38885	.	+	.	intron_id 3 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	38886	39002	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	38886	39002	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	39003	39004	.	+	.	intron_id 5 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	39003	39094	.	+	.	intron_id 5
+scf_8254362	exonerate:protein2genome:local	splice3	39093	39094	.	+	.	intron_id 4 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	39095	39190	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	39095	39190	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	39191	39192	.	+	.	intron_id 6 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	39191	39243	.	+	.	intron_id 6
+scf_8254362	exonerate:protein2genome:local	splice3	39242	39243	.	+	.	intron_id 5 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	39244	39364	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	39244	39364	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	39365	39366	.	+	.	intron_id 7 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	39365	39422	.	+	.	intron_id 7
+scf_8254362	exonerate:protein2genome:local	splice3	39421	39422	.	+	.	intron_id 6 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	39423	39572	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	39423	39572	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	39573	39574	.	+	.	intron_id 8 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	39573	39630	.	+	.	intron_id 8
+scf_8254362	exonerate:protein2genome:local	splice3	39629	39630	.	+	.	intron_id 7 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	39631	39737	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	39631	39737	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	splice5	39738	39739	.	+	.	intron_id 9 ; splice_site "GT"
+scf_8254362	exonerate:protein2genome:local	intron	39738	39853	.	+	.	intron_id 9
+scf_8254362	exonerate:protein2genome:local	splice3	39852	39853	.	+	.	intron_id 8 ; splice_site "AG"
+scf_8254362	exonerate:protein2genome:local	cds	39854	39970	.	+	.	
+scf_8254362	exonerate:protein2genome:local	exon	39854	39970	.	+	.	insertions 0 ; deletions 0
+scf_8254362	exonerate:protein2genome:local	similarity	37384	39970	2592	+	.	alignment_id 1 ; Query EIA_13064.1 ; Align 37384 1 510 ; Align 37967 172 54 ; Align 38235 190 348 ; Align 38640 306 186 ; Align 38886 368 117 ; Align 39095 407 96 ; Align 39244 439 120 ; Align 39425 480 147 ; Align 39633 530 105 ; Align 39854 565 117
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254397	exonerate:protein2genome:local	gene	61454	62161	1070	-	.	gene_id 1 ; sequence EIA_20144.1 ; gene_orientation .
+scf_8254397	exonerate:protein2genome:local	cds	61454	62161	.	-	.	
+scf_8254397	exonerate:protein2genome:local	exon	61454	62161	.	-	.	insertions 0 ; deletions 0
+scf_8254397	exonerate:protein2genome:local	similarity	61454	62161	1070	-	.	alignment_id 1 ; Query EIA_20144.1 ; Align 62162 1 708
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8253930	exonerate:protein2genome:local	gene	67489	68936	1455	+	.	gene_id 1 ; sequence EIA_20174.1 ; gene_orientation +
+scf_8253930	exonerate:protein2genome:local	cds	67489	67700	.	+	.	
+scf_8253930	exonerate:protein2genome:local	exon	67489	67700	.	+	.	insertions 0 ; deletions 0
+scf_8253930	exonerate:protein2genome:local	splice5	67701	67702	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8253930	exonerate:protein2genome:local	intron	67701	67790	.	+	.	intron_id 1
+scf_8253930	exonerate:protein2genome:local	splice3	67789	67790	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8253930	exonerate:protein2genome:local	cds	67791	68035	.	+	.	
+scf_8253930	exonerate:protein2genome:local	exon	67791	68035	.	+	.	insertions 0 ; deletions 0
+scf_8253930	exonerate:protein2genome:local	splice5	68036	68037	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8253930	exonerate:protein2genome:local	intron	68036	68087	.	+	.	intron_id 2
+scf_8253930	exonerate:protein2genome:local	splice3	68086	68087	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8253930	exonerate:protein2genome:local	cds	68088	68233	.	+	.	
+scf_8253930	exonerate:protein2genome:local	exon	68088	68233	.	+	.	insertions 0 ; deletions 0
+scf_8253930	exonerate:protein2genome:local	splice5	68234	68235	.	+	.	intron_id 3 ; splice_site "GT"
+scf_8253930	exonerate:protein2genome:local	intron	68234	68291	.	+	.	intron_id 3
+scf_8253930	exonerate:protein2genome:local	splice3	68290	68291	.	+	.	intron_id 2 ; splice_site "AG"
+scf_8253930	exonerate:protein2genome:local	cds	68292	68360	.	+	.	
+scf_8253930	exonerate:protein2genome:local	exon	68292	68360	.	+	.	insertions 0 ; deletions 0
+scf_8253930	exonerate:protein2genome:local	splice5	68361	68362	.	+	.	intron_id 4 ; splice_site "GT"
+scf_8253930	exonerate:protein2genome:local	intron	68361	68416	.	+	.	intron_id 4
+scf_8253930	exonerate:protein2genome:local	splice3	68415	68416	.	+	.	intron_id 3 ; splice_site "AG"
+scf_8253930	exonerate:protein2genome:local	cds	68417	68554	.	+	.	
+scf_8253930	exonerate:protein2genome:local	exon	68417	68554	.	+	.	insertions 0 ; deletions 0
+scf_8253930	exonerate:protein2genome:local	splice5	68555	68556	.	+	.	intron_id 5 ; splice_site "GT"
+scf_8253930	exonerate:protein2genome:local	intron	68555	68756	.	+	.	intron_id 5
+scf_8253930	exonerate:protein2genome:local	splice3	68755	68756	.	+	.	intron_id 4 ; splice_site "AG"
+scf_8253930	exonerate:protein2genome:local	cds	68757	68936	.	+	.	
+scf_8253930	exonerate:protein2genome:local	exon	68757	68936	.	+	.	insertions 0 ; deletions 0
+scf_8253930	exonerate:protein2genome:local	similarity	67489	68936	1455	+	.	alignment_id 1 ; Query EIA_20174.1 ; Align 67489 1 210 ; Align 67792 72 243 ; Align 68090 154 144 ; Align 68292 202 69 ; Align 68417 225 138 ; Align 68757 271 180
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254592	exonerate:protein2genome:local	gene	23183	24340	1503	+	.	gene_id 1 ; sequence EIA_18828.1 ; gene_orientation .
+scf_8254592	exonerate:protein2genome:local	cds	23183	24340	.	+	.	
+scf_8254592	exonerate:protein2genome:local	exon	23183	24340	.	+	.	insertions 3 ; deletions 3
+scf_8254592	exonerate:protein2genome:local	similarity	23183	24340	1503	+	.	alignment_id 1 ; Query EIA_18828.1 ; Align 23183 1 273 ; Align 23456 94 297 ; Align 23756 193 204 ; Align 23960 262 381
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254671	exonerate:protein2genome:local	gene	581429	582094	750	-	.	gene_id 1 ; sequence EIA_03140.1 ; gene_orientation .
+scf_8254671	exonerate:protein2genome:local	cds	581429	582094	.	-	.	
+scf_8254671	exonerate:protein2genome:local	exon	581429	582094	.	-	.	insertions 0 ; deletions 0
+scf_8254671	exonerate:protein2genome:local	similarity	581429	582094	750	-	.	alignment_id 1 ; Query EIA_03140.1 ; Align 582095 1 666
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254034	exonerate:protein2genome:local	gene	65882	69699	3807	+	.	gene_id 1 ; sequence EIA_18147.1 ; gene_orientation +
+scf_8254034	exonerate:protein2genome:local	cds	65882	66045	.	+	.	
+scf_8254034	exonerate:protein2genome:local	exon	65882	66045	.	+	.	insertions 0 ; deletions 0
+scf_8254034	exonerate:protein2genome:local	splice5	66046	66047	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254034	exonerate:protein2genome:local	intron	66046	66192	.	+	.	intron_id 1
+scf_8254034	exonerate:protein2genome:local	splice3	66191	66192	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254034	exonerate:protein2genome:local	cds	66193	66682	.	+	.	
+scf_8254034	exonerate:protein2genome:local	exon	66193	66682	.	+	.	insertions 0 ; deletions 0
+scf_8254034	exonerate:protein2genome:local	splice5	66683	66684	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8254034	exonerate:protein2genome:local	intron	66683	66851	.	+	.	intron_id 2
+scf_8254034	exonerate:protein2genome:local	splice3	66850	66851	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8254034	exonerate:protein2genome:local	cds	66852	67295	.	+	.	
+scf_8254034	exonerate:protein2genome:local	exon	66852	67295	.	+	.	insertions 0 ; deletions 0
+scf_8254034	exonerate:protein2genome:local	splice5	67296	67297	.	+	.	intron_id 3 ; splice_site "GT"
+scf_8254034	exonerate:protein2genome:local	intron	67296	67528	.	+	.	intron_id 3
+scf_8254034	exonerate:protein2genome:local	splice3	67527	67528	.	+	.	intron_id 2 ; splice_site "AG"
+scf_8254034	exonerate:protein2genome:local	cds	67529	69216	.	+	.	
+scf_8254034	exonerate:protein2genome:local	exon	67529	69216	.	+	.	insertions 9 ; deletions 0
+scf_8254034	exonerate:protein2genome:local	splice5	69217	69218	.	+	.	intron_id 4 ; splice_site "GT"
+scf_8254034	exonerate:protein2genome:local	intron	69217	69269	.	+	.	intron_id 4
+scf_8254034	exonerate:protein2genome:local	splice3	69268	69269	.	+	.	intron_id 3 ; splice_site "AG"
+scf_8254034	exonerate:protein2genome:local	cds	69270	69323	.	+	.	
+scf_8254034	exonerate:protein2genome:local	exon	69270	69323	.	+	.	insertions 0 ; deletions 0
+scf_8254034	exonerate:protein2genome:local	splice5	69324	69325	.	+	.	intron_id 5 ; splice_site "GT"
+scf_8254034	exonerate:protein2genome:local	intron	69324	69374	.	+	.	intron_id 5
+scf_8254034	exonerate:protein2genome:local	splice3	69373	69374	.	+	.	intron_id 4 ; splice_site "AG"
+scf_8254034	exonerate:protein2genome:local	cds	69375	69699	.	+	.	
+scf_8254034	exonerate:protein2genome:local	exon	69375	69699	.	+	.	insertions 0 ; deletions 0
+scf_8254034	exonerate:protein2genome:local	similarity	65882	69699	3807	+	.	alignment_id 1 ; Query EIA_18147.1 ; Align 65882 1 162 ; Align 66194 56 489 ; Align 66852 219 444 ; Align 67529 367 600 ; Align 68132 567 1020 ; Align 69158 907 57 ; Align 69271 927 51 ; Align 69376 945 324
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254650	exonerate:protein2genome:local	gene	626488	627585	1732	-	.	gene_id 1 ; sequence EIA_06691.1 ; gene_orientation .
+scf_8254650	exonerate:protein2genome:local	cds	626488	627585	.	-	.	
+scf_8254650	exonerate:protein2genome:local	exon	626488	627585	.	-	.	insertions 0 ; deletions 0
+scf_8254650	exonerate:protein2genome:local	similarity	626488	627585	1732	-	.	alignment_id 1 ; Query EIA_06691.1 ; Align 627586 1 1098
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254655	exonerate:protein2genome:local	gene	12057	12722	756	+	.	gene_id 1 ; sequence EIA_03140.1 ; gene_orientation .
+scf_8254655	exonerate:protein2genome:local	cds	12057	12722	.	+	.	
+scf_8254655	exonerate:protein2genome:local	exon	12057	12722	.	+	.	insertions 0 ; deletions 0
+scf_8254655	exonerate:protein2genome:local	similarity	12057	12722	756	+	.	alignment_id 1 ; Query EIA_03140.1 ; Align 12057 1 666
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254655	exonerate:protein2genome:local	gene	3	656	738	+	.	gene_id 2 ; sequence EIA_03140.1 ; gene_orientation .
+scf_8254655	exonerate:protein2genome:local	cds	3	656	.	+	.	
+scf_8254655	exonerate:protein2genome:local	exon	3	656	.	+	.	insertions 0 ; deletions 0
+scf_8254655	exonerate:protein2genome:local	similarity	3	656	738	+	.	alignment_id 2 ; Query EIA_03140.1 ; Align 3 5 654
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254527	exonerate:protein2genome:local	gene	237481	238415	1141	+	.	gene_id 1 ; sequence EIA_11409.1 ; gene_orientation +
+scf_8254527	exonerate:protein2genome:local	cds	237481	238002	.	+	.	
+scf_8254527	exonerate:protein2genome:local	exon	237481	238002	.	+	.	insertions 0 ; deletions 0
+scf_8254527	exonerate:protein2genome:local	splice5	238003	238004	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254527	exonerate:protein2genome:local	intron	238003	238058	.	+	.	intron_id 1
+scf_8254527	exonerate:protein2genome:local	splice3	238057	238058	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254527	exonerate:protein2genome:local	cds	238059	238415	.	+	.	
+scf_8254527	exonerate:protein2genome:local	exon	238059	238415	.	+	.	insertions 0 ; deletions 0
+scf_8254527	exonerate:protein2genome:local	similarity	237481	238415	1141	+	.	alignment_id 1 ; Query EIA_11409.1 ; Align 237481 1 522 ; Align 238059 175 357
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254632	exonerate:protein2genome:local	gene	32896	33459	891	+	.	gene_id 1 ; sequence EIA_22473.1 ; gene_orientation .
+scf_8254632	exonerate:protein2genome:local	cds	32896	33459	.	+	.	
+scf_8254632	exonerate:protein2genome:local	exon	32896	33459	.	+	.	insertions 0 ; deletions 0
+scf_8254632	exonerate:protein2genome:local	similarity	32896	33459	891	+	.	alignment_id 1 ; Query EIA_22473.1 ; Align 32896 1 564
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254460	exonerate:protein2genome:local	gene	464081	464363	301	+	.	gene_id 1 ; sequence EIA_09243.1 ; gene_orientation +
+scf_8254460	exonerate:protein2genome:local	cds	464081	464194	.	+	.	
+scf_8254460	exonerate:protein2genome:local	exon	464081	464194	.	+	.	insertions 0 ; deletions 0
+scf_8254460	exonerate:protein2genome:local	splice5	464195	464196	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254460	exonerate:protein2genome:local	intron	464195	464243	.	+	.	intron_id 1
+scf_8254460	exonerate:protein2genome:local	splice3	464242	464243	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254460	exonerate:protein2genome:local	cds	464244	464363	.	+	.	
+scf_8254460	exonerate:protein2genome:local	exon	464244	464363	.	+	.	insertions 0 ; deletions 0
+scf_8254460	exonerate:protein2genome:local	similarity	464081	464363	301	+	.	alignment_id 1 ; Query EIA_09243.1 ; Align 464081 1 114 ; Align 464244 39 120
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254485	exonerate:protein2genome:local	gene	58856	59254	602	-	.	gene_id 1 ; sequence EIA_16683.1 ; gene_orientation .
+scf_8254485	exonerate:protein2genome:local	cds	58856	59254	.	-	.	
+scf_8254485	exonerate:protein2genome:local	exon	58856	59254	.	-	.	insertions 0 ; deletions 0
+scf_8254485	exonerate:protein2genome:local	similarity	58856	59254	602	-	.	alignment_id 1 ; Query EIA_16683.1 ; Align 59255 5 399
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254486	exonerate:protein2genome:local	gene	240504	241905	1173	+	.	gene_id 1 ; sequence EIA_07452.1 ; gene_orientation +
+scf_8254486	exonerate:protein2genome:local	cds	240504	240684	.	+	.	
+scf_8254486	exonerate:protein2genome:local	exon	240504	240684	.	+	.	insertions 0 ; deletions 0
+scf_8254486	exonerate:protein2genome:local	splice5	240685	240686	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254486	exonerate:protein2genome:local	intron	240685	240762	.	+	.	intron_id 1
+scf_8254486	exonerate:protein2genome:local	splice3	240761	240762	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254486	exonerate:protein2genome:local	cds	240763	240837	.	+	.	
+scf_8254486	exonerate:protein2genome:local	exon	240763	240837	.	+	.	insertions 0 ; deletions 0
+scf_8254486	exonerate:protein2genome:local	splice5	240838	240839	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8254486	exonerate:protein2genome:local	intron	240838	240892	.	+	.	intron_id 2
+scf_8254486	exonerate:protein2genome:local	splice3	240891	240892	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8254486	exonerate:protein2genome:local	cds	240893	240963	.	+	.	
+scf_8254486	exonerate:protein2genome:local	exon	240893	240963	.	+	.	insertions 0 ; deletions 0
+scf_8254486	exonerate:protein2genome:local	splice5	240964	240965	.	+	.	intron_id 3 ; splice_site "GT"
+scf_8254486	exonerate:protein2genome:local	intron	240964	241023	.	+	.	intron_id 3
+scf_8254486	exonerate:protein2genome:local	splice3	241022	241023	.	+	.	intron_id 2 ; splice_site "AG"
+scf_8254486	exonerate:protein2genome:local	cds	241024	241197	.	+	.	
+scf_8254486	exonerate:protein2genome:local	exon	241024	241197	.	+	.	insertions 0 ; deletions 0
+scf_8254486	exonerate:protein2genome:local	splice5	241198	241199	.	+	.	intron_id 4 ; splice_site "GT"
+scf_8254486	exonerate:protein2genome:local	intron	241198	241261	.	+	.	intron_id 4
+scf_8254486	exonerate:protein2genome:local	splice3	241260	241261	.	+	.	intron_id 3 ; splice_site "AG"
+scf_8254486	exonerate:protein2genome:local	cds	241262	241368	.	+	.	
+scf_8254486	exonerate:protein2genome:local	exon	241262	241368	.	+	.	insertions 0 ; deletions 0
+scf_8254486	exonerate:protein2genome:local	splice5	241369	241370	.	+	.	intron_id 5 ; splice_site "GT"
+scf_8254486	exonerate:protein2genome:local	intron	241369	241435	.	+	.	intron_id 5
+scf_8254486	exonerate:protein2genome:local	splice3	241434	241435	.	+	.	intron_id 4 ; splice_site "AG"
+scf_8254486	exonerate:protein2genome:local	cds	241436	241615	.	+	.	
+scf_8254486	exonerate:protein2genome:local	exon	241436	241615	.	+	.	insertions 3 ; deletions 0
+scf_8254486	exonerate:protein2genome:local	splice5	241616	241617	.	+	.	intron_id 6 ; splice_site "GT"
+scf_8254486	exonerate:protein2genome:local	intron	241616	241680	.	+	.	intron_id 6
+scf_8254486	exonerate:protein2genome:local	splice3	241679	241680	.	+	.	intron_id 5 ; splice_site "AG"
+scf_8254486	exonerate:protein2genome:local	cds	241681	241786	.	+	.	
+scf_8254486	exonerate:protein2genome:local	exon	241681	241786	.	+	.	insertions 0 ; deletions 0
+scf_8254486	exonerate:protein2genome:local	splice5	241787	241788	.	+	.	intron_id 7 ; splice_site "GT"
+scf_8254486	exonerate:protein2genome:local	intron	241787	241851	.	+	.	intron_id 7
+scf_8254486	exonerate:protein2genome:local	splice3	241850	241851	.	+	.	intron_id 6 ; splice_site "AG"
+scf_8254486	exonerate:protein2genome:local	cds	241852	241905	.	+	.	
+scf_8254486	exonerate:protein2genome:local	exon	241852	241905	.	+	.	insertions 0 ; deletions 0
+scf_8254486	exonerate:protein2genome:local	similarity	240504	241905	1173	+	.	alignment_id 1 ; Query EIA_07452.1 ; Align 240504 1 180 ; Align 240765 62 72 ; Align 240895 87 69 ; Align 241024 110 174 ; Align 241262 168 105 ; Align 241437 204 24 ; Align 241464 212 150 ; Align 241682 263 105 ; Align 241852 298 54
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254652	exonerate:protein2genome:local	gene	3538	4203	791	-	.	gene_id 1 ; sequence EIA_03140.1 ; gene_orientation .
+scf_8254652	exonerate:protein2genome:local	cds	3538	4203	.	-	.	
+scf_8254652	exonerate:protein2genome:local	exon	3538	4203	.	-	.	insertions 0 ; deletions 0
+scf_8254652	exonerate:protein2genome:local	similarity	3538	4203	791	-	.	alignment_id 1 ; Query EIA_03140.1 ; Align 4204 1 666
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254652	exonerate:protein2genome:local	gene	2010	24894	770	-	.	gene_id 2 ; sequence EIA_03140.1 ; gene_orientation +
+scf_8254652	exonerate:protein2genome:local	cds	24714	24894	.	-	.	
+scf_8254652	exonerate:protein2genome:local	exon	24714	24894	.	-	.	insertions 0 ; deletions 0
+scf_8254652	exonerate:protein2genome:local	splice5	24712	24713	.	-	.	intron_id 1 ; splice_site "AT"
+scf_8254652	exonerate:protein2genome:local	intron	2495	24713	.	-	.	intron_id 1
+scf_8254652	exonerate:protein2genome:local	splice3	2495	2496	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254652	exonerate:protein2genome:local	cds	2010	2494	.	-	.	
+scf_8254652	exonerate:protein2genome:local	exon	2010	2494	.	-	.	insertions 0 ; deletions 0
+scf_8254652	exonerate:protein2genome:local	similarity	2010	24894	770	-	.	alignment_id 2 ; Query EIA_03140.1 ; Align 24895 1 180 ; Align 2493 62 483
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254652	exonerate:protein2genome:local	gene	13602	14267	739	-	.	gene_id 3 ; sequence EIA_03140.1 ; gene_orientation .
+scf_8254652	exonerate:protein2genome:local	cds	13602	14267	.	-	.	
+scf_8254652	exonerate:protein2genome:local	exon	13602	14267	.	-	.	insertions 0 ; deletions 0
+scf_8254652	exonerate:protein2genome:local	similarity	13602	14267	739	-	.	alignment_id 3 ; Query EIA_03140.1 ; Align 14268 1 666
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8253984	exonerate:protein2genome:local	gene	96380	101028	4696	+	.	gene_id 1 ; sequence EIA_20465.1 ; gene_orientation +
+scf_8253984	exonerate:protein2genome:local	cds	96380	97483	.	+	.	
+scf_8253984	exonerate:protein2genome:local	exon	96380	97483	.	+	.	insertions 0 ; deletions 1
+scf_8253984	exonerate:protein2genome:local	splice5	97484	97485	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8253984	exonerate:protein2genome:local	intron	97484	97702	.	+	.	intron_id 1
+scf_8253984	exonerate:protein2genome:local	splice3	97701	97702	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8253984	exonerate:protein2genome:local	cds	97703	97953	.	+	.	
+scf_8253984	exonerate:protein2genome:local	exon	97703	97953	.	+	.	insertions 0 ; deletions 0
+scf_8253984	exonerate:protein2genome:local	splice5	97954	97955	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8253984	exonerate:protein2genome:local	intron	97954	98010	.	+	.	intron_id 2
+scf_8253984	exonerate:protein2genome:local	splice3	98009	98010	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8253984	exonerate:protein2genome:local	cds	98011	98260	.	+	.	
+scf_8253984	exonerate:protein2genome:local	exon	98011	98260	.	+	.	insertions 0 ; deletions 0
+scf_8253984	exonerate:protein2genome:local	splice5	98261	98262	.	+	.	intron_id 3 ; splice_site "GT"
+scf_8253984	exonerate:protein2genome:local	intron	98261	98353	.	+	.	intron_id 3
+scf_8253984	exonerate:protein2genome:local	splice3	98352	98353	.	+	.	intron_id 2 ; splice_site "AG"
+scf_8253984	exonerate:protein2genome:local	cds	98354	98451	.	+	.	
+scf_8253984	exonerate:protein2genome:local	exon	98354	98451	.	+	.	insertions 0 ; deletions 0
+scf_8253984	exonerate:protein2genome:local	splice5	98452	98453	.	+	.	intron_id 4 ; splice_site "GT"
+scf_8253984	exonerate:protein2genome:local	intron	98452	98543	.	+	.	intron_id 4
+scf_8253984	exonerate:protein2genome:local	splice3	98542	98543	.	+	.	intron_id 3 ; splice_site "AG"
+scf_8253984	exonerate:protein2genome:local	cds	98544	98869	.	+	.	
+scf_8253984	exonerate:protein2genome:local	exon	98544	98869	.	+	.	insertions 0 ; deletions 0
+scf_8253984	exonerate:protein2genome:local	splice5	98870	98871	.	+	.	intron_id 5 ; splice_site "GT"
+scf_8253984	exonerate:protein2genome:local	intron	98870	99012	.	+	.	intron_id 5
+scf_8253984	exonerate:protein2genome:local	splice3	99011	99012	.	+	.	intron_id 4 ; splice_site "AG"
+scf_8253984	exonerate:protein2genome:local	cds	99013	99763	.	+	.	
+scf_8253984	exonerate:protein2genome:local	exon	99013	99763	.	+	.	insertions 0 ; deletions 0
+scf_8253984	exonerate:protein2genome:local	splice5	99764	99765	.	+	.	intron_id 6 ; splice_site "GT"
+scf_8253984	exonerate:protein2genome:local	intron	99764	99869	.	+	.	intron_id 6
+scf_8253984	exonerate:protein2genome:local	splice3	99868	99869	.	+	.	intron_id 5 ; splice_site "AG"
+scf_8253984	exonerate:protein2genome:local	cds	99870	101028	.	+	.	
+scf_8253984	exonerate:protein2genome:local	exon	99870	101028	.	+	.	insertions 0 ; deletions 1
+scf_8253984	exonerate:protein2genome:local	similarity	96380	101028	4696	+	.	alignment_id 1 ; Query EIA_20465.1 ; Align 96380 1 159 ; Align 96539 55 945 ; Align 97703 370 249 ; Align 98012 454 249 ; Align 98354 537 96 ; Align 98545 570 324 ; Align 99015 679 747 ; Align 99871 929 168 ; Align 100039 986 990
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254813	exonerate:protein2genome:local	gene	255755	258775	2455	-	.	gene_id 1 ; sequence EIA_20561.1 ; gene_orientation +
+scf_8254813	exonerate:protein2genome:local	cds	258199	258775	.	-	.	
+scf_8254813	exonerate:protein2genome:local	exon	258199	258775	.	-	.	insertions 0 ; deletions 0
+scf_8254813	exonerate:protein2genome:local	splice5	258197	258198	.	-	.	intron_id 1 ; splice_site "GT"
+scf_8254813	exonerate:protein2genome:local	intron	256903	258198	.	-	.	intron_id 1
+scf_8254813	exonerate:protein2genome:local	splice3	256903	256904	.	-	.	intron_id 0 ; splice_site "AG"
+scf_8254813	exonerate:protein2genome:local	cds	255755	256902	.	-	.	
+scf_8254813	exonerate:protein2genome:local	exon	255755	256902	.	-	.	insertions 6 ; deletions 0
+scf_8254813	exonerate:protein2genome:local	similarity	255755	258775	2455	-	.	alignment_id 1 ; Query EIA_20561.1 ; Align 258776 1 576 ; Align 256901 194 198 ; Align 256700 260 708 ; Align 255989 496 234
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.2.0
+##date 2014-11-07
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+scf_8254593	exonerate:protein2genome:local	gene	94529	97974	2813	+	.	gene_id 1 ; sequence EIA_19788.1 ; gene_orientation +
+scf_8254593	exonerate:protein2genome:local	cds	94529	94820	.	+	.	
+scf_8254593	exonerate:protein2genome:local	exon	94529	94820	.	+	.	insertions 3 ; deletions 0
+scf_8254593	exonerate:protein2genome:local	splice5	94821	94822	.	+	.	intron_id 1 ; splice_site "GT"
+scf_8254593	exonerate:protein2genome:local	intron	94821	95216	.	+	.	intron_id 1
+scf_8254593	exonerate:protein2genome:local	splice3	95215	95216	.	+	.	intron_id 0 ; splice_site "AG"
+scf_8254593	exonerate:protein2genome:local	cds	95217	95674	.	+	.	
+scf_8254593	exonerate:protein2genome:local	exon	95217	95674	.	+	.	insertions 0 ; deletions 1
+scf_8254593	exonerate:protein2genome:local	splice5	95675	95676	.	+	.	intron_id 2 ; splice_site "GT"
+scf_8254593	exonerate:protein2genome:local	intron	95675	96299	.	+	.	intron_id 2
+scf_8254593	exonerate:protein2genome:local	splice3	96298	96299	.	+	.	intron_id 1 ; splice_site "AG"
+scf_8254593	exonerate:protein2genome:local	cds	96300	96462	.	+	.	
+scf_8254593	exonerate:protein2genome:local	exon	96300	96462	.	+	.	insertions 0 ; deletions 0
+scf_8254593	exonerate:protein2genome:local	splice5	96463	96464	.	+	.	intron_id 3 ; splice_site "GT"
+scf_8254593	exonerate:protein2genome:local	intron	96463	96528	.	+	.	intron_id 3
+scf_8254593	exonerate:protein2genome:local	splice3	96527	96528	.	+	.	intron_id 2 ; splice_site "AG"
+scf_8254593	exonerate:protein2genome:local	cds	96529	96639	.	+	.	
+scf_8254593	exonerate:protein2genome:local	exon	96529	96639	.	+	.	insertions 0 ; deletions 0
+scf_8254593	exonerate:protein2genome:local	splice5	96640	96641	.	+	.	intron_id 4 ; splice_site "GT"
+scf_8254593	exonerate:protein2genome:local	intron	96640	96758	.	+	.	intron_id 4
+scf_8254593	exonerate:protein2genome:local	splice3	96757	96758	.	+	.	intron_id 3 ; splice_site "AG"
+scf_8254593	exonerate:protein2genome:local	cds	96759	96921	.	+	.	
+scf_8254593	exonerate:protein2genome:local	exon	96759	96921	.	+	.	insertions 0 ; deletions 0
+scf_8254593	exonerate:protein2genome:local	splice5	96922	96923	.	+	.	intron_id 5 ; splice_site "GT"
+scf_8254593	exonerate:protein2genome:local	intron	96922	97039	.	+	.	intron_id 5
+scf_8254593	exonerate:protein2genome:local	splice3	97038	97039	.	+	.	intron_id 4 ; splice_site "AG"
+scf_8254593	exonerate:protein2genome:local	cds	97040	97117	.	+	.	
+scf_8254593	exonerate:protein2genome:local	exon	97040	97117	.	+	.	insertions 0 ; deletions 0
+scf_8254593	exonerate:protein2genome:local	splice5	97118	97119	.	+	.	intron_id 6 ; splice_site "GT"
+scf_8254593	exonerate:protein2genome:local	intron	97118	97198	.	+	.	intron_id 6
+scf_8254593	exonerate:protein2genome:local	splice3	97197	97198	.	+	.	intron_id 5 ; splice_site "AG"
+scf_8254593	exonerate:protein2genome:local	cds	97199	97364	.	+	.	
+scf_8254593	exonerate:protein2genome:local	exon	97199	97364	.	+	.	insertions 0 ; deletions 0
+scf_8254593	exonerate:protein2genome:local	splice5	97365	97366	.	+	.	intron_id 7 ; splice_site "GT"
+scf_8254593	exonerate:protein2genome:local	intron	97365	97419	.	+	.	intron_id 7
+scf_8254593	exonerate:protein2genome:local	splice3	97418	97419	.	+	.	intron_id 6 ; splice_site "AG"
+scf_8254593	exonerate:protein2genome:local	cds	97420	97974	.	+	.	
+scf_8254593	exonerate:protein2genome:local	exon	97420	97974	.	+	.	insertions 0 ; deletions 0
+scf_8254593	exonerate:protein2genome:local	similarity	94529	97974	2813	+	.	alignment_id 1 ; Query EIA_19788.1 ; Align 94529 1 183 ; Align 94715 62 105 ; Align 95219 98 87 ; Align 95306 128 369 ; Align 96300 251 162 ; Align 96531 306 108 ; Align 96761 343 159 ; Align 97041 397 75 ; Align 97200 423 165 ; Align 97420 478 555
+# --- END OF GFF DUMP ---
+#
