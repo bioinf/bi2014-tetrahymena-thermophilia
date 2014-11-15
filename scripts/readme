@@ -1,0 +1,10 @@
+1) clean_proteins
+2) exonerate_parallel
+3) collect_results (which in turn executes exonerate_validator) -> exout_cat_filtered
+4) fixGff to make Exonerate output suitable for generating genbank using script distributed with Augustus
+5) augustus_set that selects top 400 genes by length
+6) gff2gbSmallDNA.pl that creates genbank
+7) file:///home/andrey/Downloads/augustus.2.5.5/docs/tutorial/training.html
+
+
+
