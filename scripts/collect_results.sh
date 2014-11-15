@@ -1,7 +1,7 @@
 #!/bin/bash
 
-for i in $(seq 1 1 $1)
-do
-   echo $i
-   python filterGff.py ../data/T_thermophila_June2014_assembly.fasta "../data/exout_${i}" "../data/exout_${i}_filtered" > "../data/exout_${i}_report"
-done
+
+find $1 -name "exout_*" | xargs cat > exout_cat
+
+python filterGff.py ../data/T_thermophila_June2014_assembly.fasta exout_cat "../data/exout_cat_filtered" > "../data/exout_cat_report"
+
