@@ -1,0 +1,50 @@
+==================================================
+file name: hs_alt_CHM1_1.1_chr21.fa 
+sequences:             1
+total length:   47690666 bp  (35177662 bp excl N/X-runs)
+GC level:         40.89 %
+bases masked:   16514776 bp ( 34.63 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+SINEs:            16237      3890581 bp    8.16 %
+      ALUs        12246      3306478 bp    6.93 %
+      MIRs         3912       575066 bp    1.21 %
+
+LINEs:            10221      6395824 bp   13.41 %
+      LINE1        6835      5465033 bp   11.46 %
+      LINE2        2864       806264 bp    1.69 %
+      L3/CR1        356        79843 bp    0.17 %
+
+LTR elements:      8277      4103865 bp    8.61 %
+      ERVL         1768       875506 bp    1.84 %
+      ERVL-MaLRs   4367      1912681 bp    4.01 %
+      ERV_classI   1742      1152733 bp    2.42 %
+      ERV_classII    88        82107 bp    0.17 %
+
+DNA elements:      4860      1179539 bp    2.47 %
+     hAT-Charlie   2422       494144 bp    1.04 %
+     TcMar-Tigger  1125       415075 bp    0.87 %
+
+Unclassified:        86        38895 bp    0.08 %
+
+Total interspersed repeats: 15608704 bp   32.73 %
+
+
+Small RNA:          131        13370 bp    0.03 %
+
+Satellites:         156       289121 bp    0.61 %
+Simple repeats:    8034       515855 bp    1.08 %
+Low complexity:    1340        91333 bp    0.19 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be homo sapiens  
+RepeatMasker version open-4.0.5 , default mode
+                                   
+run with rmblastn version 2.2.27+
+RepBase Update 20140131, RM database version 20140131
